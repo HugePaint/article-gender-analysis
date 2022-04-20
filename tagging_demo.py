@@ -1,10 +1,37 @@
 from pickle import FALSE
 import re
 import nltk
+import tkinter as tk
+from tkinter import filedialog
 import numpy
 import gender_guesser.detector as gender
 
+
 from itertools import tee, islice, chain
+
+def read_articles_from_gui():
+    root = tk.Tk()
+    root.withdraw()
+
+    content_list = list()
+    file_path = filedialog.askopenfilenames(title='Select Articles', filetypes=[
+        ("Text Files", ".txt")
+    ])
+    for entry in file_path:
+        with open(entry, 'r', encoding='UTF-8') as file_opened:
+            text = file_opened.read()
+            content_list.append(text)
+
+    return content_list
+
+def create_name_dict(content_list):
+    # key: name; value: list([gender, count])
+    name_dict = dict()
+    for text in content_list:
+        for person in get_human_names(text):
+            name_dict[person] = ["unknown", 0]
+    
+    return name_dict
 
 def read_article(path):
     a_file = open("sample.txt", "r")
@@ -12,19 +39,15 @@ def read_article(path):
     a_file.close()
     return text
 
-def parse_article(text):
-    list_of_words = re.findall(r'\w+', text)
+def parse_article(str):
+    list_of_words = re.findall(r'\w+', str)
     return list_of_words
 
-def article_analysis(list_of_lists, list_of_persons):
+def article_analysis(list_of_lists, name_dict):
     name_count = 0
     male_count = 0
     female_count = 0
     andy_count = 0
-
-    name_dict = dict()
-    for person in list_of_persons:
-        name_dict[person] = 0
 
     d = gender.Detector()
     skip = 0
@@ -43,11 +66,15 @@ def article_analysis(list_of_lists, list_of_persons):
         if name == "The": continue
         if len(name) <= 1: continue
 
-        for p in list_of_persons:
+        for p in name_dict.keys():
             if name in p:
-                name_dict[p] = name_dict[p] + 1
                 print("Name " + name + " is found in person list as " + p)
                 result = d.get_gender(name)
+                value = name_dict[p]
+                value[0] = result
+                value[1] = value[1] + 1
+                name_dict[p] = value
+
                 if result == "male" or result == "mostly_male":
                     name_count += 1
                     male_count += 1
@@ -63,13 +90,11 @@ def article_analysis(list_of_lists, list_of_persons):
                 if (next[1] == "NNP"):
                     skip = 1
                     
-        
-
     print("There are " + str(name_count) + " names identified in the article.")
     print("There are " + str(male_count) + " male names in total.")
     print("There are " + str(female_count) + " female names in total.")
     print("There are " + str(andy_count) + " androgynous names in total.")
-    return name_dict
+    return (name_count, male_count, female_count, andy_count)
 
 def get_human_names(text):
     tokens = nltk.tokenize.word_tokenize(text)
@@ -98,18 +123,27 @@ def get_human_names(text):
 
     return (person_list)
 
-path = "sample.txt"
-text = read_article(path)
-list_of_words = parse_article(text)
-tagged_words = nltk.pos_tag(list_of_words)
-person_list = get_human_names(text)
-print(tagged_words)
-print(get_human_names(text))
-name_dict = article_analysis(tagged_words, person_list)
+full_content_list = read_articles_from_gui()
+name_dict = create_name_dict(full_content_list)
+for article in full_content_list:
+    list_of_words = parse_article(article)
+    tagged_words = nltk.pos_tag(list_of_words)
+    result_list = article_analysis(tagged_words, name_dict)
 
 print("\nCount:")
 for name, count in name_dict.items():
-    print("%20s: %3d" % (name, count))
+    print("%20s: %20s" % (name, count))
+
+# path = "sample.txt"
+# text = read_article(path)
+# list_of_words = parse_article(text)
+# tagged_words = nltk.pos_tag(list_of_words)
+# person_list = get_human_names(text)
+# # print(tagged_words)
+# print(get_human_names(text))
+# name_dict = article_analysis(tagged_words, person_list)
+
+
 
 
 
