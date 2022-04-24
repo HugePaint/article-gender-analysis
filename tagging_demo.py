@@ -6,8 +6,14 @@ from tkinter import filedialog
 import numpy
 import gender_guesser.detector as gender
 
-
 from itertools import tee, islice, chain
+# Ref: http://nealcaren.github.io/text-as-data/html/times_gender.html
+# Two lists  of words that are used when a man or woman is present, based on Danielle Sucher's https://github.com/DanielleSucher/Jailbreak-the-Patriarchy
+male_words=set(['guy','spokesman','chairman',"men's",'men','him',"he's",'his','boy','boyfriend','boyfriends','boys','brother','brothers','dad','dads','dude','father','fathers','fiance','gentleman','gentlemen','god','grandfather','grandpa','grandson','groom','he','himself','husband','husbands','king','male','man','mr','nephew','nephews','priest','prince','son','sons','uncle','uncles','waiter','widower','widowers'])
+female_words=set(['heroine','spokeswoman','chairwoman',"women's",'actress','women',"she's",'her','aunt','aunts','bride','daughter','daughters','female','fiancee','girl','girlfriend','girlfriends','girls','goddess','granddaughter','grandma','grandmother','herself','ladies','lady','lady','mom','moms','mother','mothers','mrs','ms','niece','nieces','priestess','princess','queens','she','sister','sisters','waitress','widow','widows','wife','wives','woman'])
+male_words_with_name = set(male_words)
+female_words_with_name = set(female_words)
+
 
 def read_articles_from_gui():
     root = tk.Tk()
@@ -43,17 +49,32 @@ def parse_article(str):
     list_of_words = re.findall(r'\w+', str)
     return list_of_words
 
-def article_analysis(list_of_lists, name_dict):
+def clean_list_for_name_extraction(list_of_tagged_words):
+    # deal with Mr as NNP, so a full name is expected as [firstname, lastname]
+    cleaned_list = list(list_of_tagged_words)
+    for pair in list_of_tagged_words:
+        if pair[0].lower() in male_words:
+            print(pair)
+            cleaned_list.remove(pair)
+        if pair[0].lower() in female_words:
+            print(pair)
+            cleaned_list.remove(pair)
+    print(cleaned_list)
+    return cleaned_list
+
+def article_analysis(list_of_tagged_words, name_dict):
     name_count = 0
     male_count = 0
     female_count = 0
     andy_count = 0
 
+    # check gender
     d = gender.Detector()
     skip = 0
-    copy_for_next = list(list_of_lists)
+    cleaned_list = clean_list_for_name_extraction(list_of_tagged_words)
+    copy_for_next = list(cleaned_list)
     copy_for_next.append([None])
-    for pair, next in zip(list_of_lists, copy_for_next):
+    for pair, next in zip(cleaned_list, copy_for_next):
         if skip == 1:
             skip = 0
             continue
@@ -78,10 +99,12 @@ def article_analysis(list_of_lists, name_dict):
                 if result == "male" or result == "mostly_male":
                     name_count += 1
                     male_count += 1
+                    male_words_with_name.add(name.lower())
                     print(name + " is found to be male.")
                 elif result == "female" or result == "mostly_female":
                     name_count += 1
                     female_count += 1
+                    female_words_with_name.add(name.lower())
                     print(name + " is found to be female.")
                 elif result == "andy":
                     name_count += 1
@@ -89,12 +112,49 @@ def article_analysis(list_of_lists, name_dict):
                     print(name + " is found to be androgynous.")
                 if (next[1] == "NNP"):
                     skip = 1
-                    
+    
     print("There are " + str(name_count) + " names identified in the article.")
     print("There are " + str(male_count) + " male names in total.")
     print("There are " + str(female_count) + " female names in total.")
     print("There are " + str(andy_count) + " androgynous names in total.")
-    return (name_count, male_count, female_count, andy_count)
+
+    print
+    print(male_words_with_name)
+    print(male_words_with_name)
+
+    one_third_count = 1 + (len(list_of_tagged_words) // 3)
+    one_third_result = list([[0, 0],
+                             [0, 0],
+                             [0, 0]])
+    for i in range(0, one_third_count):
+        pair = list_of_tagged_words[i]
+        word = pair[0].lower()
+        if word in male_words_with_name:
+            print(word + " is count for male in 1/3.")
+            one_third_result[0][0] = one_third_result[0][0] + 1
+        if word in female_words_with_name:
+            print(word + " is count for female in 1/3.")
+            one_third_result[0][1] = one_third_result[0][1] + 1
+    for i in range(one_third_count, 2 * one_third_count):
+        pair = list_of_tagged_words[i]
+        word = pair[0].lower()
+        if word in male_words_with_name:
+            print(word + " is count for male in 2/3.")
+            one_third_result[1][0] = one_third_result[1][0] + 1
+        if word in female_words_with_name:
+            print(word + " is count for female in 2/3.")
+            one_third_result[1][1] = one_third_result[1][1] + 1
+    for i in range(2 * one_third_count, len(list_of_tagged_words)):
+        pair = list_of_tagged_words[i]
+        word = pair[0].lower()
+        if word in male_words_with_name:
+            print(word + " is count for male in 3/3.")
+            one_third_result[2][0] = one_third_result[2][0] + 1
+        if word in female_words_with_name:
+            print(word + " is count for female in 3/3.")
+            one_third_result[2][1] = one_third_result[2][1] + 1
+
+    return one_third_result
 
 def get_human_names(text):
     tokens = nltk.tokenize.word_tokenize(text)
@@ -129,6 +189,7 @@ for article in full_content_list:
     list_of_words = parse_article(article)
     tagged_words = nltk.pos_tag(list_of_words)
     result_list = article_analysis(tagged_words, name_dict)
+    print(result_list)
 
 print("\nCount:")
 for name, count in name_dict.items():

@@ -1,0 +1,21 @@
+PRP: pronoun, personal
+
+hers herself him himself hisself she he her his
+
+PRP$: pronoun, possessive
+
+her his
+
+NNP: noun, proper, singular
+
+Mr Ms Miss Mrs Sir Madam
+
+NN: noun, common, singular or mass
+
+wife husband girl boy son daughter man woman nephew niece uncle aunt auntie mother mom mommy father dad daddy grandmother grandma grandfather grandpa boyfriend girlfriend
+guy gal sister brother granddaughter grandson godfather godmother godson goddaughter fiancée fiancé
+
+
+NNS: noun, common, plural
+
+men women
