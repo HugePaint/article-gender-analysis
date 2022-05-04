@@ -74,6 +74,8 @@ def article_analysis(list_of_tagged_words, name_dict):
     cleaned_list = clean_list_for_name_extraction(list_of_tagged_words)
     copy_for_next = list(cleaned_list)
     copy_for_next.append([None])
+
+    # separate article here to 1/3, then count
     for pair, next in zip(cleaned_list, copy_for_next):
         if skip == 1:
             skip = 0
@@ -157,18 +159,35 @@ def article_analysis(list_of_tagged_words, name_dict):
     return one_third_result
 
 def get_human_names(text):
+    # TODO: consider "Lady", "Madam", "Miss", "Sir" etc.
+    #       assign the gender here if we have pronoun
+    #       only abbreviations like "Mr." "Mrs." "Ms." have problem 
+
+    # replace "Mr. name" with "Mr_name" for chunker to pickup mr and mrs
+    # check full name if it starts with "Lady", "Madam", "Miss", "Sir", then assign to gender
+    # check if the first word is start with "Mr_" "Mrs_" "Ms_", then assign gender
+    # if non of these above, enter loop with gender-guesser
+
+    # delete titles from the list
+    # run this by 1/3, count occurences of names 
+
     tokens = nltk.tokenize.word_tokenize(text)
     pos = nltk.pos_tag(tokens)
     sentt = nltk.ne_chunk(pos, binary = False)
     person_list = []
     person = []
     name = ""
+
+
+    print(sentt)
+
     for subtree in sentt.subtrees(filter=lambda t: t.label() == 'PERSON'):
         for leaf in subtree.leaves():
             person.append(leaf[0])
         if len(person) > 0: #avoid grabbing lone surnames
             for part in person:
                 name += part + ' '
+            
             #check duplicates
             if not any(name in p for p in person_list):
                 for p in person_list:
