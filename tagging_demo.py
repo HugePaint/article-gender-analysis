@@ -20,9 +20,10 @@ def read_articles_from_gui():
     root.withdraw()
 
     content_list = list()
-    file_path = filedialog.askopenfilenames(title='Select Articles', filetypes=[
-        ("Text Files", ".txt")
-    ])
+    # file_path = filedialog.askopenfilenames(title='Select Articles', filetypes=[
+    #     ("Text Files", ".txt")
+    # ])
+    file_path = list(["sample2.txt"])
     for entry in file_path:
         with open(entry, 'r', encoding='UTF-8') as file_opened:
             text = file_opened.read()
@@ -164,12 +165,14 @@ def get_human_names(text):
     #       only abbreviations like "Mr." "Mrs." "Ms." have problem 
 
     # replace "Mr. name" with "Mr_name" for chunker to pickup mr and mrs
-    # check full name if it starts with "Lady", "Madam", "Miss", "Sir", then assign to gender
-    # check if the first word is start with "Mr_" "Mrs_" "Ms_", then assign gender
-    # if non of these above, enter loop with gender-guesser
+    title_abbreviations = set(["Mr", "Ms", "Mrs"])
+    for abbr in title_abbreviations:
+        text = re.sub(str(abbr+".\s"), str(abbr+"_"), text)
+    
+    titles = set(["Lady", "Madam", "Miss", "Sir"])
+    for t in titles:
+        text = re.sub(str(t+"\s"), str(t+"_"), text)
 
-    # delete titles from the list
-    # run this by 1/3, count occurences of names 
 
     tokens = nltk.tokenize.word_tokenize(text)
     pos = nltk.pos_tag(tokens)
@@ -177,9 +180,6 @@ def get_human_names(text):
     person_list = []
     person = []
     name = ""
-
-
-    print(sentt)
 
     for subtree in sentt.subtrees(filter=lambda t: t.label() == 'PERSON'):
         for leaf in subtree.leaves():
@@ -200,7 +200,68 @@ def get_human_names(text):
             name = ''
         person = []
 
+
+    # check full name if it starts with "Lady", "Madam", "Miss", "Sir", then assign to gender
+    # check if the first word is start with "Mr_" "Mrs_" "Ms_", then assign gender
+    # if non of these above, enter loop with gender-guesser
+    male_title = set(["Sir", "Mr"])
+    female_title = set(["Lady", "Madam", "Miss", "Ms", "Mrs"])
+
+    name_dict = dict()
+    for person in person_list:
+        # check if there is underscore, which means a title is in the full name
+        end_index = person.find("_")
+        if end_index == -1:
+            # no underscore, go check next name
+            name_dict[person] = [check_gender_for_full_name(person), 0]
+            print(person)
+            print(name_dict[person])
+            continue
+
+        start_index = person.find(" ")
+        # if there is space in title, we only need the last word before underscore
+        if start_index == -1 or start_index > end_index:
+            start_index = 0
+        
+        # example: "Cat Madam_Elijah Wood", and "Cat Madam_" is extracted
+        # in this case we only need Madam
+        title = person[start_index : end_index]
+        while title.find(" ") > -1:
+            title = title[title.find(" ")+1:]
+        
+        print(title)
+
+        person = person[end_index+1:]
+        name_dict[person] = ["TBD", 0]
+        if title in male_title:
+            name_dict[person][0] = "male"
+        if title in female_title:
+            name_dict[person][0] = "female"
+        # if non of these above, enter loop with gender-guesser
+        if name_dict[person][0] == "TBD":
+            name_dict[person][0] = check_gender_for_full_name(person)
+        print(person)
+        print(name_dict[person])
+            
+    # delete titles from the list
+    # run this by 1/3, count occurences of names 
+
     return (person_list)
+
+def check_gender_for_full_name(full_name):
+    first_name = full_name
+    if full_name.find(" ") > -1:
+        first_name = full_name[ : full_name.find(" ")]
+    result = gender.Detector().get_gender(first_name)
+    
+    if result == "male" or result == "mostly_male":
+        return("male")
+    elif result == "female" or result == "mostly_female":
+        return("female")
+    elif result == "andy":
+        return("andy")
+    else:
+        return("unknown")
 
 full_content_list = read_articles_from_gui()
 name_dict = create_name_dict(full_content_list)
@@ -213,6 +274,7 @@ for article in full_content_list:
 print("\nCount:")
 for name, count in name_dict.items():
     print("%20s: %20s" % (name, count))
+
 
 # path = "sample.txt"
 # text = read_article(path)
