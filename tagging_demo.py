@@ -19,10 +19,10 @@ def read_articles_from_gui():
     root.withdraw()
 
     content_list = list()
-    # file_path = filedialog.askopenfilenames(title='Select Articles', filetypes=[
-    #     ("Text Files", ".txt")
-    # ])
-    file_path = list(["sample2.txt"])
+    file_path = filedialog.askopenfilenames(title='Select Articles', filetypes=[
+        ("Text Files", ".txt")
+    ])
+    # file_path = list(["sample2.txt"])
     for entry in file_path:
         with open(entry, 'r', encoding='UTF-8') as file_opened:
             text = file_opened.read()
@@ -42,12 +42,18 @@ def parse_article(str):
 
 def article_analysis(list_of_tagged_words, name_dict):
     where_to_split = 1 + (len(list_of_tagged_words) // 3)
-    one_third_result = list([[0, 0],
-                             [0, 0],
-                             [0, 0]])
+
+    print("\nCount for 1/3")
     count_1 = count_gender_words(list_of_tagged_words[0 : where_to_split], name_dict)
+    print("male : %3d, female : %3d" % (count_1[0], count_1[1]))
+
+    print("\nCount for 2/3")
     count_2 = count_gender_words(list_of_tagged_words[where_to_split : 2 * where_to_split], name_dict)
+    print("male : %3d, female : %3d" % (count_2[0], count_2[1]))
+
+    print("\nCount for 3/3")
     count_3 = count_gender_words(list_of_tagged_words[2 * where_to_split : len(list_of_tagged_words)], name_dict)
+    print("male : %3d, female : %3d" % (count_3[0], count_3[1]))
 
     one_third_result = list([count_1, count_2, count_3])
     return one_third_result
@@ -78,7 +84,7 @@ def count_gender_words(list_of_tagged_words, name_dict):
                 word_gender = name_dict[p][0]
                 print("Name " + word + " is found as " + p + ", and it is " + word_gender)
                 name_dict[p][1] = name_dict[p][1] + 1
-                # if next word is also a NNP, this might be a full name, so skip next word
+                # TODO: weak condition. if next word is also a NNP, this might be a full name, so skip next word
                 if (next[1] == "NNP"):
                     skip = 1
 
@@ -205,12 +211,12 @@ def check_gender_for_full_name(full_name):
 
 full_content_list = read_articles_from_gui()
 for article in full_content_list:
+    print("\nStart processing a new article")
     name_dict_and_cleaned_article = get_human_names(article)
     name_dict = name_dict_and_cleaned_article[0]
     list_of_words = parse_article(name_dict_and_cleaned_article[1])
     tagged_words = nltk.pos_tag(list_of_words)
     result_list = article_analysis(tagged_words, name_dict)
-    print(result_list)
     print("\nCount:")
     for name, count in name_dict.items():
         print("%20s: %20s" % (name, count))
