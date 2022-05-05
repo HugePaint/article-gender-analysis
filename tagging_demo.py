@@ -11,7 +11,7 @@ from itertools import tee, islice, chain
 # Ref: http://nealcaren.github.io/text-as-data/html/times_gender.html
 # Two lists  of words that are used when a man or woman is present, based on Danielle Sucher's https://github.com/DanielleSucher/Jailbreak-the-Patriarchy
 male_words=set(['guy','spokesman','chairman',"men's",'men','him',"he's",'his','boy','boyfriend','boyfriends','boys','brother','brothers','dad','dads','dude','father','fathers','fiance','gentleman','gentlemen','god','grandfather','grandpa','grandson','groom','he','himself','husband','husbands','king','male','man','mr','nephew','nephews','priest','prince','son','sons','uncle','uncles','waiter','widower','widowers'])
-female_words=set(['heroine','spokeswoman','chairwoman',"women's",'actress','women',"she's",'her','aunt','aunts','bride','daughter','daughters','female','fiancee','girl','girlfriend','girlfriends','girls','goddess','granddaughter','grandma','grandmother','herself','ladies','lady','lady','mom','moms','mother','mothers','mrs','ms','niece','nieces','priestess','princess','queens','she','sister','sisters','waitress','widow','widows','wife','wives','woman'])
+female_words=set(['heroine','spokeswoman','chairwoman',"women's",'actress','women', 'her','aunt','aunts','bride','daughter','daughters','female','fiancee','girl','girlfriend','girlfriends','girls','goddess','granddaughter','grandma','grandmother','herself','ladies','lady','lady','mom','moms','mother','mothers','mrs','ms','niece','nieces','priestess','princess','queens','she','sister','sisters','waitress','widow','widows','wife','wives','woman'])
 
 
 def read_articles_from_gui():
@@ -19,10 +19,10 @@ def read_articles_from_gui():
     root.withdraw()
 
     content_list = list()
-    file_path = filedialog.askopenfilenames(title='Select Articles', filetypes=[
-        ("Text Files", ".txt")
-    ])
-    # file_path = list(["sample2.txt"])
+    # file_path = filedialog.askopenfilenames(title='Select Articles', filetypes=[
+    #     ("Text Files", ".txt")
+    # ])
+    file_path = list(["sample2.txt"])
     for entry in file_path:
         with open(entry, 'r', encoding='UTF-8') as file_opened:
             text = file_opened.read()
@@ -43,6 +43,9 @@ def parse_article(str):
 def article_analysis(list_of_tagged_words, name_dict):
     where_to_split = 1 + (len(list_of_tagged_words) // 3)
 
+    # TODO: check the last word of 1/3. if NNP, check first word in then next 1/3
+    # if the 1/3 starts with NNP, send that word to prior 1/3, and check again.
+
     print("\nCount for 1/3")
     count_1 = count_gender_words(list_of_tagged_words[0 : where_to_split], name_dict)
     print("male : %3d, female : %3d" % (count_1[0], count_1[1]))
@@ -59,13 +62,19 @@ def article_analysis(list_of_tagged_words, name_dict):
     return one_third_result
 
 def count_gender_words(list_of_tagged_words, name_dict):
+    print(list_of_tagged_words)
+
     male_word_count = 0
     female_word_count = 0
 
-    skip = 0
+    # list_of_tagged_words = 0, a, b, c
+    # copy_for_next = a, b, c, 0
+    skip = 1
     copy_for_next = list(list_of_tagged_words)
+    list_of_tagged_words.insert(0, [None])
     copy_for_next.append([None])
 
+    last_full_name = str()
     # separate article here to 1/3, then count
     for pair, next in zip(list_of_tagged_words, copy_for_next):
         if skip == 1:
@@ -73,14 +82,22 @@ def count_gender_words(list_of_tagged_words, name_dict):
             continue
 
         word = pair[0]
+        tag = pair[1]
         word_gender = 'unknown'
 
         # check if current word is in name list
         for p in name_dict.keys():
+            # not NNP, not a name
+            if tag != 'NNP':
+                continue
             # TODO: weak condition. prevent "a" and "he" to be considered as name
             if len(word) < 3:
                 continue
+            # TODO Mary Jones-Smith, John Jones, Peter Smith
+            # create list(["Mary", "Jones-Smith"]) use space as separator
+            # do exact match of word to list element
             if word in p:
+                # last full name = Mary Jones-Smith
                 word_gender = name_dict[p][0]
                 print("Name " + word + " is found as " + p + ", and it is " + word_gender)
                 name_dict[p][1] = name_dict[p][1] + 1
@@ -115,9 +132,9 @@ def get_human_names(text):
     original_text = text
 
     # replace "Mr. name" with "Mr_name" for chunker to pickup mr and mrs
-    title_abbreviations = set(["Mr.", "Ms.", "Mrs."])
+    title_abbreviations = set(["Mr", "Ms", "Mrs"])
     for abbr in title_abbreviations:
-        text = re.sub(str(abbr+"\s"), str(abbr+"_"), text)
+        text = re.sub(str(abbr+".\s"), str(abbr+"_"), text)
     
     titles = set(["Lady", "Madam", "Miss", "Sir"])
     for t in titles:
@@ -138,7 +155,7 @@ def get_human_names(text):
             for part in person:
                 name += part + ' '
             
-            #check duplicates
+            # TODO: check duplicates
             if not any(name in p for p in person_list):
                 for p in person_list:
                     if p in name:
@@ -156,6 +173,8 @@ def get_human_names(text):
     male_title = set(["Sir", "Mr"])
     female_title = set(["Lady", "Madam", "Miss", "Ms", "Mrs"])
 
+
+    print(person_list)
     name_dict = dict()
     for person in person_list:
         # check if there is underscore, which means a title is in the full name
@@ -187,7 +206,8 @@ def get_human_names(text):
             name_dict[person][0] = check_gender_for_full_name(person)
         
     # remove titles
-    for t in title_abbreviations.union(titles):
+    title_all = set(["Mr.", "Ms.", "Mrs.", "Lady", "Madam", "Miss", "Sir"])
+    for t in title_all:
         original_text = re.sub(t+" ", "", original_text)
 
     # run this by 1/3, count occurences of names 
