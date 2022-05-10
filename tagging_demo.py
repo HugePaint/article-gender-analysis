@@ -40,26 +40,24 @@ def parse_article(str):
     list_of_words = re.findall(r'\w+', str)
     return list_of_words
 
-def article_analysis(list_of_tagged_words, name_dict):
-    where_to_split = 1 + (len(list_of_tagged_words) // 3)
+def article_analysis(list_of_tagged_words, name_dict, how_many_segments):
+    where_to_split = 1 + (len(list_of_tagged_words) // how_many_segments)
+    split_point = list()
+    split_point.append(0)
+    for i in range(1, how_many_segments):
+        split_point.append(i * where_to_split)
+    split_point.append(len(list_of_tagged_words))
 
+    print(split_point)
     # TODO: check the last word of 1/3. if NNP, check first word in then next 1/3
     # if the 1/3 starts with NNP, send that word to prior 1/3, and check again.
+    count = list()
+    for i in range(0, len(split_point) - 1):
+        print("\nCount for %2d/3" % i)
+        count.append(count_gender_words(list_of_tagged_words[split_point[i] : split_point[i+1]], name_dict))
+        print("male : %3d, female : %3d" % (count[i][0], count[i][1]))
 
-    print("\nCount for 1/3")
-    count_1 = count_gender_words(list_of_tagged_words[0 : where_to_split], name_dict)
-    print("male : %3d, female : %3d" % (count_1[0], count_1[1]))
-
-    print("\nCount for 2/3")
-    count_2 = count_gender_words(list_of_tagged_words[where_to_split : 2 * where_to_split], name_dict)
-    print("male : %3d, female : %3d" % (count_2[0], count_2[1]))
-
-    print("\nCount for 3/3")
-    count_3 = count_gender_words(list_of_tagged_words[2 * where_to_split : len(list_of_tagged_words)], name_dict)
-    print("male : %3d, female : %3d" % (count_3[0], count_3[1]))
-
-    one_third_result = list([count_1, count_2, count_3])
-    return one_third_result
+    return count
 
 def count_gender_words(list_of_tagged_words, name_dict):
     print(list_of_tagged_words)
@@ -74,7 +72,7 @@ def count_gender_words(list_of_tagged_words, name_dict):
         word_gender = 'unknown'
 
         # if title, don't count
-        if word in set(["Mr.", "Ms.", "Mrs.", "Lady", "Madam", "Miss", "Sir"]):
+        if word in set(["Mr", "Ms", "Mrs", "Lady", "Madam", "Miss", "Sir"]):
             continue
 
         if (last_full_name != None) and (word in last_full_name.split()):
@@ -228,7 +226,7 @@ for article in full_content_list:
     name_dict = name_dict_and_cleaned_article[0]
     list_of_words = parse_article(name_dict_and_cleaned_article[1])
     tagged_words = nltk.pos_tag(list_of_words)
-    result_list = article_analysis(tagged_words, name_dict)
+    result_list = article_analysis(tagged_words, name_dict, 3)
     print("\nCount:")
     for name, count in name_dict.items():
         print("%20s: %20s" % (name, count))
