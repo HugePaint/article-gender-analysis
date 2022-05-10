@@ -47,10 +47,23 @@ def article_analysis(list_of_tagged_words, name_dict, how_many_segments):
     for i in range(1, how_many_segments):
         split_point.append(i * where_to_split)
     split_point.append(len(list_of_tagged_words))
-
     print(split_point)
+
     # TODO: check the last word of 1/3. if NNP, check first word in then next 1/3
     # if the 1/3 starts with NNP, send that word to prior 1/3, and check again.
+    for i in range(1, len(split_point) - 1):
+        current_split = split_point[i] - 1
+        last_pair_in_this_seg = list_of_tagged_words[current_split]
+        tag = last_pair_in_this_seg[1]
+        if tag == "NNP":
+            first_pair_in_next_seg = list_of_tagged_words[current_split]
+            while (first_pair_in_next_seg[1] == "NNP"):
+                current_split += 1
+                first_pair_in_next_seg = list_of_tagged_words[current_split]
+            split_point[i] = current_split
+
+    print(split_point)
+    
     count = list()
     for i in range(0, len(split_point) - 1):
         print("\nCount for %2d/3" % i)
