@@ -31,7 +31,7 @@ def read_articles_from_gui():
     return content_list
 
 def read_article(path):
-    a_file = open("sample.txt", "r")
+    a_file = open("sample2.txt", "r")
     text = a_file.read()
     a_file.close()
     return text
@@ -66,44 +66,36 @@ def count_gender_words(list_of_tagged_words, name_dict):
 
     male_word_count = 0
     female_word_count = 0
-
-    # list_of_tagged_words = 0, a, b, c
-    # copy_for_next = a, b, c, 0
-    skip = 1
-    copy_for_next = list(list_of_tagged_words)
-    list_of_tagged_words.insert(0, [None])
-    copy_for_next.append([None])
-
     last_full_name = str()
-    # separate article here to 1/3, then count
-    for pair, next in zip(list_of_tagged_words, copy_for_next):
-        if skip == 1:
-            skip = 0
-            continue
 
+    for pair in list_of_tagged_words:        
         word = pair[0]
         tag = pair[1]
         word_gender = 'unknown'
+
+        # if title, don't count
+        if word in set(["Mr.", "Ms.", "Mrs.", "Lady", "Madam", "Miss", "Sir"]):
+            continue
+
+        if (last_full_name != None) and (word in last_full_name.split()):
+            continue
+        else:
+            last_full_name = None
 
         # check if current word is in name list
         for p in name_dict.keys():
             # not NNP, not a name
             if tag != 'NNP':
                 continue
-            # TODO: weak condition. prevent "a" and "he" to be considered as name
-            if len(word) < 3:
-                continue
-            # TODO Mary Jones-Smith, John Jones, Peter Smith
+            
+            # Mary Jones-Smith, John Jones, Peter Smith
             # create list(["Mary", "Jones-Smith"]) use space as separator
             # do exact match of word to list element
-            if word in p:
-                # last full name = Mary Jones-Smith
+            if word in p.split():
+                last_full_name = p
                 word_gender = name_dict[p][0]
                 print("Name " + word + " is found as " + p + ", and it is " + word_gender)
                 name_dict[p][1] = name_dict[p][1] + 1
-                # TODO: weak condition. if next word is also a NNP, this might be a full name, so skip next word
-                if (next[1] == "NNP"):
-                    skip = 1
 
         # then check with regular gender dictionary
         word = pair[0].lower()
@@ -125,9 +117,9 @@ def count_gender_words(list_of_tagged_words, name_dict):
 
 
 def get_human_names(text):
-    # TODO: consider "Lady", "Madam", "Miss", "Sir" etc.
-    #       assign the gender here if we have pronoun
-    #       only abbreviations like "Mr." "Mrs." "Ms." have problem 
+    # consider "Lady", "Madam", "Miss", "Sir" etc.
+    # assign the gender here if we have pronoun
+    # only abbreviations like "Mr." "Mrs." "Ms." have problem 
 
     original_text = text
 
@@ -206,9 +198,9 @@ def get_human_names(text):
             name_dict[person][0] = check_gender_for_full_name(person)
         
     # remove titles
-    title_all = set(["Mr.", "Ms.", "Mrs.", "Lady", "Madam", "Miss", "Sir"])
-    for t in title_all:
-        original_text = re.sub(t+" ", "", original_text)
+    # title_all = set(["Mr.", "Ms.", "Mrs.", "Lady", "Madam", "Miss", "Sir"])
+    # for t in title_all:
+    #     original_text = re.sub(t+" ", "", original_text)
 
     # run this by 1/3, count occurences of names 
 
