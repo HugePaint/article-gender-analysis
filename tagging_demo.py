@@ -22,7 +22,7 @@ def read_articles_from_gui():
     # file_path = filedialog.askopenfilenames(title='Select Articles', filetypes=[
     #     ("Text Files", ".txt")
     # ])
-    file_path = list(["sample2.txt"])
+    file_path = list(["sample3.txt"])
     for entry in file_path:
         with open(entry, 'r', encoding='UTF-8') as file_opened:
             text = file_opened.read()
@@ -64,6 +64,10 @@ def article_analysis(list_of_tagged_words, name_dict, how_many_segments):
 
     print(split_point)
     
+    # TODO: No. of male person, No. of female person
+    # most mentioned male full name, most mentioned female full name
+    # No. words in the text
+
     count = list()
     for i in range(0, len(split_point) - 1):
         print("\nCount for %2d/3" % i)
@@ -77,17 +81,19 @@ def count_gender_words(list_of_tagged_words, name_dict):
 
     male_word_count = 0
     female_word_count = 0
-    last_full_name = str()
+    last_full_name = None
 
     for pair in list_of_tagged_words:        
         word = pair[0]
         tag = pair[1]
         word_gender = 'unknown'
 
-        # if title, don't count
+        # if title, consider the gender mentioned
         if word in set(["Mr", "Ms", "Mrs", "Lady", "Madam", "Miss", "Sir"]):
+            # TODO: increase the counter
             continue
 
+        # TODO: double count for Richard Jefferson
         if (last_full_name != None) and (word in last_full_name.split()):
             continue
         else:
@@ -105,8 +111,8 @@ def count_gender_words(list_of_tagged_words, name_dict):
             if word in p.split():
                 last_full_name = p
                 word_gender = name_dict[p][0]
-                print("Name " + word + " is found as " + p + ", and it is " + word_gender)
                 name_dict[p][1] = name_dict[p][1] + 1
+                print("Name " + word + " is found as " + p + ", and it is " + word_gender + ", now count for " + str(name_dict[p][1]))
 
         # then check with regular gender dictionary
         word = pair[0].lower()
@@ -157,16 +163,16 @@ def get_human_names(text):
         if len(person) > 0: #avoid grabbing lone surnames
             for part in person:
                 name += part + ' '
-            
+            name = name[:-1]
             # TODO: check duplicates
             if not any(name in p for p in person_list):
                 for p in person_list:
                     if p in name:
                         person_list.remove(p)
-                        person_list.append(name[:-1])
+                        person_list.append(name)
                         break
                 else:
-                    person_list.append(name[:-1])
+                    person_list.append(name)
             name = ''
         person = []
 
