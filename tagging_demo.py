@@ -22,7 +22,7 @@ def read_articles_from_gui():
     # file_path = filedialog.askopenfilenames(title='Select Articles', filetypes=[
     #     ("Text Files", ".txt")
     # ])
-    file_path = list(["sample3.txt"])
+    file_path = list(["sample2.txt"])
     for entry in file_path:
         with open(entry, 'r', encoding='UTF-8') as file_opened:
             text = file_opened.read()
@@ -49,7 +49,7 @@ def article_analysis(list_of_tagged_words, name_dict, how_many_segments):
     split_point.append(len(list_of_tagged_words))
     print(split_point)
 
-    # TODO: check the last word of 1/3. if NNP, check first word in then next 1/3
+    # check the last word of 1/3. if NNP, check first word in then next 1/3
     # if the 1/3 starts with NNP, send that word to prior 1/3, and check again.
     for i in range(1, len(split_point) - 1):
         current_split = split_point[i] - 1
@@ -82,22 +82,30 @@ def count_gender_words(list_of_tagged_words, name_dict):
     male_word_count = 0
     female_word_count = 0
     last_full_name = None
+    last_title = None
 
-    for pair in list_of_tagged_words:        
+    for pair in list_of_tagged_words:
+        # TODO: double count for Richard Jefferson (sample3.txt)        
         word = pair[0]
         tag = pair[1]
         word_gender = 'unknown'
 
-        # if title, consider the gender mentioned
-        if word in set(["Mr", "Ms", "Mrs", "Lady", "Madam", "Miss", "Sir"]):
-            # TODO: increase the counter
-            continue
-
-        # TODO: double count for Richard Jefferson
         if (last_full_name != None) and (word in last_full_name.split()):
             continue
         else:
             last_full_name = None
+
+        # if title, consider the gender mentioned
+        if word in set(["Mr", "Ms", "Mrs", "Lady", "Madam", "Miss", "Sir"]):
+            # TODO: increase the counter
+            last_title = word
+            if word in set(["Mr", "Sir"]):
+                male_word_count += 1
+                print(word + " is found to be a male title.")
+            if word in set(["Ms", "Mrs", "Lady", "Madam", "Miss"]):
+                female_word_count += 1
+                print(word + " is found to be a female title.")
+            continue
 
         # check if current word is in name list
         for p in name_dict.keys():
@@ -110,9 +118,18 @@ def count_gender_words(list_of_tagged_words, name_dict):
             # do exact match of word to list element
             if word in p.split():
                 last_full_name = p
-                word_gender = name_dict[p][0]
                 name_dict[p][1] = name_dict[p][1] + 1
+                if last_title != None:
+                    print(last_title + " " + word + " is found as " + p + ", now count for " + str(name_dict[p][1]))
+                    last_title = "skipped"
+                    break
+                word_gender = name_dict[p][0]
                 print("Name " + word + " is found as " + p + ", and it is " + word_gender + ", now count for " + str(name_dict[p][1]))
+        
+        if last_title == "skipped":
+            last_title = None
+            continue
+        last_title = None        
 
         # then check with regular gender dictionary
         word = pair[0].lower()
