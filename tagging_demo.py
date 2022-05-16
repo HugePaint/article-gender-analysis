@@ -8,27 +8,46 @@ import gender_guesser.detector as gender
 
 from itertools import tee, islice, chain
 
+from dataclasses import dataclass, field
+
 # Ref: http://nealcaren.github.io/text-as-data/html/times_gender.html
 # Two lists  of words that are used when a man or woman is present, based on Danielle Sucher's https://github.com/DanielleSucher/Jailbreak-the-Patriarchy
 male_words=set(['guy','spokesman','chairman',"men's",'men','him',"he's",'his','boy','boyfriend','boyfriends','boys','brother','brothers','dad','dads','dude','father','fathers','fiance','gentleman','gentlemen','god','grandfather','grandpa','grandson','groom','he','himself','husband','husbands','king','male','man','mr','nephew','nephews','priest','prince','son','sons','uncle','uncles','waiter','widower','widowers'])
 female_words=set(['heroine','spokeswoman','chairwoman',"women's",'actress','women', 'her','aunt','aunts','bride','daughter','daughters','female','fiancee','girl','girlfriend','girlfriends','girls','goddess','granddaughter','grandma','grandmother','herself','ladies','lady','lady','mom','moms','mother','mothers','mrs','ms','niece','nieces','priestess','princess','queens','she','sister','sisters','waitress','widow','widows','wife','wives','woman'])
+
+@dataclass
+class Article:
+    text_tagged: list
+    segmented_gender_word_count: list
+    full_name_dictionary: dict
+
+    title: str = ""
+    author: str = ""
+    text: str = ""
+    word_count: int = 0
+    male_person: int = 0
+    female_person: int = 0
+    most_mentioned_male: str = ""
+    most_mentioned_female: str = ""
 
 
 def read_articles_from_gui():
     root = tk.Tk()
     root.withdraw()
 
-    content_list = list()
+    article_list = list()
     # file_path = filedialog.askopenfilenames(title='Select Articles', filetypes=[
     #     ("Text Files", ".txt")
     # ])
-    file_path = list(["sample2.txt"])
+    file_path = list(["sample3.txt"])
     for entry in file_path:
         with open(entry, 'r', encoding='UTF-8') as file_opened:
-            text = file_opened.read()
-            content_list.append(text)
+            article = Article(list(), list(), dict())
+            # TODO: parse more info here
+            article.text = file_opened.read()
+            article_list.append(article)
 
-    return content_list
+    return article_list
 
 def read_article(path):
     a_file = open("sample2.txt", "r")
@@ -36,11 +55,13 @@ def read_article(path):
     a_file.close()
     return text
 
-def parse_article(str):
-    list_of_words = re.findall(r'\w+', str)
-    return list_of_words
+def tag_article(article):
+    list_of_words = re.findall(r'\w+', article.text)
+    article.text_tagged = nltk.pos_tag(list_of_words)
+    return
 
-def article_analysis(list_of_tagged_words, name_dict, how_many_segments):
+def article_analysis(article, how_many_segments):
+    list_of_tagged_words = article.text_tagged
     where_to_split = 1 + (len(list_of_tagged_words) // how_many_segments)
     split_point = list()
     split_point.append(0)
@@ -71,10 +92,30 @@ def article_analysis(list_of_tagged_words, name_dict, how_many_segments):
     count = list()
     for i in range(0, len(split_point) - 1):
         print("\nCount for %2d/3" % i)
-        count.append(count_gender_words(list_of_tagged_words[split_point[i] : split_point[i+1]], name_dict))
+        count.append(count_gender_words(list_of_tagged_words[split_point[i] : split_point[i+1]], article.full_name_dictionary))
         print("male : %3d, female : %3d" % (count[i][0], count[i][1]))
+    article.segmented_gender_word_count = count
 
-    return count
+    article.word_count = len(list_of_tagged_words)
+
+    max_male_count = 0
+    for name, gender_and_count in article.full_name_dictionary.items():
+        if (gender_and_count[0] == "male"):
+            article.male_person += 1
+        if (gender_and_count[0] == "male") and (gender_and_count[1] > max_male_count):
+            max_male_count = gender_and_count[1]
+    article.most_mentioned_male = [name for name, gender_and_count in article.full_name_dictionary.items() 
+                                    if (gender_and_count[0] == "male") and (gender_and_count[1] == max_male_count)]
+
+    max_female_count = 0
+    for name, gender_and_count in article.full_name_dictionary.items():
+        if (gender_and_count[0] == "female"):
+            article.female_person += 1
+        if (gender_and_count[0] == "female") and (gender_and_count[1] > max_female_count):
+            max_female_count = gender_and_count[1]
+    article.most_mentioned_female = [name for name, gender_and_count in article.full_name_dictionary.items() 
+                                    if (gender_and_count[0] == "female") and (gender_and_count[1] == max_female_count)]
+    return
 
 def count_gender_words(list_of_tagged_words, name_dict):
     print(list_of_tagged_words)
@@ -150,12 +191,12 @@ def count_gender_words(list_of_tagged_words, name_dict):
     return (male_word_count, female_word_count)
 
 
-def get_human_names(text):
+def get_human_names(article):
     # consider "Lady", "Madam", "Miss", "Sir" etc.
     # assign the gender here if we have pronoun
     # only abbreviations like "Mr." "Mrs." "Ms." have problem 
 
-    original_text = text
+    text = article.text
 
     # replace "Mr. name" with "Mr_name" for chunker to pickup mr and mrs
     title_abbreviations = set(["Mr", "Ms", "Mrs"])
@@ -238,7 +279,9 @@ def get_human_names(text):
 
     # run this by 1/3, count occurences of names 
 
-    return (name_dict, original_text)
+    article.full_name_dictionary = name_dict
+
+    return
 
 def check_gender_for_full_name(full_name):
     first_name = full_name
@@ -255,17 +298,21 @@ def check_gender_for_full_name(full_name):
     else:
         return("unknown")
 
-full_content_list = read_articles_from_gui()
-for article in full_content_list:
+parsed_article_list = read_articles_from_gui()
+for article in parsed_article_list:
     print("\nStart processing a new article")
-    name_dict_and_cleaned_article = get_human_names(article)
-    name_dict = name_dict_and_cleaned_article[0]
-    list_of_words = parse_article(name_dict_and_cleaned_article[1])
-    tagged_words = nltk.pos_tag(list_of_words)
-    result_list = article_analysis(tagged_words, name_dict, 3)
+    get_human_names(article)
+    tag_article(article)
+    article_analysis(article, 3)
     print("\nCount:")
-    for name, count in name_dict.items():
+    for name, count in article.full_name_dictionary.items():
         print("%20s: %20s" % (name, count))
+
+    # clean up
+    article.text = ""
+    article.text_tagged = list()
+
+    print(article)
 
 
 
