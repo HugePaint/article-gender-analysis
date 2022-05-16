@@ -84,10 +84,6 @@ def article_analysis(article, how_many_segments):
             split_point[i] = current_split
 
     print(split_point)
-    
-    # TODO: No. of male person, No. of female person
-    # most mentioned male full name, most mentioned female full name
-    # No. words in the text
 
     count = list()
     for i in range(0, len(split_point) - 1):
@@ -191,7 +187,7 @@ def count_gender_words(list_of_tagged_words, name_dict):
     return (male_word_count, female_word_count)
 
 
-def get_human_names(article):
+def find_full_names(article):
     # consider "Lady", "Madam", "Miss", "Sir" etc.
     # assign the gender here if we have pronoun
     # only abbreviations like "Mr." "Mrs." "Ms." have problem 
@@ -301,7 +297,7 @@ def check_gender_for_full_name(full_name):
 parsed_article_list = read_articles_from_gui()
 for article in parsed_article_list:
     print("\nStart processing a new article")
-    get_human_names(article)
+    find_full_names(article)
     tag_article(article)
     article_analysis(article, 3)
     print("\nCount:")
