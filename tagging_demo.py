@@ -39,7 +39,7 @@ def read_articles_from_gui():
     # file_path = filedialog.askopenfilenames(title='Select Articles', filetypes=[
     #     ("Text Files", ".txt")
     # ])
-    file_path = list(["sample3.txt"])
+    file_path = list(["data/sample3.txt"])
     for entry in file_path:
         with open(entry, 'r', encoding='UTF-8') as file_opened:
             article = Article(list(), list(), dict())
@@ -50,7 +50,7 @@ def read_articles_from_gui():
     return article_list
 
 def read_article(path):
-    a_file = open("sample2.txt", "r")
+    a_file = open("data/sample3.txt", "r")
     text = a_file.read()
     a_file.close()
     return text
