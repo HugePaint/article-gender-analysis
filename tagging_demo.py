@@ -21,8 +21,12 @@ class Article:
     segmented_gender_word_count: list
     full_name_dictionary: dict
 
+    id: str = ""
     title: str = ""
     author: str = ""
+    country: str = ""
+    year: str = ""
+    category: str = ""
     text: str = ""
     word_count: int = 0
     male_person: int = 0
@@ -30,6 +34,7 @@ class Article:
     most_mentioned_male: str = ""
     most_mentioned_female: str = ""
 
+# for name lists of all articles, extract most mentioned male/female
 
 def read_articles_from_gui():
     root = tk.Tk()
@@ -39,7 +44,7 @@ def read_articles_from_gui():
     # file_path = filedialog.askopenfilenames(title='Select Articles', filetypes=[
     #     ("Text Files", ".txt")
     # ])
-    file_path = list(["data/sample3.txt"])
+    file_path = list(["data/sample2.txt"])
     for entry in file_path:
         with open(entry, 'r', encoding='UTF-8') as file_opened:
             article = Article(list(), list(), dict())
@@ -60,7 +65,7 @@ def tag_article(article):
     article.text_tagged = nltk.pos_tag(list_of_words)
     return
 
-def article_analysis(article, how_many_segments):
+def split_and_count(article, how_many_segments):
     list_of_tagged_words = article.text_tagged
     where_to_split = 1 + (len(list_of_tagged_words) // how_many_segments)
     split_point = list()
@@ -188,6 +193,10 @@ def count_gender_words(list_of_tagged_words, name_dict):
 
 
 def find_full_names(article):
+    # TODO: keep both entry of Smith as male and female
+
+    # TODO: track title in the list
+
     text = article.text
 
     # if we have title before name, use an underscore to tag between title and name
@@ -286,21 +295,31 @@ def check_gender_for_full_name(full_name):
     else:
         return("unknown")
 
-parsed_article_list = read_articles_from_gui()
-for article in parsed_article_list:
-    print("\nStart processing a new article")
+def analyze(article):
     find_full_names(article)
     tag_article(article)
-    article_analysis(article, 3)
-    print("\nCount:")
-    for name, count in article.full_name_dictionary.items():
-        print("%20s: %20s" % (name, count))
+    split_and_count(article, 3)
 
     # clean up
-    article.text = ""
-    article.text_tagged = list()
+    # article.text = ""
+    # article.text_tagged = list()
 
-    print(article)
+if __name__ == '__main__':
+    parsed_article_list = read_articles_from_gui()
+    for article in parsed_article_list:
+        print("\nStart processing a new article")
+        find_full_names(article)
+        tag_article(article)
+        split_and_count(article, 3)
+        print("\nCount:")
+        for name, count in article.full_name_dictionary.items():
+            print("%20s: %20s" % (name, count))
+
+        # clean up
+        article.text = ""
+        article.text_tagged = list()
+
+        print(article)
 
 
 

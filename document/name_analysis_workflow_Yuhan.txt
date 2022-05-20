@@ -67,7 +67,7 @@ This function parses a string of text to a list of words (only numbers English l
 
 
 
-4. article_analysis(article, how_many_segments)
+4. split_and_count(article, how_many_segments)
 This function does the analysis for all attributes we want for the given article. You can specify how many segments for the article to be divided. I use 3 in the demo as we discussed.
 
 After the article is splitted, we also handle the case when a name is splitted into two segments.
@@ -89,4 +89,9 @@ Second, check if word is in the name_dict. If it is, grab the gender from the na
 Third, check with regular gender word dictionary. Ref: http://nealcaren.github.io/text-as-data/html/times_gender.html
 Two lists  of words that are used when a man or woman is present, based on Danielle Sucher's https://github.com/DanielleSucher/Jailbreak-the-Patriarchy
 
+
+
+Extra: analyze(article)
+call it when import this script as a module.
+TODO: transform attributes in the Article class into feature matrix, then do machine learning!
 
