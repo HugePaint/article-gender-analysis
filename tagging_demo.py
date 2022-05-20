@@ -188,17 +188,15 @@ def count_gender_words(list_of_tagged_words, name_dict):
 
 
 def find_full_names(article):
-    # consider "Lady", "Madam", "Miss", "Sir" etc.
-    # assign the gender here if we have pronoun
-    # only abbreviations like "Mr." "Mrs." "Ms." have problem 
-
     text = article.text
 
-    # replace "Mr. name" with "Mr_name" for chunker to pickup mr and mrs
+    # if we have title before name, use an underscore to tag between title and name
+    # replace "Mr. name" with "Mr_name"
+    # abbreviated titles like "Mr." "Mrs." "Ms." are not picked up by ne_chunk. Underscore helps
     title_abbreviations = set(["Mr", "Ms", "Mrs"])
     for abbr in title_abbreviations:
         text = re.sub(str(abbr+".\s"), str(abbr+"_"), text)
-    
+
     titles = set(["Lady", "Madam", "Miss", "Sir"])
     for t in titles:
         text = re.sub(str(t+"\s"), str(t+"_"), text)
@@ -231,21 +229,20 @@ def find_full_names(article):
         person = []
 
 
-    # check full name if it starts with "(title)_", "Madam_", "Miss_", "Mr_", then assign to gender
     # if non of these above, enter loop with gender-guesser
     male_title = set(["Sir", "Mr"])
     female_title = set(["Lady", "Madam", "Miss", "Ms", "Mrs"])
 
-
     print(person_list)
     name_dict = dict()
     for person in person_list:
+        # check full name if it starts with "(title)_", "Madam_", "Miss_", "Mr_", then assign to gender
         # check if there is underscore, which means a title is in the full name
         end_index = person.find("_")
         if end_index == -1:
-            # no underscore, go check next name
+            # no underscore, use gender-guessor to check gender
             name_dict[person] = [check_gender_for_full_name(person), 0]
-            continue
+            continue    # go to next iteration
 
         start_index = person.find(" ")
         # if there is space in title, we only need the last word before underscore
@@ -264,16 +261,11 @@ def find_full_names(article):
             name_dict[person][0] = "male"
         if title in female_title:
             name_dict[person][0] = "female"
-        # if non of these above, enter loop with gender-guesser
+        
+        # if title is not picked up correctly, use gender-guesser
         if name_dict[person][0] == "TBD":
             name_dict[person][0] = check_gender_for_full_name(person)
         
-    # remove titles
-    # title_all = set(["Mr.", "Ms.", "Mrs.", "Lady", "Madam", "Miss", "Sir"])
-    # for t in title_all:
-    #     original_text = re.sub(t+" ", "", original_text)
-
-    # run this by 1/3, count occurences of names 
 
     article.full_name_dictionary = name_dict
 

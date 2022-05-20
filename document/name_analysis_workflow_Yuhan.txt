@@ -1,0 +1,92 @@
+This doc covers how the tagging_demo.py extracts name from given articles, identifies the gender of each name, and counts how many male/female words is in the article.
+
+The name analysis script works with Python 3.9.13, NLTK's Categorizing and Tagging Words function(https://www.nltk.org/book/ch05.html), Named Entity recognition (https://www.nltk.org/book/ch07.html), and the gender-guesser by lead-ratings (https://github.com/lead-ratings/gender-guesser).
+
+For each article, this script picks up a list of full name with gender, then then go through the article word by word to check how many gender words is in the article, meanwhile counting the occurences of each name in the list of full name.
+Here is the main function of the script.
+
+	parsed_article_list = read_articles_from_gui()
+	for article in parsed_article_list:
+		find_full_names(article)
+		tag_article(article)
+		article_analysis(article, 3)
+
+		# clean up
+		article.text = ""
+		article.text_tagged = list()
+
+
+1. read_articles_from_gui()
+This function will prompt a gui window asking user to select one or multiple text files, and read text from each file. It returns with a list of Article objects.
+
+Each article is defined as an Article object. Here is the definition of Article dataclass:
+
+	@dataclass
+	class Article:
+		text_tagged: list
+		# [word, tag]
+		
+		segmented_gender_word_count: list	
+		# [No. of Segments, list(male_word_count, female_word_count)]
+		
+		full_name_dictionary: dict
+		# [name, list(gender, count)]
+
+		title: str = ""
+		author: str = ""
+		text: str = ""
+		word_count: int = 0
+		male_person: int = 0
+		female_person: int = 0
+		most_mentioned_male: str = ""
+		most_mentioned_female: str = ""
+
+The Article class contains all info we need for analysing one article, and the result of analysis will be saved in this class. 
+
+TODO 1: read pdf instead of text here to fill in more attribute of an Article
+
+TODO 2: replace this function with an auto process to read from downloaded pdf files
+
+
+
+2. find_full_names(article)
+This function takes an Article object, extract a list of full names from the article, identifies the gender of each full names, then save the result in full_name_dictionary attributes for the given Article.
+
+		full_name_dictionary: dict
+		# [name, list(gender, count)]
+
+When identifying the gender of given name, we consider the title in the text first. If no title present for a name, we use gender-guesser by calling check_gender_for_full_name(person).
+
+
+
+3. tag_article(article)
+This function parses a string of text to a list of words (only numbers English letters), then use nltk.pos_tag to generate a tagged list of words. The tagged list will be stored in article.text_tagged.
+
+		text_tagged: list
+		# [word, tag]
+
+
+
+4. article_analysis(article, how_many_segments)
+This function does the analysis for all attributes we want for the given article. You can specify how many segments for the article to be divided. I use 3 in the demo as we discussed.
+
+After the article is splitted, we also handle the case when a name is splitted into two segments.
+
+For each segment, we call count_gender_words(). With the counter of male/female words, we then grab male_person, female_person, most_mentioned_male, most_mentioned_female.
+
+
+
+5. count_gender_words(list_of_tagged_words, name_dict)
+name_dict is a instance of full_name_dictionary.
+This function returns a tuple of [male_word_count, female_word_count], and also updates the name_dict with name detected in the list_of_tagged_words.
+
+There is a for loop to check list_of_tagged_words word by word. The priority of word genre is listed below:
+
+First, check if the current word is a title. If it is, increse the counter of corresponding gender, increse the counter of the following name. No double count for both name and title.
+
+Second, check if word is in the name_dict. If it is, grab the gender from the name_dict and increase counter of both gender and name.
+
+Third, check with regular gender word dictionary. Ref: http://nealcaren.github.io/text-as-data/html/times_gender.html
+Two lists  of words that are used when a man or woman is present, based on Danielle Sucher's https://github.com/DanielleSucher/Jailbreak-the-Patriarchy
+
+
