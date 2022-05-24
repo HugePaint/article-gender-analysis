@@ -5,10 +5,11 @@ import tkinter as tk
 from tkinter import filedialog
 import numpy
 import gender_guesser.detector as gender
-
 from itertools import tee, islice, chain
+from dataclasses import dataclass, field, asdict
+import json
 
-from dataclasses import dataclass, field
+DEBUG = bool(False)
 
 # Ref: http://nealcaren.github.io/text-as-data/html/times_gender.html
 # Two lists  of words that are used when a man or woman is present, based on Danielle Sucher's https://github.com/DanielleSucher/Jailbreak-the-Patriarchy
@@ -29,6 +30,7 @@ class Article:
     category: str = ""
     text: str = ""
     word_count: int = 0
+    segments: int = 3
     male_person: int = 0
     female_person: int = 0
     most_mentioned_male: str = ""
@@ -73,7 +75,7 @@ def split_and_count(article, how_many_segments):
     for i in range(1, how_many_segments):
         split_point.append(i * where_to_split)
     split_point.append(len(list_of_tagged_words))
-    print(split_point)
+    # print(split_point)
 
     # check the last word of 1/3. if NNP, check first word in then next 1/3
     # if the 1/3 starts with NNP, send that word to prior 1/3, and check again.
@@ -88,13 +90,13 @@ def split_and_count(article, how_many_segments):
                 first_pair_in_next_seg = list_of_tagged_words[current_split]
             split_point[i] = current_split
 
-    print(split_point)
+    # print(split_point)
 
     count = list()
     for i in range(0, len(split_point) - 1):
-        print("\nCount for %2d/3" % i)
+        if DEBUG: ("\nCount for %2d/3" % i)
         count.append(count_gender_words(list_of_tagged_words[split_point[i] : split_point[i+1]], article.full_name_dictionary))
-        print("male : %3d, female : %3d" % (count[i][0], count[i][1]))
+        if DEBUG: print("male : %3d, female : %3d" % (count[i][0], count[i][1]))
     article.segmented_gender_word_count = count
 
     article.word_count = len(list_of_tagged_words)
@@ -116,10 +118,12 @@ def split_and_count(article, how_many_segments):
             max_female_count = gender_and_count[1]
     article.most_mentioned_female = [name for name, gender_and_count in article.full_name_dictionary.items() 
                                     if (gender_and_count[0] == "female") and (gender_and_count[1] == max_female_count)]
+    
+
     return
 
 def count_gender_words(list_of_tagged_words, name_dict):
-    print(list_of_tagged_words)
+    if DEBUG: (list_of_tagged_words)
 
     male_word_count = 0
     female_word_count = 0
@@ -139,14 +143,14 @@ def count_gender_words(list_of_tagged_words, name_dict):
 
         # if title, consider the gender mentioned
         if word in set(["Mr", "Ms", "Mrs", "Lady", "Madam", "Miss", "Sir"]):
-            # TODO: increase the counter
+            # increase the counter
             last_title = word
             if word in set(["Mr", "Sir"]):
                 male_word_count += 1
-                print(word + " is found to be a male title.")
+                if DEBUG: print(word + " is found to be a male title.")
             if word in set(["Ms", "Mrs", "Lady", "Madam", "Miss"]):
                 female_word_count += 1
-                print(word + " is found to be a female title.")
+                if DEBUG: print(word + " is found to be a female title.")
             continue
 
         # check if current word is in name list
@@ -162,11 +166,11 @@ def count_gender_words(list_of_tagged_words, name_dict):
                 last_full_name = p
                 name_dict[p][1] = name_dict[p][1] + 1
                 if last_title != None:
-                    print(last_title + " " + word + " is found as " + p + ", now count for " + str(name_dict[p][1]))
+                    if DEBUG: print(last_title + " " + word + " is found as " + p + ", now count for " + str(name_dict[p][1]))
                     last_title = "skipped"
                     break
                 word_gender = name_dict[p][0]
-                print("Name " + word + " is found as " + p + ", and it is " + word_gender + ", now count for " + str(name_dict[p][1]))
+                if DEBUG: print("Name " + word + " is found as " + p + ", and it is " + word_gender + ", now count for " + str(name_dict[p][1]))
         
         if last_title == "skipped":
             last_title = None
@@ -177,10 +181,10 @@ def count_gender_words(list_of_tagged_words, name_dict):
         word = pair[0].lower()
         if word in male_words:
             word_gender = "male"
-            print(word + " is found to be male.")
+            if DEBUG: print(word + " is found to be male.")
         if word in female_words:
             word_gender = "female"
-            print(word + " is found to be female.")
+            if DEBUG: print(word + " is found to be female.")
 
         # count increment
         if word_gender == "male":
@@ -242,7 +246,7 @@ def find_full_names(article):
     male_title = set(["Sir", "Mr"])
     female_title = set(["Lady", "Madam", "Miss", "Ms", "Mrs"])
 
-    print(person_list)
+    if DEBUG: print(person_list)
     name_dict = dict()
     for person in person_list:
         # check full name if it starts with "(title)_", "Madam_", "Miss_", "Mr_", then assign to gender
@@ -298,7 +302,7 @@ def check_gender_for_full_name(full_name):
 def analyze(article):
     find_full_names(article)
     tag_article(article)
-    split_and_count(article, 3)
+    split_and_count(article, article.segments)
 
     # clean up
     # article.text = ""
