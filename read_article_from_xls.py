@@ -22,8 +22,8 @@ class EnhancedJSONEncoder(json.JSONEncoder):
 df = pd.read_excel(r"data\First 100 Articles scored ZY.xlsx", header=0)
 article_list = list()
 expect_result = dict()
-# for i in range(0, len(df.index)):
-for i in range(0, 3):
+for i in range(0, len(df.index)):
+# for i in range(0, 3):
     serie = df.loc[i]
     article = analyzer.Article(list(), list(), dict())
     article.id = serie["#"]

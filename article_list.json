@@ -135,5 +135,5542 @@
         "female_person": 0,
         "most_mentioned_male": [],
         "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Yonhap News Agency": [
+                "unknown",
+                1
+            ],
+            "Cho Myung-kyun": [
+                "andy",
+                1
+            ],
+            "Koreas": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 4,
+        "title": "UPDATE 1-North Korea seeks South's help on power supply.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 285,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Song Min-soon": [
+                "andy",
+                1
+            ],
+            "Frederick Smith": [
+                "male",
+                1
+            ]
+        },
+        "id": 5,
+        "title": "Korea criminal authority to cover U.S. military.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 316,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Frederick Smith"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "North Korea": [
+                "unknown",
+                4
+            ],
+            "Koreas": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 6,
+        "title": "Two Koreas begin three days of economic talks.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 178,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                4,
+                2
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                6,
+                6
+            ]
+        ],
+        "full_name_dictionary": {
+            "Kim Dae-jung": [
+                "female",
+                9
+            ],
+            "Bill Clinton": [
+                "male",
+                5
+            ],
+            "Yonhap News Agency": [
+                "unknown",
+                2
+            ],
+            "Madeleine Albright": [
+                "female",
+                1
+            ],
+            "Pyongyang": [
+                "unknown",
+                2
+            ],
+            "George W. Bush": [
+                "male",
+                3
+            ],
+            "Kim Jong-il": [
+                "female",
+                9
+            ]
+        },
+        "id": 7,
+        "title": "S.Korea says Clinton not likely to visit N.Korea.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 282,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 3,
+        "most_mentioned_male": [
+            "Bill Clinton"
+        ],
+        "most_mentioned_female": [
+            "Kim Dae-jung",
+            "Kim Jong-il"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Kookmin Bank": [
+                "unknown",
+                5
+            ],
+            "Union": [
+                "unknown",
+                2
+            ],
+            "Seoul": [
+                "unknown",
+                2
+            ],
+            "Kim Dae-jung": [
+                "female",
+                3
+            ],
+            "Hanvit": [
+                "unknown",
+                2
+            ]
+        },
+        "id": 8,
+        "title": "Korea riot police clash with striking bank workers.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 483,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 1,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Kim Dae-jung"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "full_name_dictionary": {
+            "Kookmin Bank": [
+                "unknown",
+                6
+            ],
+            "Shin Dong-min": [
+                "andy",
+                1
+            ],
+            "Trade Unions": [
+                "unknown",
+                1
+            ],
+            "Jin Nyum": [
+                "female",
+                1
+            ],
+            "Seoul": [
+                "unknown",
+                4
+            ],
+            "Kim Dae-jung": [
+                "female",
+                3
+            ]
+        },
+        "id": 9,
+        "title": "UPDATE 2-Korea riot police battle striking bank workers.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 686,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 2,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Kim Dae-jung"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                4,
+                3
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "full_name_dictionary": {
+            "Kim Dae-jung": [
+                "female",
+                5
+            ],
+            "Kookmin Bank": [
+                "unknown",
+                10
+            ],
+            "Lee Kyong-soo": [
+                "male",
+                2
+            ],
+            "Lee Phil-sang": [
+                "male",
+                2
+            ],
+            "Union": [
+                "unknown",
+                2
+            ],
+            "Seoul": [
+                "unknown",
+                3
+            ],
+            "Kwangju Bank": [
+                "unknown",
+                6
+            ],
+            "Cheju Bank": [
+                "unknown",
+                6
+            ],
+            "Hanvit": [
+                "unknown",
+                3
+            ],
+            "Poor": [
+                "unknown",
+                1
+            ],
+            "Korea": [
+                "unknown",
+                5
+            ]
+        },
+        "id": 10,
+        "title": "UPDATE 1-Striking Korean bank workers,police set to clash.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 695,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Lee Kyong-soo",
+            "Lee Phil-sang"
+        ],
+        "most_mentioned_female": [
+            "Kim Dae-jung"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                4,
+                1
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Chung Mong-hun": [
+                "andy",
+                4
+            ],
+            "Kumkang": [
+                "unknown",
+                4
+            ],
+            "Kim Young-soo": [
+                "female",
+                6
+            ],
+            "Hyundai Asan": [
+                "unknown",
+                10
+            ],
+            "Pyongyang": [
+                "unknown",
+                1
+            ],
+            "Hyundai Group": [
+                "unknown",
+                7
+            ]
+        },
+        "id": 11,
+        "title": "Korea Hyundai Asan says chairman on way to N.Korea.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 339,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 1,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Kim Young-soo"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Impoverished North Korea": [
+                "unknown",
+                8
+            ],
+            "Lee": [
+                "male",
+                1
+            ]
+        },
+        "id": 12,
+        "title": "Koreas to discuss North's demand for electricity.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 229,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Lee"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Yoon Byung-tae": [
+                "andy",
+                5
+            ],
+            "Grand National Party": [
+                "unknown",
+                5
+            ],
+            "Millennium Democratic Party": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 13,
+        "title": "S.Korea set to approve $81 billion budget for 2001.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 707,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "full_name_dictionary": {
+            "Kookmin": [
+                "unknown",
+                1
+            ],
+            "Christmas": [
+                "unknown",
+                2
+            ],
+            "Lee Han-dong": [
+                "male",
+                2
+            ],
+            "Jin Nyum": [
+                "female",
+                1
+            ],
+            "Kim Ho-jin": [
+                "female",
+                1
+            ],
+            "Lee Keun-young": [
+                "male",
+                2
+            ]
+        },
+        "id": 14,
+        "title": "Korea urges striking bank workers back to work.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 303,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 2,
+        "most_mentioned_male": [
+            "Lee Han-dong",
+            "Lee Keun-young"
+        ],
+        "most_mentioned_female": [
+            "Jin Nyum",
+            "Kim Ho-jin"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Ministry": [
+                "unknown",
+                2
+            ],
+            "North Korea": [
+                "unknown",
+                7
+            ]
+        },
+        "id": 15,
+        "title": "Two Koreas to start work on DMZ rail link in March",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 266,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                2
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "full_name_dictionary": {
+            "Dong Ah Construction": [
+                "andy",
+                2
+            ],
+            "Jeon Jae-seek": [
+                "andy",
+                2
+            ],
+            "Kim Ho-jin": [
+                "female",
+                2
+            ],
+            "Earlier": [
+                "unknown",
+                1
+            ],
+            "Kim Dae-jung": [
+                "female",
+                2
+            ],
+            "STEADY RISE": [
+                "unknown",
+                1
+            ],
+            "Shin Dong-suk": [
+                "andy",
+                1
+            ],
+            "Seoul": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 16,
+        "title": "UPDATE 1-Korea Nov jobless rate 4.1 pct vs 3.9 pct in Oct.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 669,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 2,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Kim Ho-jin",
+            "Kim Dae-jung"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Christmas": [
+                "unknown",
+                1
+            ],
+            "Dong Ah": [
+                "andy",
+                8
+            ],
+            "Korea Composite Stock": [
+                "unknown",
+                7
+            ],
+            "Bankrupt": [
+                "unknown",
+                1
+            ],
+            "Adrian Cowell": [
+                "male",
+                1
+            ],
+            "Arirang Fund": [
+                "unknown",
+                1
+            ],
+            "Sergei Klimovsky": [
+                "male",
+                1
+            ],
+            "St Petersburg": [
+                "unknown",
+                1
+            ],
+            "Libya": [
+                "unknown",
+                1
+            ],
+            "Great": [
+                "unknown",
+                1
+            ],
+            "Seoulbank": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 17,
+        "title": "Korea's Dong Ah on golden streak as market sinks.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 650,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Adrian Cowell",
+            "Sergei Klimovsky"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "full_name_dictionary": {},
+        "id": 18,
+        "title": "TABLE-Korea Nov jobless 4.1 pct vs 3.9 pct in Oct.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 206,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Pohang Iron": [
+                "unknown",
+                1
+            ],
+            "Korea": [
+                "unknown",
+                5
+            ],
+            "Yoo Byung-chang": [
+                "andy",
+                3
+            ],
+            "POSCO": [
+                "unknown",
+                9
+            ],
+            "Nippon Steel Corp": [
+                "unknown",
+                3
+            ],
+            "Kawasaki Steel Corp": [
+                "unknown",
+                3
+            ],
+            "Kobe Steel Ltd": [
+                "male",
+                2
+            ]
+        },
+        "id": 19,
+        "title": "UPDATE 2-Korea POSCO may act against Japan steel.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 435,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Kobe Steel Ltd"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Pohang Iron": [
+                "unknown",
+                1
+            ],
+            "Korea": [
+                "unknown",
+                8
+            ],
+            "Inchon Iron": [
+                "unknown",
+                1
+            ],
+            "Sammi Steel Co Ltd": [
+                "unknown",
+                3
+            ],
+            "Taihan Electric Wire Co Ltd": [
+                "unknown",
+                1
+            ],
+            "Daiyang Metal Co Ltd": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 20,
+        "title": "Korea POSCO sees little impact from China duties.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 372,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                1
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Park Jae-kyu": [
+                "unknown",
+                4
+            ],
+            "Jon Kum-jin": [
+                "male",
+                2
+            ],
+            "Kim Jong-il": [
+                "female",
+                1
+            ],
+            "Cold War": [
+                "unknown",
+                2
+            ],
+            "March": [
+                "male",
+                1
+            ],
+            "North Korea": [
+                "unknown",
+                18
+            ],
+            "Koreas": [
+                "unknown",
+                2
+            ]
+        },
+        "id": 21,
+        "title": "North,South Korea aid talks falter over electricity.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 498,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Jon Kum-jin"
+        ],
+        "most_mentioned_female": [
+            "Kim Jong-il"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Millennium Democratic Party": [
+                "unknown",
+                1
+            ],
+            "Wee Sung-boo": [
+                "unknown",
+                1
+            ],
+            "Deputy Bureau Director": [
+                "unknown",
+                1
+            ],
+            "Policy Planning Committee": [
+                "unknown",
+                2
+            ],
+            "Grand National Party": [
+                "unknown",
+                5
+            ],
+            "Kim Young-wook": [
+                "female",
+                1
+            ]
+        },
+        "id": 22,
+        "title": "Korea parliament seen passing budget next week.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 287,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 1,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Kim Young-wook"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Pyongyang": [
+                "unknown",
+                2
+            ],
+            "Park Jae-kyu": [
+                "unknown",
+                3
+            ],
+            "Hyundai Engineering": [
+                "unknown",
+                4
+            ],
+            "Mount Kumgang": [
+                "unknown",
+                1
+            ],
+            "George W. Bush": [
+                "male",
+                2
+            ],
+            "Jon Kum-jin": [
+                "male",
+                1
+            ],
+            "North Korea": [
+                "unknown",
+                18
+            ]
+        },
+        "id": 23,
+        "title": "N.Korea worries about S.Korean economy, US election.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 514,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "George W. Bush"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                9,
+                4
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                5,
+                4
+            ]
+        ],
+        "full_name_dictionary": {
+            "Kim Dae-jung": [
+                "female",
+                9
+            ],
+            "Korea": [
+                "unknown",
+                6
+            ],
+            "Kookmin Bank": [
+                "unknown",
+                3
+            ],
+            "Daewoo Motor": [
+                "unknown",
+                1
+            ],
+            "Mikhail Gorbachev": [
+                "male",
+                1
+            ],
+            "Lech Walensa": [
+                "male",
+                1
+            ]
+        },
+        "id": 24,
+        "title": "Nobel laureate Kim returns to crisis in South Korea.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 616,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Mikhail Gorbachev",
+            "Lech Walensa"
+        ],
+        "most_mentioned_female": [
+            "Kim Dae-jung"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Haedong": [
+                "unknown",
+                3
+            ],
+            "Korea Asset": [
+                "unknown",
+                3
+            ]
+        },
+        "id": 25,
+        "title": "Haedong Mutual to halt operations 6 mths.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 245,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                3,
+                1
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Unification": [
+                "unknown",
+                2
+            ],
+            "Park Jae-kyu": [
+                "unknown",
+                6
+            ],
+            "Pyongyang": [
+                "unknown",
+                2
+            ],
+            "Jon Kum-jin": [
+                "male",
+                3
+            ],
+            "Kim Jong-il": [
+                "female",
+                2
+            ],
+            "Reports": [
+                "unknown",
+                1
+            ],
+            "Koreas": [
+                "unknown",
+                2
+            ],
+            "Kim Dae-jung": [
+                "female",
+                2
+            ]
+        },
+        "id": 26,
+        "title": "S.Korea expects tougher talks in Pyongyang meeting.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 496,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 2,
+        "most_mentioned_male": [
+            "Jon Kum-jin"
+        ],
+        "most_mentioned_female": [
+            "Kim Jong-il",
+            "Kim Dae-jung"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Certain Conventional Weapons": [
+                "unknown",
+                3
+            ],
+            "Kofi Annan": [
+                "male",
+                1
+            ]
+        },
+        "id": 27,
+        "title": "SKorea to join global treaty banning certain landmines.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 322,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Kofi Annan"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                4,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Bill Clinton": [
+                "male",
+                2
+            ],
+            "Korea": [
+                "unknown",
+                9
+            ],
+            "Song Min-soon": [
+                "andy",
+                3
+            ],
+            "Seoul": [
+                "unknown",
+                4
+            ],
+            "Kim Dae-jung": [
+                "female",
+                1
+            ],
+            "Frederick Smith": [
+                "male",
+                1
+            ]
+        },
+        "id": 28,
+        "title": "U.S. and South Korea fail to revise military accord.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 488,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Bill Clinton"
+        ],
+        "most_mentioned_female": [
+            "Kim Dae-jung"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Lee Sang-ku": [
+                "male",
+                1
+            ],
+            "Park": [
+                "unknown",
+                1
+            ],
+            "Yoo Jae-cheol": [
+                "andy",
+                1
+            ]
+        },
+        "id": 29,
+        "title": "UPDATE 1-Korea spurs plans to help avert credit squeeze.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 393,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Lee Sang-ku"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Asiana": [
+                "unknown",
+                4
+            ],
+            "Korean Air": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 30,
+        "title": "Korea's Asiana says pilots drop strike plans.",
+        "author": "",
+        "country": "Korea",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 162,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                7,
+                3
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                8,
+                3
+            ]
+        ],
+        "full_name_dictionary": {
+            "Kim Dae-jung": [
+                "female",
+                13
+            ],
+            "Korea": [
+                "unknown",
+                11
+            ],
+            "Pyongyang": [
+                "unknown",
+                2
+            ],
+            "George W.": [
+                "male",
+                1
+            ],
+            "Kim Jong-il": [
+                "female",
+                13
+            ],
+            "Kim Il-sung": [
+                "female",
+                13
+            ]
+        },
+        "id": 31,
+        "title": "S.Korea's Kim vows better North ties, clean polls.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 670,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 3,
+        "most_mentioned_male": [
+            "George W."
+        ],
+        "most_mentioned_female": [
+            "Kim Dae-jung",
+            "Kim Jong-il",
+            "Kim Il-sung"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Rodong Sinmun": [
+                "unknown",
+                1
+            ],
+            "Korea Central News Agency": [
+                "unknown",
+                7
+            ],
+            "Pyongyang": [
+                "unknown",
+                1
+            ],
+            "Madeleine Albright": [
+                "female",
+                1
+            ],
+            "Bill Clinton": [
+                "male",
+                2
+            ],
+            "North Korea": [
+                "unknown",
+                14
+            ]
+        },
+        "id": 32,
+        "title": "North Korea ends 2001 with anti-U.S. diatribe.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 353,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Bill Clinton"
+        ],
+        "most_mentioned_female": [
+            "Madeleine Albright"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Tokyo": [
+                "unknown",
+                4
+            ],
+            "Korea": [
+                "unknown",
+                7
+            ],
+            "Fisheries": [
+                "unknown",
+                1
+            ],
+            "Japan": [
+                "unknown",
+                6
+            ],
+            "Junichiro Koizumi": [
+                "male",
+                2
+            ]
+        },
+        "id": 33,
+        "title": "South Korea and Japan resolve fisheries dispute.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 272,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Junichiro Koizumi"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                11
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Korea": [
+                "unknown",
+                5
+            ],
+            "Brigitte Bardot": [
+                "female",
+                5
+            ],
+            "Kim Hong-shin": [
+                "female",
+                1
+            ],
+            "Seoul": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 34,
+        "title": "Legalise it', Korea lawmakers say in dogmeat flap.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 377,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 2,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Brigitte Bardot"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                2
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                3,
+                4
+            ]
+        ],
+        "full_name_dictionary": {
+            "Kim Il-sung": [
+                "female",
+                6
+            ],
+            "Korea Central News Agency": [
+                "unknown",
+                10
+            ],
+            "Camp": [
+                "unknown",
+                1
+            ],
+            "North Koreans": [
+                "unknown",
+                12
+            ],
+            "Kim Jong-il": [
+                "female",
+                6
+            ]
+        },
+        "id": 35,
+        "title": "UPDATE 1-N.Korea sets amnesty for late founder's birthdate.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 479,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 2,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Kim Il-sung",
+            "Kim Jong-il"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                2
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                3,
+                3
+            ]
+        ],
+        "full_name_dictionary": {
+            "Kim Il-sung": [
+                "female",
+                6
+            ],
+            "Korea Central News Agency": [
+                "unknown",
+                8
+            ],
+            "Camp": [
+                "unknown",
+                1
+            ],
+            "North Koreans": [
+                "unknown",
+                10
+            ],
+            "Kim Jong-il": [
+                "female",
+                6
+            ]
+        },
+        "id": 36,
+        "title": "N.Korea sets amnesty for late leader's birthdate.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 390,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 2,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Kim Il-sung",
+            "Kim Jong-il"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Korea Central News Agency": [
+                "unknown",
+                13
+            ],
+            "Coast Guard": [
+                "unknown",
+                3
+            ],
+            "Yasuo Fukuda": [
+                "male",
+                3
+            ],
+            "Japan": [
+                "unknown",
+                13
+            ],
+            "Pyongyang": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 37,
+        "title": "UPDATE 2-North Korea warns Japan on mystery ship allegation.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 540,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Yasuo Fukuda"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Korea Central News Agency": [
+                "unknown",
+                4
+            ],
+            "Guard": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 38,
+        "title": "North Korea warns Japan on mystery ship allegation.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 168,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Korea Central News Agency": [
+                "unknown",
+                2
+            ],
+            "Hamid Karzai": [
+                "male",
+                1
+            ],
+            "North Korea": [
+                "unknown",
+                4
+            ],
+            "Qaeda": [
+                "unknown",
+                1
+            ],
+            "Laden": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 39,
+        "title": "North Korea welcomes new Afghan government.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 227,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Hamid Karzai"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Korea Central News Agency": [
+                "unknown",
+                11
+            ],
+            "Sankei Shimbun": [
+                "unknown",
+                1
+            ],
+            "Defence Agency": [
+                "unknown",
+                2
+            ],
+            "North": [
+                "unknown",
+                10
+            ],
+            "Party": [
+                "unknown",
+                1
+            ],
+            "Pyongyang": [
+                "unknown",
+                1
+            ],
+            "Coast Guard": [
+                "unknown",
+                3
+            ],
+            "Paul Eckert": [
+                "male",
+                1
+            ],
+            "Seoul Newsroom": [
+                "unknown",
+                2
+            ]
+        },
+        "id": 40,
+        "title": "UPDATE 2-N.Korea says mystery ship link 'sheer rumour'.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 585,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Paul Eckert"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Korea Central News Agency": [
+                "unknown",
+                3
+            ]
+        },
+        "id": 41,
+        "title": "N.Korea accuses Japan of \"brutal piracy\" over ship.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 114,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                9,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                4
+            ]
+        ],
+        "full_name_dictionary": {
+            "Kim Dae-jung": [
+                "female",
+                11
+            ],
+            "Oh Hong-keun": [
+                "andy",
+                1
+            ],
+            "Korea": [
+                "unknown",
+                8
+            ],
+            "Grand National Party": [
+                "unknown",
+                3
+            ],
+            "Yoon Tai-shik": [
+                "andy",
+                5
+            ],
+            "Suzy Kim": [
+                "female",
+                12
+            ],
+            "Chang Kwang-geun": [
+                "andy",
+                1
+            ],
+            "Millennium Democratic Party": [
+                "unknown",
+                1
+            ],
+            "Shin Kwang-ock": [
+                "andy",
+                1
+            ]
+        },
+        "id": 42,
+        "title": "S.Korea's Kim eyes rural respite as woes mount.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 763,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 2,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Suzy Kim"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                4,
+                2
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Kim": [
+                "female",
+                2
+            ],
+            "Supreme Commander": [
+                "unknown",
+                1
+            ],
+            "Seoul": [
+                "unknown",
+                5
+            ],
+            "Yonhap": [
+                "unknown",
+                1
+            ],
+            "North Korea": [
+                "unknown",
+                14
+            ]
+        },
+        "id": 43,
+        "title": "UPDATE 1-N.Korea hails Kim army anniversary, mum on ship.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 544,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 1,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Kim"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                4,
+                2
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Kim": [
+                "female",
+                2
+            ],
+            "Supreme Commander": [
+                "unknown",
+                1
+            ],
+            "Seoul": [
+                "unknown",
+                4
+            ],
+            "Yonhap": [
+                "unknown",
+                1
+            ],
+            "North Korea": [
+                "unknown",
+                11
+            ]
+        },
+        "id": 44,
+        "title": "N.Korea hails Kim army anniversary, mum on ship.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 472,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 1,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Kim"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Yonhap": [
+                "unknown",
+                2
+            ]
+        },
+        "id": 45,
+        "title": "Korean govt sees rising labour unrest in 2002.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 246,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Korea": [
+                "unknown",
+                2
+            ]
+        },
+        "id": 46,
+        "title": "Korea delays 2002 budget approval until next week.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 201,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Seoul": [
+                "unknown",
+                1
+            ],
+            "Pyongyang": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 47,
+        "title": "Seoul lifts \"security alert\", back to normal guard.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 224,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "full_name_dictionary": {
+            "Hong Soon-young": [
+                "andy",
+                1
+            ],
+            "Seoul": [
+                "unknown",
+                3
+            ],
+            "Pyongyang": [
+                "unknown",
+                3
+            ],
+            "Kim Dae-jung": [
+                "female",
+                3
+            ],
+            "Nobel Peace Prize": [
+                "unknown",
+                1
+            ],
+            "North Korea": [
+                "unknown",
+                17
+            ],
+            "Kim Jong-il": [
+                "female",
+                3
+            ]
+        },
+        "id": 48,
+        "title": "S.Korea to donate 100,000 tonnes of corn to North.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 456,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 2,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Kim Dae-jung",
+            "Kim Jong-il"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Grand National Party": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 49,
+        "title": "Korea MPs scrap pension fund equities buying bill.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 181,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Korea Central News Agency": [
+                "unknown",
+                13
+            ],
+            "Coast Guard": [
+                "unknown",
+                3
+            ],
+            "Yasuo Fukuda": [
+                "male",
+                3
+            ],
+            "Japan": [
+                "unknown",
+                13
+            ],
+            "Pyongyang": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 50,
+        "title": "UPDATE 2-North Korea warns Japan on mystery ship allegation.",
+        "author": "",
+        "country": "Korea",
+        "year": 2001,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 540,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Yasuo Fukuda"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                19,
+                0
+            ],
+            [
+                20,
+                0
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Paul Martin": [
+                "male",
+                9
+            ],
+            "Jean Chretien": [
+                "male",
+                11
+            ],
+            "Christmas": [
+                "unknown",
+                1
+            ],
+            "Gordon Thiessen": [
+                "male",
+                1
+            ]
+        },
+        "id": 51,
+        "title": "Canada's Martin plans to stay on as finance minister.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 510,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Paul Martin": [
+                "male",
+                2
+            ]
+        },
+        "id": 52,
+        "title": "Martin cheered by Canadian growth despite U.S.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 116,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Paul Martin"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                9,
+                1
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Bill": [
+                "male",
+                1
+            ],
+            "Clinton": [
+                "male",
+                5
+            ],
+            "Al Gore": [
+                "male",
+                3
+            ],
+            "Citizen": [
+                "unknown",
+                3
+            ],
+            "Hilary Mackenzie": [
+                "female",
+                1
+            ],
+            "Pat Buchanan": [
+                "andy",
+                2
+            ],
+            "Florida": [
+                "unknown",
+                5
+            ],
+            "George W.": [
+                "male",
+                1
+            ]
+        },
+        "id": 53,
+        "title": "Canadian paper reports Clinton saying Gore would win.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 362,
+        "segments": 3,
+        "male_person": 4,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Clinton"
+        ],
+        "most_mentioned_female": [
+            "Hilary Mackenzie"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                4,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Raymond Chan": [
+                "male",
+                2
+            ],
+            "Jean Chretien": [
+                "male",
+                1
+            ],
+            "Stephane Dion": [
+                "unknown",
+                1
+            ],
+            "Canada": [
+                "unknown",
+                3
+            ]
+        },
+        "id": 54,
+        "title": "Liberal blames defeat on alienation of Canada's West.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 343,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Raymond Chan"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Canada": [
+                "unknown",
+                11
+            ],
+            "Ottawa": [
+                "unknown",
+                3
+            ],
+            "Brazil": [
+                "unknown",
+                13
+            ],
+            "Embraer": [
+                "unknown",
+                3
+            ],
+            "Francois Lasalle": [
+                "unknown",
+                3
+            ],
+            "Janeiro": [
+                "unknown",
+                2
+            ],
+            "Jose Alfredo Graca Lima": [
+                "male",
+                2
+            ],
+            "Shasta Darlington": [
+                "female",
+                1
+            ]
+        },
+        "id": 55,
+        "title": "UPDATE 2-Canada to slap trade sanctions on Brazil.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 586,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Jose Alfredo Graca Lima"
+        ],
+        "most_mentioned_female": [
+            "Shasta Darlington"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Canada": [
+                "unknown",
+                3
+            ],
+            "Brazil": [
+                "unknown",
+                3
+            ],
+            "Francois Lasalle": [
+                "unknown",
+                1
+            ],
+            "Ottawa": [
+                "unknown",
+                1
+            ],
+            "Janeiro": [
+                "unknown",
+                1
+            ],
+            "Embraer": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 56,
+        "title": "Canada to apply sanctions against Brazil over jets.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 176,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Elections Canada": [
+                "unknown",
+                3
+            ],
+            "Spokesman Francis Charette": [
+                "unknown",
+                2
+            ],
+            "Julie Boulet": [
+                "female",
+                1
+            ],
+            "Marcel Gagnon": [
+                "male",
+                2
+            ],
+            "Canadian Alliance": [
+                "unknown",
+                1
+            ],
+            "Gord Brown": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 57,
+        "title": "Canada's Liberals lose seat to Bloc after review.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 222,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Marcel Gagnon"
+        ],
+        "most_mentioned_female": [
+            "Julie Boulet"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                3,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Paul Martin": [
+                "male",
+                1
+            ],
+            "Chretien": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 58,
+        "title": "Canadian PM not planning to move finance minister.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 59,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Paul Martin"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                13,
+                0
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Chretien": [
+                "unknown",
+                7
+            ],
+            "Paul Martin": [
+                "male",
+                3
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Joe Clark": [
+                "male",
+                2
+            ],
+            "Reform Party": [
+                "unknown",
+                3
+            ],
+            "Elections Canada": [
+                "unknown",
+                3
+            ],
+            "Allan Dowd": [
+                "male",
+                1
+            ],
+            "Jeff Jones": [
+                "male",
+                1
+            ]
+        },
+        "id": 59,
+        "title": "UPDATE 3-Canada's Chretien says has mandate to stay.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 789,
+        "segments": 3,
+        "male_person": 4,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Paul Martin"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                21,
+                0
+            ],
+            [
+                24,
+                0
+            ],
+            [
+                22,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                16
+            ],
+            "Paul Martin": [
+                "male",
+                21
+            ],
+            "Allan Rock": [
+                "male",
+                1
+            ],
+            "Brian Tobin": [
+                "male",
+                1
+            ],
+            "March": [
+                "male",
+                4
+            ],
+            "Des Morton": [
+                "male",
+                1
+            ]
+        },
+        "id": 60,
+        "title": "Canada's Martin set to be next PM, key backers say.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 625,
+        "segments": 3,
+        "male_person": 6,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Paul Martin"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                3,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Carl Schwenger": [
+                "male",
+                1
+            ],
+            "Putin": [
+                "unknown",
+                1
+            ],
+            "Jean Chretien": [
+                "male",
+                1
+            ],
+            "Boris Yeltsin": [
+                "male",
+                1
+            ],
+            "Seven": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 61,
+        "title": "Russia's Putin to visit Canada Dec 17-19.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 79,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Carl Schwenger",
+            "Jean Chretien",
+            "Boris Yeltsin"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                13,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                12,
+                2
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                10
+            ],
+            "Mail": [
+                "unknown",
+                1
+            ],
+            "Jason Kenney": [
+                "male",
+                1
+            ],
+            "Elections Canada": [
+                "unknown",
+                5
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Alberta": [
+                "female",
+                2
+            ],
+            "Quebec": [
+                "unknown",
+                5
+            ],
+            "Ontario": [
+                "unknown",
+                5
+            ],
+            "Paul Martin": [
+                "male",
+                1
+            ],
+            "Allan Rock": [
+                "male",
+                1
+            ]
+        },
+        "id": 62,
+        "title": "UPDATE 1-Canada's Chretien triumphs over skeptics",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 754,
+        "segments": 3,
+        "male_person": 4,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": [
+            "Alberta"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                13,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                11,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                4
+            ],
+            "Paul Martin": [
+                "male",
+                2
+            ],
+            "Quebec": [
+                "unknown",
+                3
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Joe Clark": [
+                "male",
+                2
+            ],
+            "Alexa McDonough": [
+                "female",
+                1
+            ],
+            "David Ljunggren": [
+                "male",
+                1
+            ],
+            "Patrick White": [
+                "male",
+                1
+            ],
+            "Allan Dowd": [
+                "male",
+                1
+            ],
+            "Jeffrey Jones": [
+                "male",
+                1
+            ],
+            "Robert Melnbardis": [
+                "male",
+                1
+            ],
+            "Rob Wilson": [
+                "male",
+                1
+            ]
+        },
+        "id": 63,
+        "title": "Canada's Chretien defies expectations in victory.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 783,
+        "segments": 3,
+        "male_person": 9,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": [
+            "Alexa McDonough"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                18,
+                0
+            ],
+            [
+                20,
+                0
+            ],
+            [
+                13,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                8
+            ],
+            "Paul Martin": [
+                "male",
+                5
+            ],
+            "Allan Gregg": [
+                "male",
+                1
+            ],
+            "Michael Robinson": [
+                "male",
+                3
+            ],
+            "Wilfrid Laurier": [
+                "male",
+                1
+            ]
+        },
+        "id": 64,
+        "title": "ANALYSIS-Canada's Chretien easily won biggest gamble.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 685,
+        "segments": 3,
+        "male_person": 5,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                21,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                14,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                9
+            ],
+            "Paul Martin": [
+                "male",
+                2
+            ],
+            "Michel": [
+                "male",
+                1
+            ],
+            "Quebec": [
+                "unknown",
+                3
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Joe Clark": [
+                "male",
+                2
+            ],
+            "Alexa McDonough": [
+                "female",
+                1
+            ],
+            "David Ljunggren": [
+                "male",
+                1
+            ],
+            "Patrick White": [
+                "male",
+                1
+            ],
+            "Allan Dowd": [
+                "male",
+                1
+            ],
+            "Jeffrey Jones": [
+                "male",
+                1
+            ],
+            "Robert Melnbardis": [
+                "male",
+                1
+            ],
+            "Rob Wilson": [
+                "male",
+                1
+            ]
+        },
+        "id": 65,
+        "title": "UPDATE 10-Canada's Liberals win strong third majority.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 964,
+        "segments": 3,
+        "male_person": 10,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": [
+            "Alexa McDonough"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                1
+            ]
+        },
+        "id": 66,
+        "title": "Canada's Liberals to form majority government-CTV.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 67,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {},
+        "id": 67,
+        "title": "Canada's Liberals to form goverment-CBC.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 107,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Gilles Mitchell": [
+                "male",
+                3
+            ],
+            "Quebec": [
+                "unknown",
+                2
+            ],
+            "Canada": [
+                "unknown",
+                2
+            ]
+        },
+        "id": 68,
+        "title": "Canadian boy, 8, shoots man - police investigate.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 180,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Gilles Mitchell"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                7,
+                0
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                9,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Macdonald": [
+                "unknown",
+                1
+            ],
+            "Alexander Mackenzie": [
+                "male",
+                2
+            ],
+            "John Abbott": [
+                "male",
+                5
+            ],
+            "John Thompson": [
+                "male",
+                3
+            ],
+            "Mackenzie Bowell": [
+                "male",
+                1
+            ],
+            "Charles Tupper": [
+                "male",
+                1
+            ],
+            "Wilfrid Laurier": [
+                "male",
+                1
+            ],
+            "Robert Borden": [
+                "male",
+                1
+            ],
+            "Arthur Meighen": [
+                "male",
+                1
+            ],
+            "William Lyon Mackenzie King": [
+                "male",
+                1
+            ],
+            "Bennett": [
+                "male",
+                1
+            ],
+            "Louis St. Laurent": [
+                "male",
+                2
+            ],
+            "John Diefenbaker": [
+                "male",
+                3
+            ],
+            "Lester B. Pearson": [
+                "male",
+                2
+            ],
+            "Pierre Elliott Trudeau": [
+                "male",
+                1
+            ],
+            "Joe Clark": [
+                "male",
+                1
+            ],
+            "John Turner": [
+                "male",
+                2
+            ],
+            "Brian Mulroney": [
+                "male",
+                1
+            ],
+            "Kim Campbell": [
+                "female",
+                1
+            ],
+            "Jean Chretien": [
+                "male",
+                1
+            ]
+        },
+        "id": 69,
+        "title": "Canadian Prime Ministers since 1867.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 147,
+        "segments": 3,
+        "male_person": 18,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "John Abbott"
+        ],
+        "most_mentioned_female": [
+            "Kim Campbell"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                11,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                10
+            ],
+            "Quebec": [
+                "unknown",
+                4
+            ],
+            "Canada": [
+                "unknown",
+                4
+            ],
+            "Yukon": [
+                "unknown",
+                1
+            ],
+            "Nunavut": [
+                "unknown",
+                1
+            ],
+            "Joe Clark": [
+                "male",
+                1
+            ],
+            "Alexa McDonough": [
+                "female",
+                1
+            ],
+            "Gilles Duceppe": [
+                "male",
+                1
+            ]
+        },
+        "id": 70,
+        "title": "UPDATE 1-Canada starts voting in largely unwanted election.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 829,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": [
+            "Alexa McDonough"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                8,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                10
+            ],
+            "Ontario": [
+                "unknown",
+                5
+            ],
+            "Quebec": [
+                "unknown",
+                3
+            ],
+            "Canada": [
+                "unknown",
+                4
+            ],
+            "Yukon": [
+                "unknown",
+                1
+            ],
+            "Nunavut": [
+                "unknown",
+                1
+            ],
+            "Joe Clark": [
+                "male",
+                1
+            ],
+            "Alexa McDonough": [
+                "female",
+                1
+            ],
+            "Gilles Duceppe": [
+                "male",
+                1
+            ]
+        },
+        "id": 71,
+        "title": "CORRECTED - Canadians start voting in largely unwanted election.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 846,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": [
+            "Alexa McDonough"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                6,
+                1
+            ],
+            [
+                10,
+                0
+            ],
+            [
+                3,
+                4
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                4
+            ],
+            "Leader Stockwell": [
+                "unknown",
+                1
+            ],
+            "Alberta": [
+                "female",
+                1
+            ],
+            "Preston Manning": [
+                "male",
+                1
+            ],
+            "Joe Clark": [
+                "male",
+                2
+            ],
+            "Lucien Bouchard": [
+                "male",
+                1
+            ],
+            "Gilles Duceppe": [
+                "male",
+                1
+            ],
+            "Nova Scotia": [
+                "female",
+                2
+            ],
+            "Alexa McDonough": [
+                "female",
+                1
+            ],
+            "Ontario": [
+                "unknown",
+                4
+            ],
+            "Nunavut": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 72,
+        "title": "Canada's main political parties and their policies.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 852,
+        "segments": 3,
+        "male_person": 5,
+        "female_person": 3,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": [
+            "Nova Scotia"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                11,
+                0
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                8,
+                4
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                4
+            ],
+            "Leader Stockwell": [
+                "unknown",
+                1
+            ],
+            "Alberta": [
+                "female",
+                1
+            ],
+            "Preston Manning": [
+                "male",
+                1
+            ],
+            "Joe Clark": [
+                "male",
+                2
+            ],
+            "Lucien Bouchard": [
+                "male",
+                1
+            ],
+            "Gilles Duceppe": [
+                "male",
+                1
+            ],
+            "Nova Scotia": [
+                "female",
+                3
+            ],
+            "Alexa McDonough": [
+                "female",
+                1
+            ],
+            "Ontario": [
+                "unknown",
+                4
+            ],
+            "Nunavut": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 73,
+        "title": "Canada's main political parties and their leaders.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 1079,
+        "segments": 3,
+        "male_person": 5,
+        "female_person": 3,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": [
+            "Nova Scotia"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                12,
+                4
+            ],
+            [
+                20,
+                1
+            ],
+            [
+                11,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Richard Hollingsworth": [
+                "male",
+                11
+            ],
+            "Phyllis": [
+                "female",
+                2
+            ],
+            "Valentine": [
+                "female",
+                1
+            ],
+            "Alberta": [
+                "female",
+                1
+            ],
+            "Organizers": [
+                "unknown",
+                1
+            ],
+            "Webcast": [
+                "unknown",
+                2
+            ]
+        },
+        "id": 74,
+        "title": "FEATURE-AIDS activist invites world into his home to learn.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 852,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 3,
+        "most_mentioned_male": [
+            "Richard Hollingsworth"
+        ],
+        "most_mentioned_female": [
+            "Phyllis"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Luc Haspect": [
+                "male",
+                1
+            ],
+            "Gatineau Hills": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 75,
+        "title": "UPDATE 1-Small plane crashes in Hull, two dead.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 115,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Luc Haspect"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Hull": [
+                "unknown",
+                3
+            ],
+            "Luc Haspect": [
+                "male",
+                1
+            ],
+            "Gatineau Hills": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 76,
+        "title": "Small plane crashes in Hull, injuring two.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 82,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Luc Haspect"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                8,
+                0
+            ],
+            [
+                17,
+                0
+            ],
+            [
+                9,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Veteran": [
+                "unknown",
+                1
+            ],
+            "Jean Chretien": [
+                "male",
+                9
+            ],
+            "Opinion": [
+                "unknown",
+                1
+            ],
+            "Ottawa": [
+                "unknown",
+                5
+            ],
+            "Allen Mills": [
+                "male",
+                1
+            ],
+            "Freedom Train": [
+                "unknown",
+                1
+            ],
+            "Quebec": [
+                "unknown",
+                2
+            ],
+            "Paul Fox": [
+                "male",
+                1
+            ],
+            "Pierre Trudeau": [
+                "male",
+                1
+            ],
+            "Norman Ruff": [
+                "male",
+                1
+            ]
+        },
+        "id": 77,
+        "title": "FEATURE-Canada heading into bitter, divisive election.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 1244,
+        "segments": 3,
+        "male_person": 5,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                13,
+                4
+            ],
+            [
+                19,
+                1
+            ],
+            [
+                12,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Richard Hollingsworth": [
+                "male",
+                15
+            ],
+            "Phyllis": [
+                "female",
+                2
+            ],
+            "Valentine": [
+                "female",
+                1
+            ],
+            "Alberta": [
+                "female",
+                1
+            ],
+            "Organizers": [
+                "unknown",
+                1
+            ],
+            "Webcast": [
+                "unknown",
+                2
+            ]
+        },
+        "id": 78,
+        "title": "PluggedIn - AIDS activist invites world into his home to learn.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 871,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 3,
+        "most_mentioned_male": [
+            "Richard Hollingsworth"
+        ],
+        "most_mentioned_female": [
+            "Phyllis"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                3,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Dale Orr": [
+                "male",
+                2
+            ],
+            "Jean Chretien": [
+                "male",
+                2
+            ],
+            "Jonathan Kesselman": [
+                "male",
+                2
+            ],
+            "Walter Robinson": [
+                "male",
+                1
+            ],
+            "Canadians": [
+                "unknown",
+                1
+            ],
+            "Concern": [
+                "unknown",
+                1
+            ],
+            "Canada": [
+                "unknown",
+                4
+            ]
+        },
+        "id": 79,
+        "title": "Canadian voters offered tasty economic tidbits.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 576,
+        "segments": 3,
+        "male_person": 4,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Dale Orr",
+            "Jean Chretien",
+            "Jonathan Kesselman"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                5,
+                0
+            ],
+            [
+                10,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                8
+            ],
+            "Jason Kenney": [
+                "male",
+                1
+            ]
+        },
+        "id": 80,
+        "title": "Canada's PM dismisses probe into controversial deal.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 477,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                16,
+                0
+            ],
+            [
+                19,
+                0
+            ],
+            [
+                10,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                10
+            ],
+            "Louis St. Laurent": [
+                "male",
+                8
+            ],
+            "John Diefenbaker": [
+                "male",
+                2
+            ],
+            "Could Chretien": [
+                "unknown",
+                9
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Lawrence Martin": [
+                "male",
+                1
+            ],
+            "Ottawa Citizen": [
+                "unknown",
+                1
+            ],
+            "Opinion": [
+                "unknown",
+                1
+            ],
+            "Lester Pearson": [
+                "male",
+                1
+            ],
+            "Ronald Reagan": [
+                "male",
+                1
+            ],
+            "Charles De Gaulle": [
+                "male",
+                1
+            ],
+            "William Gladstone": [
+                "male",
+                1
+            ],
+            "Des Morton": [
+                "male",
+                2
+            ],
+            "Close Chretien": [
+                "unknown",
+                9
+            ],
+            "Don Boudria": [
+                "male",
+                1
+            ]
+        },
+        "id": 81,
+        "title": "ANALYSIS-Is Canada's veteran PM outstaying his welcome?",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 782,
+        "segments": 3,
+        "male_person": 10,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                1
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Don Dewar": [
+                "male",
+                2
+            ],
+            "Alberta": [
+                "female",
+                1
+            ],
+            "Jean Chretien": [
+                "male",
+                4
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Others": [
+                "unknown",
+                1
+            ],
+            "Darrin Qualman": [
+                "male",
+                1
+            ],
+            "Prairie": [
+                "unknown",
+                2
+            ],
+            "Wellington Avenue": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 82,
+        "title": "Canada election meets farm plight with stony silence.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 646,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": [
+            "Alberta"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                3,
+                2
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Ottawa": [
+                "unknown",
+                6
+            ],
+            "Alberta": [
+                "female",
+                3
+            ],
+            "Roger Gibbins": [
+                "male",
+                2
+            ],
+            "Canada West": [
+                "unknown",
+                17
+            ],
+            "Jean Chretien": [
+                "male",
+                3
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Stephen Harper": [
+                "male",
+                2
+            ],
+            "Pierre Trudeau": [
+                "male",
+                1
+            ],
+            "Professor David Shugarman": [
+                "unknown",
+                1
+            ],
+            "John Harvard": [
+                "male",
+                1
+            ]
+        },
+        "id": 83,
+        "title": "ANALYSIS-Canada election may deepen regional mistrust.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 892,
+        "segments": 3,
+        "male_person": 5,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": [
+            "Alberta"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                6,
+                0
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                8
+            ],
+            "Herb Dhaliwal": [
+                "male",
+                1
+            ],
+            "Paul Martin": [
+                "male",
+                1
+            ],
+            "Wharton Econometric Forecast Associates": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 84,
+        "title": "Canadian PM hammers opposition over health policy.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 568,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                10,
+                0
+            ],
+            [
+                11,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                8
+            ],
+            "Stockwell": [
+                "unknown",
+                2
+            ],
+            "Joe Clark": [
+                "male",
+                2
+            ],
+            "Quebec": [
+                "unknown",
+                2
+            ],
+            "Southam News": [
+                "unknown",
+                1
+            ],
+            "Alexa McDonough": [
+                "female",
+                1
+            ],
+            "Gilles Duceppe": [
+                "male",
+                1
+            ]
+        },
+        "id": 85,
+        "title": "Canada Liberals, strong in polls, stay aggressive.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 741,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": [
+            "Alexa McDonough"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Joe Lieberman": [
+                "male",
+                2
+            ],
+            "Jean Chretien": [
+                "male",
+                3
+            ],
+            "Stockwell": [
+                "unknown",
+                2
+            ],
+            "Rod Love": [
+                "male",
+                2
+            ],
+            "Francoise Ducros": [
+                "unknown",
+                1
+            ],
+            "Saturdays": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 86,
+        "title": "Sabbath surfaces in Canadian election campaign.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 177,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                19,
+                0
+            ],
+            [
+                14,
+                0
+            ],
+            [
+                15,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                17
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Joe Clark": [
+                "male",
+                3
+            ]
+        },
+        "id": 87,
+        "title": "UPDATE 3-Canada's Chretien under fire in election debate.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 751,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                5,
+                0
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                9
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Canada": [
+                "unknown",
+                5
+            ],
+            "Diane Ablonczy": [
+                "female",
+                1
+            ],
+            "Gilles Duceppe": [
+                "male",
+                1
+            ],
+            "Bloc Quebecois": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 88,
+        "title": "Tempers set to flare in second Canada election debate.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 576,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": [
+            "Diane Ablonczy"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                7,
+                0
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Chretien": [
+                "unknown",
+                7
+            ],
+            "Canada": [
+                "unknown",
+                5
+            ],
+            "Lester Pearson": [
+                "male",
+                1
+            ],
+            "Joe Clark": [
+                "male",
+                1
+            ],
+            "Opinion": [
+                "unknown",
+                1
+            ],
+            "Gilles Duceppe": [
+                "male",
+                1
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Rod Love": [
+                "male",
+                1
+            ],
+            "Robert Melnbardis": [
+                "male",
+                1
+            ]
+        },
+        "id": 89,
+        "title": "UPDATE 3-Canadian PM savaged over health care cuts.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 674,
+        "segments": 3,
+        "male_person": 5,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Lester Pearson",
+            "Joe Clark",
+            "Gilles Duceppe",
+            "Rod Love",
+            "Robert Melnbardis"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                11,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                13,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                11
+            ],
+            "Stockwell": [
+                "unknown",
+                2
+            ],
+            "Canada": [
+                "unknown",
+                6
+            ],
+            "Alberta": [
+                "female",
+                1
+            ],
+            "Randall Palmer": [
+                "male",
+                1
+            ]
+        },
+        "id": 90,
+        "title": "UPDATE 1-Canadian PM savages opposition over gun control.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 643,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": [
+            "Alberta"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                12,
+                0
+            ],
+            [
+                10,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                11
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Pearson": [
+                "unknown",
+                1
+            ],
+            "Abortion": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 91,
+        "title": "Attacks fly in Canadian election campaign.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 646,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                7,
+                0
+            ],
+            [
+                15,
+                0
+            ],
+            [
+                13,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                11
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Canada": [
+                "unknown",
+                3
+            ],
+            "Ottawa": [
+                "unknown",
+                1
+            ],
+            "Preston Manning": [
+                "male",
+                2
+            ],
+            "Gilles Duceppe": [
+                "male",
+                1
+            ],
+            "John Turner": [
+                "male",
+                1
+            ],
+            "Brian Mulroney": [
+                "male",
+                1
+            ]
+        },
+        "id": 92,
+        "title": "Canadian leaders gear up for tough election debates.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 697,
+        "segments": 3,
+        "male_person": 5,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                12,
+                3
+            ],
+            [
+                14,
+                0
+            ],
+            [
+                15,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                11
+            ],
+            "Edward Island": [
+                "male",
+                1
+            ],
+            "Anne Gable": [
+                "female",
+                2
+            ],
+            "Canada": [
+                "unknown",
+                2
+            ]
+        },
+        "id": 93,
+        "title": "Canadian PM's election campaign stuck in second gear.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 749,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": [
+            "Anne Gable"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                7,
+                0
+            ],
+            [
+                16,
+                1
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                12
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Red Book": [
+                "andy",
+                1
+            ],
+            "Andre Desmarais": [
+                "male",
+                1
+            ],
+            "Power": [
+                "unknown",
+                2
+            ],
+            "John Rae": [
+                "male",
+                1
+            ],
+            "Canada": [
+                "unknown",
+                5
+            ]
+        },
+        "id": 94,
+        "title": "Gloves come off in Canadian election campaign.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 692,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                1
+            ],
+            "Mail": [
+                "unknown",
+                1
+            ],
+            "Darrell Bricker": [
+                "male",
+                3
+            ],
+            "Environics": [
+                "unknown",
+                5
+            ],
+            "Chris Baker": [
+                "male",
+                2
+            ],
+            "Jason Kenney": [
+                "male",
+                1
+            ]
+        },
+        "id": 95,
+        "title": "UPDATE 2-Canadian Alliance cuts Liberal lead further.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 659,
+        "segments": 3,
+        "male_person": 4,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Darrell Bricker"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                7,
+                0
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                7
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Canada": [
+                "unknown",
+                3
+            ],
+            "Ottawa": [
+                "unknown",
+                3
+            ]
+        },
+        "id": 96,
+        "title": "UPDATE 4-Canada's Liberals, opposition clash over healthcare.\nBy David",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 635,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean": [
+                "male",
+                0
+            ],
+            "Chris Baker": [
+                "male",
+                2
+            ],
+            "Jason Kenney": [
+                "male",
+                1
+            ]
+        },
+        "id": 97,
+        "title": "UPDATE 1-Canadian Alliance cuts Liberal lead further.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 423,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Chris Baker"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                4,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                8
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Book Lite": [
+                "unknown",
+                1
+            ],
+            "Red Book III": [
+                "andy",
+                7
+            ],
+            "Jaws": [
+                "unknown",
+                1
+            ],
+            "Ucal Powell": [
+                "unknown",
+                1
+            ],
+            "David Ljunggren": [
+                "male",
+                1
+            ]
+        },
+        "id": 98,
+        "title": "Canadian Liberal platform attacked as costly sequel.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 632,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                1
+            ],
+            "Chris Baker": [
+                "male",
+                2
+            ],
+            "Line Maheux": [
+                "female",
+                1
+            ],
+            "Jason Kenney": [
+                "male",
+                1
+            ]
+        },
+        "id": 99,
+        "title": "Canadian Alliance cuts Liberal lead further.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 372,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Chris Baker"
+        ],
+        "most_mentioned_female": [
+            "Line Maheux"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                3,
+                0
+            ],
+            [
+                6,
+                2
+            ],
+            [
+                6,
+                3
+            ]
+        ],
+        "full_name_dictionary": {
+            "Liberals": [
+                "unknown",
+                1
+            ],
+            "Jean Chretien": [
+                "male",
+                4
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Alberta": [
+                "female",
+                3
+            ],
+            "Jason Kenney": [
+                "male",
+                3
+            ],
+            "Deb Grey": [
+                "female",
+                1
+            ]
+        },
+        "id": 100,
+        "title": "UPDATE 1-Health care now key Canada election issue.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 675,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 2,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": [
+            "Alberta"
+        ]
     }
 ]
