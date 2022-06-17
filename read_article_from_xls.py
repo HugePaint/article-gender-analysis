@@ -1,3 +1,4 @@
+import statistics
 import pandas as pd
 import tagging_demo as analyzer
 import json
@@ -34,7 +35,10 @@ for i in range(0, len(df.index)):
     article.text = serie["Content "]
     article_list.append(article)
 
-    expect_result[str(serie["#"])] = list([serie["Female Central (out of 5) - ZY"], serie["Male Central (out of 5) - ZY"]])
+    female_score = np.mean([serie["Female Central (out of 5) - ZY"], serie["Female Central (out of 5) - Rafael"]])
+    male_score = np.mean([serie["Male Central (out of 5) - ZY"], serie["Male Central (out of 5) - Rafael"]])
+    print(female_score, " ", male_score)
+    expect_result[str(serie["#"])] = list([female_score, male_score])
 
 for a in article_list:
     analyzer.analyze(a)
