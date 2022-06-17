@@ -19,7 +19,7 @@ class EnhancedJSONEncoder(json.JSONEncoder):
             return super().default(o)
 
 
-df = pd.read_excel(r"data\First 100 Articles scored ZY.xlsx", header=0)
+df = pd.read_excel(r"data\Training.xlsx", header=0)
 article_list = list()
 expect_result = dict()
 for i in range(0, len(df.index)):

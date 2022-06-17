@@ -81,12 +81,9 @@ print(r2_score(y_test, y_2))
 
 colors = sns.color_palette("colorblind")
 
-# plt.figure()
-# plt.scatter(X_test[:,0], y_test, color=colors[0], label="training samples")
-# plt.plot(X_test[:,0], y_1, color=colors[1], label="n_estimators=1", linewidth=2)
-# plt.plot(X_test[:,0], y_2, color=colors[2], label="n_estimators=300", linewidth=2)
-# plt.xlabel("data")
-# plt.ylabel("target")
-# plt.title("Boosted Decision Tree Regression")
-# plt.legend()
-# plt.show()
+# Model persistence
+# Ref: https://scikit-learn.org/stable/model_persistence.html
+
+from joblib import dump, load
+dump(regr_1, 'DecisionTreeRegressor.joblib') 
+dump(regr_2, 'AdaBoostRegressor.joblib') 
