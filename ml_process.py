@@ -53,21 +53,40 @@ expect_results = json.load(open('expect_results.json',))
 feature_list = list()
 # get feature from extracted list
 for a in article_list:
-    segment_words = a["word_count"] // a["segments"]
-    features = [a["male_person"] - a["female_person"]]
+    # segment_words = a["word_count"] // a["segments"]
+    # # features = [a["male_person"] - a["female_person"]]
+    # features = [a["female_person"]]
+    # features.append(a["word_count"])
+    # for segment in a["segmented_gender_word_count"]:
+    #     for x in segment:
+    #         features.append(x / segment_words)
+    # feature_list.append(features)
+
+    # # flip
+    # segment_words = a["word_count"] // a["segments"]
+    # # features = [a["female_person"] - a["male_person"]]
+    # features = [a["male_person"]]
+    # features.append(a["word_count"])
+    # for segment in a["segmented_gender_word_count"]:
+    #     features.append(segment[1] / segment_words)
+    #     features.append(segment[0] / segment_words)
+    # feature_list.append(features)
+
+    # features = [a["male_person"] - a["female_person"]]
+    features = [a["female_person"]]
     features.append(a["word_count"])
     for segment in a["segmented_gender_word_count"]:
         for x in segment:
-            features.append(x / segment_words)
+            features.append(x)
     feature_list.append(features)
 
     # flip
-    segment_words = a["word_count"] // a["segments"]
-    features = [a["female_person"] - a["male_person"]]
+    # features = [a["female_person"] - a["male_person"]]
+    features = [a["male_person"]]
     features.append(a["word_count"])
     for segment in a["segmented_gender_word_count"]:
-        features.append(segment[1] / segment_words)
-        features.append(segment[0] / segment_words)
+        features.append(segment[1])
+        features.append(segment[0])
     feature_list.append(features)
 
 
@@ -88,7 +107,7 @@ for e in expect_results.values():
 X = np.array(feature_list)
 y = np.array(expect_results_with_flipped_data)
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.4, random_state=0
+    X, y, test_size=0.2, random_state=0
 )
 
 x_min, x_max = min([i[0] for i in X]) - 0.5, max([i[0] for i in X]) + 0.5
@@ -117,45 +136,45 @@ ax.set_yticks(())
 i = 1
 print("--------Testing male set")
 for name, clf in zip(names, classifiers):
-    clf.fit(X_train, y_train)
-    score = clf.score(X_test, y_test)
-    print(name + ": " + str(score))
+    # clf.fit(X_train, y_train)
+    # score = clf.score(X_test, y_test)
+    # print(name + ": " + str(score))
 
     
-#     ax = plt.subplot(1, len(classifiers) + 1, i)
-#     clf.fit(X_train, y_train)
-#     score = clf.score(X_test, y_test)
-#     # DecisionBoundaryDisplay.from_estimator(
-#     #     clf, X, cmap=cm, alpha=0.8, ax=ax, eps=0.5
-#     # )
+    ax = plt.subplot(1, len(classifiers) + 1, i)
+    clf.fit(X_train, y_train)
+    score = clf.score(X_test, y_test)
+    # DecisionBoundaryDisplay.from_estimator(
+    #     clf, X, cmap=cm, alpha=0.8, ax=ax, eps=0.5
+    # )
 
-#     # Plot the training points
-#     ax.scatter(
-#             X_train[:, 0], X_train[:, 1], c=y_train, cmap=cm_bright, edgecolors="k"
-#     )
-#     # Plot the testing points
-#     ax.scatter(
-#             X_test[:, 0],
-#             X_test[:, 1],
-#             c=y_test,
-#             cmap=cm_bright,
-#             edgecolors="k",
-#             alpha=0.6,
-#     )
+    # Plot the training points
+    ax.scatter(
+            X_train[:, 0], X_train[:, 1], c=y_train, cmap=cm_bright, edgecolors="k"
+    )
+    # Plot the testing points
+    ax.scatter(
+            X_test[:, 0],
+            X_test[:, 1],
+            c=y_test,
+            cmap=cm_bright,
+            edgecolors="k",
+            alpha=0.6,
+    )
 
-#     ax.set_xlim(x_min, x_max)
-#     ax.set_ylim(y_min, y_max)
-#     ax.set_xticks(())
-#     ax.set_yticks(())
-#     ax.set_title(name)
-#     ax.text(
-#         x_max - 0.3,
-#         y_min + 0.3,
-#         ("%.2f" % score).lstrip("0"),
-#         size=15,
-#         horizontalalignment="right",
-#     )
-#     i += 1
+    ax.set_xlim(x_min, x_max)
+    ax.set_ylim(y_min, y_max)
+    ax.set_xticks(())
+    ax.set_yticks(())
+    ax.set_title(name)
+    ax.text(
+        x_max - 0.3,
+        y_min + 0.3,
+        ("%.2f" % score).lstrip("0"),
+        size=15,
+        horizontalalignment="right",
+    )
+    i += 1
 
-# plt.tight_layout()
-# plt.show()
+plt.tight_layout()
+plt.show()

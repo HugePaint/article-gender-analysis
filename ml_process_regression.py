@@ -19,9 +19,10 @@ expect_results = json.load(open('expect_results.json',))
 
 feature_list = list()
 # get feature from extracted list
-for a in article_list:
+for a in article_list: 
     segment_words = a["word_count"] // a["segments"]
-    features = [a["male_person"] - a["female_person"]]
+    # features = [a["male_person"] - a["female_person"]]
+    features = [a["female_person"]]
     features.append(a["word_count"])
     for segment in a["segmented_gender_word_count"]:
         for x in segment:
@@ -30,7 +31,8 @@ for a in article_list:
 
     # flip
     segment_words = a["word_count"] // a["segments"]
-    features = [a["female_person"] - a["male_person"]]
+    # features = [a["female_person"] - a["male_person"]]
+    features = [a["male_person"]]
     features.append(a["word_count"])
     for segment in a["segmented_gender_word_count"]:
         features.append(segment[1] / segment_words)
@@ -55,16 +57,16 @@ for e in expect_results.values():
 X = np.array(feature_list)
 y = np.array(expect_results_with_flipped_data)
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.4, random_state=0
+    X, y, test_size=0.3, random_state=0
 )
 
 # Decision Tree Regression with AdaBoost
 # Ref: https://scikit-learn.org/stable/auto_examples/ensemble/plot_adaboost_regression.html
 
-regr_1 = DecisionTreeRegressor(max_depth=4)
+regr_1 = DecisionTreeRegressor(max_depth=6)
 
 regr_2 = AdaBoostRegressor(
-    DecisionTreeRegressor(max_depth=4), n_estimators=300, random_state=None
+    DecisionTreeRegressor(max_depth=6), n_estimators=300, random_state=None
 )
 
 regr_1.fit(X_train, y_train)
@@ -79,12 +81,12 @@ print(r2_score(y_test, y_2))
 
 colors = sns.color_palette("colorblind")
 
-plt.figure()
-plt.scatter(X_test[:,0], y_test, color=colors[0], label="training samples")
-plt.plot(X_test[:,0], y_1, color=colors[1], label="n_estimators=1", linewidth=2)
-plt.plot(X_test[:,0], y_2, color=colors[2], label="n_estimators=300", linewidth=2)
-plt.xlabel("data")
-plt.ylabel("target")
-plt.title("Boosted Decision Tree Regression")
-plt.legend()
-plt.show()
+# plt.figure()
+# plt.scatter(X_test[:,0], y_test, color=colors[0], label="training samples")
+# plt.plot(X_test[:,0], y_1, color=colors[1], label="n_estimators=1", linewidth=2)
+# plt.plot(X_test[:,0], y_2, color=colors[2], label="n_estimators=300", linewidth=2)
+# plt.xlabel("data")
+# plt.ylabel("target")
+# plt.title("Boosted Decision Tree Regression")
+# plt.legend()
+# plt.show()
