@@ -4820,5 +4820,7264 @@
         "most_mentioned_female": [
             "Alexa McDonough"
         ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Joe Lieberman": [
+                "male",
+                2
+            ],
+            "Jean Chretien": [
+                "male",
+                3
+            ],
+            "Stockwell": [
+                "unknown",
+                2
+            ],
+            "Rod Love": [
+                "male",
+                2
+            ],
+            "Francoise Ducros": [
+                "unknown",
+                1
+            ],
+            "Saturdays": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 86,
+        "title": "Sabbath surfaces in Canadian election campaign.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 177,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                19,
+                0
+            ],
+            [
+                14,
+                0
+            ],
+            [
+                15,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                17
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Joe Clark": [
+                "male",
+                3
+            ]
+        },
+        "id": 87,
+        "title": "UPDATE 3-Canada's Chretien under fire in election debate.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 751,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                5,
+                0
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                9
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Canada": [
+                "unknown",
+                5
+            ],
+            "Diane Ablonczy": [
+                "female",
+                1
+            ],
+            "Gilles Duceppe": [
+                "male",
+                1
+            ],
+            "Bloc Quebecois": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 88,
+        "title": "Tempers set to flare in second Canada election debate.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 576,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": [
+            "Diane Ablonczy"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                7,
+                0
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Chretien": [
+                "unknown",
+                7
+            ],
+            "Canada": [
+                "unknown",
+                5
+            ],
+            "Lester Pearson": [
+                "male",
+                1
+            ],
+            "Joe Clark": [
+                "male",
+                1
+            ],
+            "Opinion": [
+                "unknown",
+                1
+            ],
+            "Gilles Duceppe": [
+                "male",
+                1
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Rod Love": [
+                "male",
+                1
+            ],
+            "Robert Melnbardis": [
+                "male",
+                1
+            ]
+        },
+        "id": 89,
+        "title": "UPDATE 3-Canadian PM savaged over health care cuts.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 674,
+        "segments": 3,
+        "male_person": 5,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Lester Pearson",
+            "Joe Clark",
+            "Gilles Duceppe",
+            "Rod Love",
+            "Robert Melnbardis"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                11,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                13,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                11
+            ],
+            "Stockwell": [
+                "unknown",
+                2
+            ],
+            "Canada": [
+                "unknown",
+                6
+            ],
+            "Alberta": [
+                "female",
+                1
+            ],
+            "Randall Palmer": [
+                "male",
+                1
+            ]
+        },
+        "id": 90,
+        "title": "UPDATE 1-Canadian PM savages opposition over gun control.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 643,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": [
+            "Alberta"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                12,
+                0
+            ],
+            [
+                10,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                11
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Pearson": [
+                "unknown",
+                1
+            ],
+            "Abortion": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 91,
+        "title": "Attacks fly in Canadian election campaign.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 646,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                7,
+                0
+            ],
+            [
+                15,
+                0
+            ],
+            [
+                13,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                11
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Canada": [
+                "unknown",
+                3
+            ],
+            "Ottawa": [
+                "unknown",
+                1
+            ],
+            "Preston Manning": [
+                "male",
+                2
+            ],
+            "Gilles Duceppe": [
+                "male",
+                1
+            ],
+            "John Turner": [
+                "male",
+                1
+            ],
+            "Brian Mulroney": [
+                "male",
+                1
+            ]
+        },
+        "id": 92,
+        "title": "Canadian leaders gear up for tough election debates.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 697,
+        "segments": 3,
+        "male_person": 5,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                12,
+                3
+            ],
+            [
+                14,
+                0
+            ],
+            [
+                15,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                11
+            ],
+            "Edward Island": [
+                "male",
+                1
+            ],
+            "Anne Gable": [
+                "female",
+                2
+            ],
+            "Canada": [
+                "unknown",
+                2
+            ]
+        },
+        "id": 93,
+        "title": "Canadian PM's election campaign stuck in second gear.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 749,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": [
+            "Anne Gable"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                7,
+                0
+            ],
+            [
+                16,
+                1
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                12
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Red Book": [
+                "andy",
+                1
+            ],
+            "Andre Desmarais": [
+                "male",
+                1
+            ],
+            "Power": [
+                "unknown",
+                2
+            ],
+            "John Rae": [
+                "male",
+                1
+            ],
+            "Canada": [
+                "unknown",
+                5
+            ]
+        },
+        "id": 94,
+        "title": "Gloves come off in Canadian election campaign.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 692,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                1
+            ],
+            "Mail": [
+                "unknown",
+                1
+            ],
+            "Darrell Bricker": [
+                "male",
+                3
+            ],
+            "Environics": [
+                "unknown",
+                5
+            ],
+            "Chris Baker": [
+                "male",
+                2
+            ],
+            "Jason Kenney": [
+                "male",
+                1
+            ]
+        },
+        "id": 95,
+        "title": "UPDATE 2-Canadian Alliance cuts Liberal lead further.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 659,
+        "segments": 3,
+        "male_person": 4,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Darrell Bricker"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                7,
+                0
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                7
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Canada": [
+                "unknown",
+                3
+            ],
+            "Ottawa": [
+                "unknown",
+                3
+            ]
+        },
+        "id": 96,
+        "title": "UPDATE 4-Canada's Liberals, opposition clash over healthcare.\nBy David",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 635,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean": [
+                "male",
+                0
+            ],
+            "Chris Baker": [
+                "male",
+                2
+            ],
+            "Jason Kenney": [
+                "male",
+                1
+            ]
+        },
+        "id": 97,
+        "title": "UPDATE 1-Canadian Alliance cuts Liberal lead further.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 423,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Chris Baker"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                4,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                8
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Book Lite": [
+                "unknown",
+                1
+            ],
+            "Red Book III": [
+                "andy",
+                7
+            ],
+            "Jaws": [
+                "unknown",
+                1
+            ],
+            "Ucal Powell": [
+                "unknown",
+                1
+            ],
+            "David Ljunggren": [
+                "male",
+                1
+            ]
+        },
+        "id": 98,
+        "title": "Canadian Liberal platform attacked as costly sequel.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 632,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jean Chretien": [
+                "male",
+                1
+            ],
+            "Chris Baker": [
+                "male",
+                2
+            ],
+            "Line Maheux": [
+                "female",
+                1
+            ],
+            "Jason Kenney": [
+                "male",
+                1
+            ]
+        },
+        "id": 99,
+        "title": "Canadian Alliance cuts Liberal lead further.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 372,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Chris Baker"
+        ],
+        "most_mentioned_female": [
+            "Line Maheux"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                3,
+                0
+            ],
+            [
+                6,
+                2
+            ],
+            [
+                6,
+                3
+            ]
+        ],
+        "full_name_dictionary": {
+            "Liberals": [
+                "unknown",
+                1
+            ],
+            "Jean Chretien": [
+                "male",
+                4
+            ],
+            "Stockwell": [
+                "unknown",
+                1
+            ],
+            "Alberta": [
+                "female",
+                3
+            ],
+            "Jason Kenney": [
+                "male",
+                3
+            ],
+            "Deb Grey": [
+                "female",
+                1
+            ]
+        },
+        "id": 100,
+        "title": "UPDATE 1-Health care now key Canada election issue.",
+        "author": "",
+        "country": "Canada",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 675,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 2,
+        "most_mentioned_male": [
+            "Jean Chretien"
+        ],
+        "most_mentioned_female": [
+            "Alberta"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Steve Waugh": [
+                "male",
+                2
+            ],
+            "Jimmy Adams": [
+                "male",
+                3
+            ],
+            "Eric": [
+                "male",
+                1
+            ],
+            "Colin Croft": [
+                "male",
+                1
+            ]
+        },
+        "id": 101,
+        "title": "Cricket-Woeful West Indies reduced to a laughing stock.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 576,
+        "segments": 3,
+        "male_person": 4,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jimmy Adams"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Ausmaid": [
+                "unknown",
+                5
+            ],
+            "Kevan Pearce": [
+                "male",
+                1
+            ],
+            "Australian Broadcasting Corp": [
+                "unknown",
+                3
+            ],
+            "Bull": [
+                "unknown",
+                1
+            ],
+            "Quest": [
+                "unknown",
+                1
+            ],
+            "Yendys": [
+                "unknown",
+                1
+            ],
+            "Nicorette": [
+                "unknown",
+                2
+            ],
+            "Bass Strait": [
+                "unknown",
+                2
+            ],
+            "Storm Bay": [
+                "male",
+                1
+            ],
+            "Wild Thing": [
+                "unknown",
+                1
+            ],
+            "Assa Abloy": [
+                "female",
+                2
+            ],
+            "Volvo": [
+                "unknown",
+                3
+            ],
+            "Nokia": [
+                "unknown",
+                3
+            ],
+            "Bermuda": [
+                "unknown",
+                1
+            ],
+            "Kong": [
+                "andy",
+                1
+            ]
+        },
+        "id": 102,
+        "title": "Sailing-Ausmaid namedSydney-Hobart handicap winner.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 546,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Kevan Pearce",
+            "Storm Bay"
+        ],
+        "most_mentioned_female": [
+            "Assa Abloy"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Bondi Beach.The Philippines": [
+                "unknown",
+                1
+            ],
+            "Jiang Zemin": [
+                "andy",
+                1
+            ],
+            "Vladimir Putin": [
+                "male",
+                1
+            ],
+            "Sri Lanka": [
+                "andy",
+                1
+            ],
+            "Arab": [
+                "unknown",
+                1
+            ],
+            "Millennium Dome": [
+                "unknown",
+                1
+            ],
+            "Transport": [
+                "unknown",
+                1
+            ],
+            "Brazil": [
+                "unknown",
+                1
+            ],
+            "Latin America": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 103,
+        "title": "WRAPUP 1-One by one, world's nations hail the new year.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 682,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Vladimir Putin"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Christopher Roberts": [
+                "male",
+                1
+            ],
+            "Bondi Beach": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 104,
+        "title": "Tens of thousands cram to see Sydney fireworks.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 182,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Christopher Roberts"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                6,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                9,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Sachin Tendulkar": [
+                "male",
+                1
+            ],
+            "Kiwis": [
+                "unknown",
+                1
+            ],
+            "Chris Cairns": [
+                "male",
+                1
+            ],
+            "Brian Lara": [
+                "male",
+                1
+            ],
+            "Melbourne": [
+                "unknown",
+                2
+            ],
+            "Shane Warne": [
+                "male",
+                2
+            ],
+            "Dennis Lillee": [
+                "male",
+                1
+            ],
+            "Glenn McGrath": [
+                "male",
+                1
+            ],
+            "Adam Gilchrist": [
+                "male",
+                1
+            ],
+            "Steve Waugh": [
+                "male",
+                5
+            ]
+        },
+        "id": 105,
+        "title": "Cricket-Australia end year as undisputed world champions.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 814,
+        "segments": 3,
+        "male_person": 8,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Steve Waugh"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                6,
+                3
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                7,
+                4
+            ]
+        ],
+        "full_name_dictionary": {
+            "Johnathon Thwaites": [
+                "male",
+                3
+            ],
+            "Kerry Danes": [
+                "female",
+                2
+            ],
+            "Alexander Downer": [
+                "male",
+                1
+            ],
+            "Laos Securicor": [
+                "unknown",
+                4
+            ],
+            "Kay Danes": [
+                "male",
+                4
+            ]
+        },
+        "id": 106,
+        "title": "Australia seeks reason couple detained in Laos.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 345,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Kay Danes"
+        ],
+        "most_mentioned_female": [
+            "Kerry Danes"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                7,
+                0
+            ],
+            [
+                9,
+                0
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Nicorette": [
+                "unknown",
+                2
+            ],
+            "Garry Holt": [
+                "male",
+                2
+            ],
+            "Nokia": [
+                "unknown",
+                5
+            ],
+            "Stefan Myralf": [
+                "male",
+                3
+            ],
+            "Storm Bay": [
+                "male",
+                2
+            ],
+            "Clougher": [
+                "unknown",
+                2
+            ],
+            "Ninety Seven": [
+                "unknown",
+                2
+            ],
+            "Gibson": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 107,
+        "title": "Sailing-Three Hobart race crew survive after falls overboard.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 617,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Stefan Myralf"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                4,
+                4
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jonathon Thwaites": [
+                "male",
+                1
+            ],
+            "Kerry Danes": [
+                "female",
+                2
+            ],
+            "Alexander Downer": [
+                "male",
+                1
+            ],
+            "Laos Securicor": [
+                "unknown",
+                4
+            ],
+            "Kay Danes": [
+                "male",
+                3
+            ]
+        },
+        "id": 108,
+        "title": "Australian ambassador to Laos to visit couple.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 249,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Kay Danes"
+        ],
+        "most_mentioned_female": [
+            "Kerry Danes"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                10,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Aborigines": [
+                "unknown",
+                2
+            ],
+            "Edmund Barton": [
+                "male",
+                1
+            ],
+            "George Washington": [
+                "male",
+                2
+            ],
+            "Thomas Keneally": [
+                "male",
+                8
+            ],
+            "Great Inaugural": [
+                "unknown",
+                1
+            ],
+            "Rodney Cavalier": [
+                "male",
+                2
+            ],
+            "Mike Steketee": [
+                "male",
+                1
+            ],
+            "Step": [
+                "unknown",
+                1
+            ],
+            "Thomas Jefferson": [
+                "male",
+                2
+            ]
+        },
+        "id": 109,
+        "title": "Australia set for federation party after big 2000.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 749,
+        "segments": 3,
+        "male_person": 6,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Thomas Keneally"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                8,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Nicorette": [
+                "unknown",
+                8
+            ],
+            "Ludde Ingvall": [
+                "male",
+                3
+            ],
+            "Hobart": [
+                "male",
+                4
+            ],
+            "Snow": [
+                "unknown",
+                1
+            ],
+            "Hail Marys": [
+                "unknown",
+                1
+            ],
+            "Wild Thing": [
+                "unknown",
+                3
+            ],
+            "Gerard Healy": [
+                "male",
+                1
+            ],
+            "Rules": [
+                "unknown",
+                1
+            ],
+            "Lachlan Murdoch": [
+                "male",
+                1
+            ],
+            "Shockwave": [
+                "unknown",
+                1
+            ],
+            "Storm Bay": [
+                "male",
+                3
+            ],
+            "Ian Paterson": [
+                "male",
+                1
+            ],
+            "Mal Ritchie": [
+                "andy",
+                1
+            ],
+            "Ninety Seven": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 110,
+        "title": "UPDATE 3-Sailing-Nicorette wins storm-tossedSydney-Hobart race.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 599,
+        "segments": 3,
+        "male_person": 6,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Hobart"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                3,
+                0
+            ],
+            [
+                12,
+                0
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Fast": [
+                "unknown",
+                1
+            ],
+            "Jason Gillespie": [
+                "male",
+                4
+            ],
+            "Waugh": [
+                "unknown",
+                1
+            ],
+            "Australia": [
+                "unknown",
+                5
+            ],
+            "Adams": [
+                "unknown",
+                3
+            ],
+            "St Vincent": [
+                "unknown",
+                1
+            ],
+            "Cameron Cuffy": [
+                "male",
+                1
+            ],
+            "Colin Stuart": [
+                "male",
+                2
+            ],
+            "Marlon Samuels": [
+                "male",
+                4
+            ],
+            "Ridley Jacobs": [
+                "male",
+                1
+            ],
+            "Walsh": [
+                "unknown",
+                4
+            ],
+            "Brian Lara": [
+                "male",
+                1
+            ]
+        },
+        "id": 111,
+        "title": "UPDATE 4-Cricket-Australia thrash West Indies by 352 runs.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 604,
+        "segments": 3,
+        "male_person": 6,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jason Gillespie",
+            "Marlon Samuels"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                13,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jimmy Adams": [
+                "male",
+                1
+            ],
+            "Brett Lee": [
+                "male",
+                1
+            ],
+            "Zimbabwe": [
+                "unknown",
+                1
+            ],
+            "Steve Waugh": [
+                "male",
+                1
+            ],
+            "Michael Slater": [
+                "male",
+                1
+            ],
+            "Matthew Hayden": [
+                "male",
+                1
+            ],
+            "Justin Langer": [
+                "male",
+                1
+            ],
+            "Mark Waugh": [
+                "male",
+                1
+            ],
+            "Ricky Ponting": [
+                "male",
+                1
+            ],
+            "Adam Gilchrist": [
+                "male",
+                1
+            ],
+            "Andy Bichel": [
+                "male",
+                1
+            ],
+            "Jason Gillespie": [
+                "male",
+                1
+            ],
+            "Colin Miller": [
+                "male",
+                1
+            ],
+            "Glenn McGrath": [
+                "male",
+                1
+            ],
+            "Stuart MacGill": [
+                "male",
+                1
+            ]
+        },
+        "id": 112,
+        "title": "Cricket-Australia name unchanged side forSydney test.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 137,
+        "segments": 3,
+        "male_person": 14,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jimmy Adams",
+            "Brett Lee",
+            "Steve Waugh",
+            "Michael Slater",
+            "Matthew Hayden",
+            "Justin Langer",
+            "Mark Waugh",
+            "Ricky Ponting",
+            "Adam Gilchrist",
+            "Andy Bichel",
+            "Jason Gillespie",
+            "Colin Miller",
+            "Glenn McGrath",
+            "Stuart MacGill"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                9,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Brian Lara": [
+                "male",
+                1
+            ],
+            "Gillespie": [
+                "unknown",
+                3
+            ],
+            "Ricky Ponting": [
+                "male",
+                1
+            ],
+            "Jimmy Adams": [
+                "male",
+                1
+            ],
+            "Adamswas": [
+                "unknown",
+                1
+            ],
+            "Mark Waugh": [
+                "male",
+                1
+            ],
+            "Colin Stuart": [
+                "male",
+                1
+            ],
+            "Jacobs": [
+                "unknown",
+                2
+            ],
+            "Marlon Samuels": [
+                "male",
+                2
+            ],
+            "Adam Gilchrist": [
+                "male",
+                1
+            ],
+            "Andy Bichel": [
+                "male",
+                1
+            ],
+            "Nixon McLean": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 113,
+        "title": "UPDATE 1-Cricket-West Indies head for humiliating defeat.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 343,
+        "segments": 3,
+        "male_person": 8,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Marlon Samuels"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                5,
+                0
+            ],
+            [
+                16,
+                0
+            ],
+            [
+                10,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Steve Waugh": [
+                "male",
+                7
+            ],
+            "Jimmy Adams": [
+                "male",
+                6
+            ],
+            "John Buchanan": [
+                "male",
+                2
+            ],
+            "Marlon Samuels": [
+                "male",
+                2
+            ],
+            "Andy Bichel": [
+                "male",
+                1
+            ]
+        },
+        "id": 114,
+        "title": "Cricket-Waugh reflects on crushing win over West Indies.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 535,
+        "segments": 3,
+        "male_person": 5,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Steve Waugh"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                6,
+                1
+            ],
+            [
+                9,
+                0
+            ],
+            [
+                10,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Others": [
+                "unknown",
+                1
+            ],
+            "Tana Umaga": [
+                "female",
+                1
+            ],
+            "Centre Pita Alatini": [
+                "unknown",
+                1
+            ],
+            "Christian Cullen": [
+                "male",
+                2
+            ],
+            "Mehrtens": [
+                "unknown",
+                3
+            ],
+            "Mortlock": [
+                "unknown",
+                7
+            ],
+            "Stephen Larkham": [
+                "male",
+                2
+            ],
+            "Chris Latham": [
+                "male",
+                1
+            ],
+            "Joe Roff": [
+                "male",
+                2
+            ],
+            "Justin Marshall": [
+                "male",
+                1
+            ],
+            "George Gregan": [
+                "male",
+                1
+            ],
+            "Jeremy Paul": [
+                "male",
+                1
+            ],
+            "Jonah Lomu": [
+                "male",
+                1
+            ],
+            "Taine Randell": [
+                "unknown",
+                1
+            ],
+            "Todd Blackadder": [
+                "male",
+                1
+            ],
+            "Jeff Wilson": [
+                "male",
+                1
+            ],
+            "Grant Fox": [
+                "male",
+                1
+            ],
+            "Craig Dowd": [
+                "male",
+                1
+            ],
+            "Eales": [
+                "unknown",
+                2
+            ]
+        },
+        "id": 115,
+        "title": "YEAR-Rugby union-Bledisloe Cup raise game to new heights.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 940,
+        "segments": 3,
+        "male_person": 12,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Christian Cullen",
+            "Stephen Larkham",
+            "Joe Roff"
+        ],
+        "most_mentioned_female": [
+            "Tana Umaga"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                7
+            ],
+            [
+                0,
+                9
+            ],
+            [
+                0,
+                9
+            ]
+        ],
+        "full_name_dictionary": {
+            "Cathy Freeman": [
+                "female",
+                9
+            ],
+            "Somehow Freeman": [
+                "unknown",
+                9
+            ],
+            "Jamaica": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 116,
+        "title": "YEAR-Athletics-Pressure finally lifted from Freeman's shoulders.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 484,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 1,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Cathy Freeman"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                6,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Richard Fromberg": [
+                "male",
+                4
+            ],
+            "Mark Philippoussis": [
+                "male",
+                3
+            ],
+            "Lleyton Hewitt": [
+                "unknown",
+                1
+            ],
+            "Davis Cup": [
+                "male",
+                3
+            ],
+            "Nicole Pratt": [
+                "female",
+                1
+            ]
+        },
+        "id": 117,
+        "title": "Tennis-Fromberg replaces Philippoussis in Hopman Cup.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 156,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Richard Fromberg"
+        ],
+        "most_mentioned_female": [
+            "Nicole Pratt"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                6,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Nicorette": [
+                "unknown",
+                8
+            ],
+            "Ludde Ingvall": [
+                "male",
+                3
+            ],
+            "Hobart": [
+                "male",
+                4
+            ],
+            "Snow": [
+                "unknown",
+                1
+            ],
+            "Wild Thing": [
+                "unknown",
+                2
+            ],
+            "Shockwave": [
+                "unknown",
+                1
+            ],
+            "Ian Paterson": [
+                "male",
+                1
+            ],
+            "Mal Ritchie": [
+                "andy",
+                1
+            ],
+            "Ninety Seven": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 118,
+        "title": "UPDATE 1-Sailing-Sweden's Nicorette wins Sydney-Hobart.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 560,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Hobart"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                3,
+                3
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Nicorette": [
+                "unknown",
+                8
+            ],
+            "Ludde Ingvall": [
+                "male",
+                2
+            ],
+            "Hobart": [
+                "male",
+                4
+            ],
+            "Snow": [
+                "unknown",
+                1
+            ],
+            "Wild Thing": [
+                "unknown",
+                2
+            ],
+            "Shockwave": [
+                "unknown",
+                1
+            ],
+            "Ian Paterson": [
+                "male",
+                1
+            ],
+            "Mal Ritchie": [
+                "andy",
+                1
+            ],
+            "Ninety Seven": [
+                "unknown",
+                1
+            ],
+            "Loco": [
+                "unknown",
+                1
+            ],
+            "Ocean Designs": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 119,
+        "title": "Sailing-Swedish maxi Nicorette wins Sydney-Hobart.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 599,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Hobart"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Nicorette": [
+                "unknown",
+                3
+            ],
+            "Ludde Ingvall": [
+                "male",
+                1
+            ]
+        },
+        "id": 120,
+        "title": "Sailing-Sweden's Nicorette wins Sydney-Hobart.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 142,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Ludde Ingvall"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                4,
+                2
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Nicorette": [
+                "unknown",
+                9
+            ],
+            "Ludde Ingvall": [
+                "male",
+                2
+            ],
+            "Bass Strait": [
+                "unknown",
+                3
+            ],
+            "Storm Bay": [
+                "male",
+                3
+            ],
+            "Ian Paterson": [
+                "male",
+                1
+            ],
+            "Mal Ritchie": [
+                "andy",
+                1
+            ],
+            "Ninety Seven": [
+                "unknown",
+                1
+            ],
+            "Wild Thing": [
+                "unknown",
+                1
+            ],
+            "Shockwave": [
+                "unknown",
+                2
+            ],
+            "Crichton": [
+                "unknown",
+                1
+            ],
+            "Loco": [
+                "unknown",
+                1
+            ],
+            "Ocean Designs": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 121,
+        "title": "UPDATE 4-Sailing-Nicorette nears finishing line.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 607,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Storm Bay"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                8,
+                1
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Shockwave": [
+                "unknown",
+                5
+            ],
+            "Nicorette": [
+                "unknown",
+                2
+            ],
+            "Wild Thing": [
+                "unknown",
+                3
+            ],
+            "Grant Wharington": [
+                "male",
+                1
+            ],
+            "Neville Crichton": [
+                "male",
+                2
+            ],
+            "Peter Campbell": [
+                "male",
+                3
+            ],
+            "Loco": [
+                "unknown",
+                1
+            ],
+            "Crane Metals": [
+                "unknown",
+                1
+            ],
+            "Valtair": [
+                "unknown",
+                1
+            ],
+            "Penrhyn": [
+                "female",
+                1
+            ],
+            "Longman": [
+                "unknown",
+                2
+            ],
+            "Extreme": [
+                "unknown",
+                1
+            ],
+            "Bass Strait": [
+                "unknown",
+                5
+            ],
+            "Bermuda": [
+                "unknown",
+                1
+            ],
+            "Lachlan Murdoch": [
+                "male",
+                1
+            ]
+        },
+        "id": 122,
+        "title": "UPDATE 5-Sailing-Shockwave among 12 to quit Hobart race.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 600,
+        "segments": 3,
+        "male_person": 4,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Peter Campbell"
+        ],
+        "most_mentioned_female": [
+            "Penrhyn"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                11,
+                1
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Shockwave": [
+                "unknown",
+                5
+            ],
+            "Nicorette": [
+                "unknown",
+                2
+            ],
+            "Wild Thing": [
+                "unknown",
+                3
+            ],
+            "Grant Wharington": [
+                "male",
+                1
+            ],
+            "Neville Crichton": [
+                "male",
+                2
+            ],
+            "Peter Campbell": [
+                "male",
+                3
+            ],
+            "Loco": [
+                "unknown",
+                1
+            ],
+            "Crane Metals": [
+                "unknown",
+                1
+            ],
+            "Valtair": [
+                "unknown",
+                1
+            ],
+            "Penrhyn": [
+                "female",
+                1
+            ],
+            "Longman": [
+                "unknown",
+                2
+            ],
+            "Extreme": [
+                "unknown",
+                1
+            ],
+            "Bass Strait": [
+                "unknown",
+                5
+            ],
+            "Bermuda": [
+                "unknown",
+                1
+            ],
+            "Lachlan Murdoch": [
+                "male",
+                1
+            ],
+            "Barley": [
+                "unknown",
+                3
+            ],
+            "Mallee": [
+                "unknown",
+                2
+            ]
+        },
+        "id": 123,
+        "title": "AWF cuts Australia barley forecast to 4.925 m/t.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 1036,
+        "segments": 3,
+        "male_person": 4,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Peter Campbell"
+        ],
+        "most_mentioned_female": [
+            "Penrhyn"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Bateman": [
+                "unknown",
+                1
+            ],
+            "Australian Broadcasting Corp": [
+                "unknown",
+                3
+            ],
+            "Mir Space": [
+                "male",
+                2
+            ],
+            "Australian Associated": [
+                "unknown",
+                2
+            ]
+        },
+        "id": 124,
+        "title": "Night sky boom rattles Australians, baffles police.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 277,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Mir Space"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Bateman": [
+                "unknown",
+                1
+            ],
+            "Australian Broadcasting Corp": [
+                "unknown",
+                4
+            ],
+            "Mir Space": [
+                "male",
+                2
+            ],
+            "Australian Associated": [
+                "unknown",
+                3
+            ]
+        },
+        "id": 125,
+        "title": "Australians baffled by night sky's shake, rattle and roll.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 274,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Mir Space"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Coach Peter McNamara": [
+                "unknown",
+                2
+            ],
+            "Patrick Rafter": [
+                "male",
+                1
+            ],
+            "Philippoussis": [
+                "unknown",
+                2
+            ]
+        },
+        "id": 126,
+        "title": "Tennis-Coach bans Philippoussis from buying more sports cars.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 163,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Patrick Rafter"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Nicorette": [
+                "unknown",
+                6
+            ],
+            "Wild Thing": [
+                "unknown",
+                3
+            ],
+            "Ludde Ingvall": [
+                "male",
+                3
+            ],
+            "Extreme": [
+                "unknown",
+                1
+            ],
+            "Shockwave": [
+                "unknown",
+                2
+            ],
+            "Xena": [
+                "unknown",
+                2
+            ],
+            "Crichton": [
+                "unknown",
+                1
+            ],
+            "Australianyachts Galatea": [
+                "unknown",
+                1
+            ],
+            "Liberator": [
+                "unknown",
+                1
+            ],
+            "Ocean Designs": [
+                "unknown",
+                1
+            ],
+            "Bass Strait": [
+                "unknown",
+                5
+            ],
+            "Glenn Bourke": [
+                "male",
+                1
+            ],
+            "Bermuda": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 127,
+        "title": "Sailing-Nicorette widens Hobart lead in rough weather.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 568,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Ludde Ingvall"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "full_name_dictionary": {
+            "Shockwave": [
+                "unknown",
+                5
+            ],
+            "Australian Broadcasting Corpradio": [
+                "unknown",
+                1
+            ],
+            "Nicorette": [
+                "unknown",
+                3
+            ],
+            "Bass Strait": [
+                "unknown",
+                3
+            ],
+            "Wild Thing": [
+                "unknown",
+                1
+            ],
+            "Xena": [
+                "unknown",
+                0
+            ],
+            "Lachlan Murdoch": [
+                "male",
+                1
+            ]
+        },
+        "id": 128,
+        "title": "Sailing-Shockwave holds on to lead as weather turns.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 558,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Lachlan Murdoch"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                2
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Wild": [
+                "unknown",
+                0
+            ],
+            "Xena": [
+                "unknown",
+                0
+            ],
+            "Shockwave": [
+                "unknown",
+                5
+            ],
+            "Crichton": [
+                "unknown",
+                2
+            ],
+            "Nokia": [
+                "unknown",
+                1
+            ],
+            "George Snow": [
+                "male",
+                1
+            ],
+            "Nicorette": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 129,
+        "title": "UPDATE 3-Sailing-Shockwave clings to lead, rough weather ahead.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 568,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "George Snow"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Shockwave": [
+                "unknown",
+                6
+            ],
+            "Xena": [
+                "unknown",
+                3
+            ],
+            "Wild Thing": [
+                "unknown",
+                2
+            ],
+            "Crichton": [
+                "unknown",
+                3
+            ],
+            "Geoff Cropley": [
+                "male",
+                1
+            ],
+            "Australian Broadcasting Corp": [
+                "unknown",
+                5
+            ],
+            "Nokia": [
+                "unknown",
+                1
+            ],
+            "George Snow": [
+                "male",
+                1
+            ],
+            "Lachlan Murdoch": [
+                "male",
+                1
+            ]
+        },
+        "id": 130,
+        "title": "UPDATE 2-Sailing-Tight battle for Hobart lead with gales ahead.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 597,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Geoff Cropley",
+            "George Snow",
+            "Lachlan Murdoch"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                6,
+                3
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Neil Hawke": [
+                "male",
+                3
+            ],
+            "Christmas": [
+                "unknown",
+                1
+            ],
+            "Beverley": [
+                "female",
+                1
+            ],
+            "Mary Potter Hospice": [
+                "female",
+                1
+            ]
+        },
+        "id": 131,
+        "title": "Cricket-Hawke dies after 20-year illness.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 219,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 2,
+        "most_mentioned_male": [
+            "Neil Hawke"
+        ],
+        "most_mentioned_female": [
+            "Beverley",
+            "Mary Potter Hospice"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Andrew Treloar": [
+                "male",
+                1
+            ],
+            "Bass Strait": [
+                "unknown",
+                3
+            ],
+            "Crichton": [
+                "unknown",
+                1
+            ],
+            "Shockwave": [
+                "unknown",
+                2
+            ],
+            "Nicorette": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 132,
+        "title": "Sailing-Snow, gales awaitSydney-Hobart yachts.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 497,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Andrew Treloar"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                9,
+                0
+            ],
+            [
+                12,
+                0
+            ],
+            [
+                29,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Steve Waugh": [
+                "male",
+                5
+            ],
+            "Adam Gilchrist": [
+                "male",
+                3
+            ],
+            "Brian Lara": [
+                "male",
+                3
+            ],
+            "Damien Martyn": [
+                "male",
+                2
+            ],
+            "Brett Lee": [
+                "male",
+                2
+            ],
+            "Colin Miller": [
+                "male",
+                2
+            ],
+            "Stuart MacGill": [
+                "male",
+                2
+            ],
+            "Andrew Bichel": [
+                "male",
+                2
+            ],
+            "Mahendra Nagamootoo": [
+                "male",
+                1
+            ],
+            "Jimmy Adams": [
+                "male",
+                5
+            ],
+            "Sherwin Campbell": [
+                "male",
+                1
+            ],
+            "Daren Ganga": [
+                "male",
+                1
+            ],
+            "Wavell Hinds": [
+                "unknown",
+                1
+            ],
+            "Marlon Samuels": [
+                "male",
+                3
+            ],
+            "Ridley Jacobs": [
+                "male",
+                1
+            ],
+            "Nixon McLean": [
+                "unknown",
+                1
+            ],
+            "Mervyn Dillon": [
+                "male",
+                1
+            ],
+            "Marlon Black": [
+                "male",
+                2
+            ],
+            "Courtney Walsh": [
+                "female",
+                1
+            ],
+            "Michael Slater": [
+                "male",
+                1
+            ],
+            "Matthew Hayden": [
+                "male",
+                1
+            ],
+            "Justin Langer": [
+                "male",
+                1
+            ],
+            "Mark Waugh": [
+                "male",
+                4
+            ],
+            "Ricky Ponting": [
+                "male",
+                1
+            ],
+            "Jason Gillespie": [
+                "male",
+                2
+            ],
+            "Glenn McGrath": [
+                "male",
+                1
+            ]
+        },
+        "id": 133,
+        "title": "Cricket-Waugh goes for a 5-0 sweep against the Windies.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 720,
+        "segments": 3,
+        "male_person": 23,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Steve Waugh",
+            "Jimmy Adams"
+        ],
+        "most_mentioned_female": [
+            "Courtney Walsh"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                1
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Carlton": [
+                "male",
+                1
+            ],
+            "South Melbourne": [
+                "unknown",
+                4
+            ],
+            "Adelaide City": [
+                "female",
+                2
+            ],
+            "Melbourne Knights": [
+                "unknown",
+                2
+            ],
+            "Eastern Pride": [
+                "unknown",
+                2
+            ]
+        },
+        "id": 134,
+        "title": "UPDATE 1-Soccer-Australian national league results/standings.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 233,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Carlton"
+        ],
+        "most_mentioned_female": [
+            "Adelaide City"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Philip Ruddock": [
+                "male",
+                5
+            ],
+            "Australian Broadcasting Corporation": [
+                "unknown",
+                1
+            ],
+            "Ashmore Islands": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 135,
+        "title": "More illegals seen using planes to Australia-minister.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 370,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Philip Ruddock"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                3
+            ]
+        ],
+        "full_name_dictionary": {},
+        "id": 136,
+        "title": "Qantas aborts flight, repairs fuel leak.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 156,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                9,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Melbourne": [
+                "unknown",
+                2
+            ],
+            "DavidMoffett": [
+                "unknown",
+                1
+            ],
+            "Andrew Johns": [
+                "male",
+                4
+            ]
+        },
+        "id": 137,
+        "title": "Rugby league-Australian league goes under cover for first round.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 269,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Andrew Johns"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Airservices Australia": [
+                "unknown",
+                1
+            ],
+            "Scott Sloane": [
+                "male",
+                2
+            ],
+            "Reuters.He": [
+                "unknown",
+                0
+            ]
+        },
+        "id": 138,
+        "title": "Small fire closesSydney airport briefly.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 85,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Scott Sloane"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                6,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                10,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Melbourne": [
+                "unknown",
+                2
+            ],
+            "Sherwin": [
+                "male",
+                2
+            ],
+            "Roger Harper": [
+                "male",
+                4
+            ],
+            "ofCampbell.He": [
+                "unknown",
+                0
+            ],
+            "Michael Slater": [
+                "male",
+                1
+            ],
+            "Matthew Hayden": [
+                "male",
+                2
+            ]
+        },
+        "id": 139,
+        "title": "Cricket-Rain ruins bid to play Campbell back into form.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 355,
+        "segments": 3,
+        "male_person": 4,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Roger Harper"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Scott Sloanesaid": [
+                "male",
+                1
+            ]
+        },
+        "id": 140,
+        "title": "UPDATE 1-Fire causes delays atSydney Airport.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 124,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Scott Sloanesaid"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                10,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Nokia": [
+                "unknown",
+                4
+            ],
+            "Glory": [
+                "unknown",
+                1
+            ],
+            "Shockwave": [
+                "unknown",
+                4
+            ],
+            "Wild Thing": [
+                "unknown",
+                3
+            ],
+            "Crichton": [
+                "unknown",
+                5
+            ],
+            "Casey Smith": [
+                "andy",
+                1
+            ],
+            "Peter Campbell": [
+                "male",
+                3
+            ],
+            "Sports TAB": [
+                "unknown",
+                1
+            ],
+            "Ludde Ingvall": [
+                "male",
+                1
+            ],
+            "Glyn Charles": [
+                "female",
+                1
+            ],
+            "John Abernethy": [
+                "male",
+                2
+            ],
+            "Phil Thompson": [
+                "male",
+                1
+            ],
+            "Lachlan Murdoch": [
+                "male",
+                1
+            ],
+            "Volvo": [
+                "unknown",
+                2
+            ],
+            "Stefan Myralf": [
+                "male",
+                1
+            ],
+            "Major General": [
+                "male",
+                1
+            ],
+            "Peter Cosgrove": [
+                "male",
+                2
+            ]
+        },
+        "id": 141,
+        "title": "Sailing-Big boats set sights onSydney-Hobart record.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 607,
+        "segments": 3,
+        "male_person": 8,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Peter Campbell"
+        ],
+        "most_mentioned_female": [
+            "Glyn Charles"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                18,
+                0
+            ],
+            [
+                16,
+                2
+            ],
+            [
+                23,
+                3
+            ]
+        ],
+        "full_name_dictionary": {
+            "John Howard": [
+                "male",
+                10
+            ],
+            "Beazley": [
+                "unknown",
+                3
+            ],
+            "John Moore": [
+                "male",
+                11
+            ],
+            "Wayne Swan": [
+                "male",
+                1
+            ],
+            "State Labor Premier": [
+                "unknown",
+                10
+            ],
+            "Peter Beattie": [
+                "male",
+                4
+            ],
+            "Ryan": [
+                "male",
+                3
+            ],
+            "Cabinet": [
+                "unknown",
+                3
+            ],
+            "John Herron": [
+                "male",
+                3
+            ],
+            "Peter Reith": [
+                "male",
+                4
+            ],
+            "Workplace Relations": [
+                "unknown",
+                2
+            ],
+            "Tony Abbott": [
+                "male",
+                5
+            ],
+            "Political Editor": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 142,
+        "title": "OPINION-Russell Barton's Canberra Close-up Column.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 886,
+        "segments": 3,
+        "male_person": 8,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "John Moore"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                6,
+                1
+            ],
+            [
+                9,
+                0
+            ],
+            [
+                10,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Others": [
+                "unknown",
+                1
+            ],
+            "Tana Umaga": [
+                "female",
+                1
+            ],
+            "Centre Pita Alatini": [
+                "unknown",
+                1
+            ],
+            "Christian Cullen": [
+                "male",
+                2
+            ],
+            "Mehrtens": [
+                "unknown",
+                3
+            ],
+            "Mortlock": [
+                "unknown",
+                7
+            ],
+            "Stephen Larkham": [
+                "male",
+                2
+            ],
+            "Chris Latham": [
+                "male",
+                1
+            ],
+            "Joe Roff": [
+                "male",
+                2
+            ],
+            "Justin Marshall": [
+                "male",
+                1
+            ],
+            "George Gregan": [
+                "male",
+                1
+            ],
+            "Jeremy Paul": [
+                "male",
+                1
+            ],
+            "Jonah Lomu": [
+                "male",
+                1
+            ],
+            "Taine Randell": [
+                "unknown",
+                1
+            ],
+            "Todd Blackadder": [
+                "male",
+                1
+            ],
+            "Jeff Wilson": [
+                "male",
+                1
+            ],
+            "Grant Fox": [
+                "male",
+                1
+            ],
+            "Craig Dowd": [
+                "male",
+                1
+            ],
+            "Eales": [
+                "unknown",
+                2
+            ]
+        },
+        "id": 143,
+        "title": "Rugby union-Bledisloe Cup raise game to new heights.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 940,
+        "segments": 3,
+        "male_person": 12,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Christian Cullen",
+            "Stephen Larkham",
+            "Joe Roff"
+        ],
+        "most_mentioned_female": [
+            "Tana Umaga"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                17,
+                0
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                14,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Shane Warne": [
+                "male",
+                6
+            ],
+            "Graham Gooch": [
+                "male",
+                3
+            ],
+            "Ian Healy": [
+                "male",
+                4
+            ],
+            "Mark Taylor": [
+                "male",
+                3
+            ],
+            "Mark Waugh": [
+                "male",
+                3
+            ],
+            "Stuart MacGill": [
+                "male",
+                1
+            ],
+            "Colin Miller": [
+                "male",
+                1
+            ],
+            "David Boon": [
+                "male",
+                1
+            ],
+            "Australianopener Michael Slater": [
+                "unknown",
+                1
+            ],
+            "Trevor Hohns": [
+                "male",
+                1
+            ],
+            "Steve Waugh": [
+                "male",
+                2
+            ],
+            "Allan Border": [
+                "male",
+                3
+            ],
+            "Richard Hadlee": [
+                "male",
+                1
+            ],
+            "Viv Richards": [
+                "unknown",
+                1
+            ],
+            "Patrick Rafter": [
+                "male",
+                1
+            ],
+            "Allan Langer": [
+                "male",
+                2
+            ]
+        },
+        "id": 144,
+        "title": "Cricket-Warne bowls again after fracturing finger.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 349,
+        "segments": 3,
+        "male_person": 14,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Shane Warne"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                4,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Tom Maher": [
+                "male",
+                5
+            ],
+            "Robyn": [
+                "female",
+                1
+            ],
+            "Barry Barnes.Australian": [
+                "male",
+                1
+            ],
+            "Brian Goorjian": [
+                "male",
+                1
+            ],
+            "Phil Smyth": [
+                "male",
+                1
+            ],
+            "Brett Brown": [
+                "male",
+                1
+            ],
+            "Ian Stacker": [
+                "male",
+                1
+            ],
+            "Kevin Diggerson": [
+                "male",
+                1
+            ]
+        },
+        "id": 145,
+        "title": "Basketball-Australian Olympic silver medallists lose coach.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 216,
+        "segments": 3,
+        "male_person": 7,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Tom Maher"
+        ],
+        "most_mentioned_female": [
+            "Robyn"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jackson Fearhad": [
+                "male",
+                2
+            ],
+            "Mike Tancred": [
+                "male",
+                1
+            ],
+            "Craig McLatchey": [
+                "male",
+                1
+            ],
+            "Simon Fairweather": [
+                "male",
+                1
+            ]
+        },
+        "id": 146,
+        "title": "Archery-Fear banned for two years over cannabis use.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 256,
+        "segments": 3,
+        "male_person": 4,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jackson Fearhad"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Australian Competition": [
+                "unknown",
+                1
+            ],
+            "Allan Fels": [
+                "male",
+                2
+            ]
+        },
+        "id": 147,
+        "title": "Australia ACCC says 450 firms breached price rules.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 271,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Allan Fels"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Port Moresby": [
+                "unknown",
+                2
+            ],
+            "Papua New Guinea Football Association": [
+                "unknown",
+                5
+            ],
+            "Foodtown Warriors": [
+                "unknown",
+                1
+            ],
+            "Napier CityRovers": [
+                "unknown",
+                1
+            ],
+            "Unitech FC": [
+                "unknown",
+                2
+            ],
+            "Laugu United FC": [
+                "unknown",
+                2
+            ],
+            "Pansa FC": [
+                "unknown",
+                2
+            ],
+            "Tupapa FC": [
+                "unknown",
+                2
+            ],
+            "Titavi FC": [
+                "unknown",
+                2
+            ],
+            "Tafea FC": [
+                "unknown",
+                2
+            ]
+        },
+        "id": 148,
+        "title": "Soccer-Papua New Guinea to host clubs tournament.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 205,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                11,
+                0
+            ],
+            [
+                12,
+                2
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "John Howard": [
+                "male",
+                12
+            ],
+            "Australian Broadcasting": [
+                "unknown",
+                2
+            ],
+            "Peter Reith": [
+                "male",
+                4
+            ],
+            "John Moore": [
+                "male",
+                6
+            ],
+            "Amanda Vanstone": [
+                "female",
+                1
+            ],
+            "Jocelyn Newman": [
+                "female",
+                2
+            ],
+            "Strait Islander": [
+                "unknown",
+                1
+            ],
+            "John Herron": [
+                "male",
+                4
+            ],
+            "Tony Abbott": [
+                "male",
+                1
+            ],
+            "Treasurer PeterCostello": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 149,
+        "title": "UPDATE 3-Australia PM shuffles cabinet as 3 ministers leave.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 486,
+        "segments": 3,
+        "male_person": 5,
+        "female_person": 2,
+        "most_mentioned_male": [
+            "John Howard"
+        ],
+        "most_mentioned_female": [
+            "Jocelyn Newman"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "full_name_dictionary": {
+            "Rupert Murdoch": [
+                "male",
+                1
+            ],
+            "Seven NetworkLtd": [
+                "unknown",
+                5
+            ],
+            "Channels Nine": [
+                "unknown",
+                1
+            ],
+            "Ten": [
+                "unknown",
+                1
+            ],
+            "Kerry Stokes": [
+                "female",
+                3
+            ],
+            "Foxtel": [
+                "unknown",
+                2
+            ],
+            "Kerry Packer": [
+                "female",
+                2
+            ]
+        },
+        "id": 150,
+        "title": "UPDATE 1-News, Seven tussle for AFL rights.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 323,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 2,
+        "most_mentioned_male": [
+            "Rupert Murdoch"
+        ],
+        "most_mentioned_female": [
+            "Kerry Stokes"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                10,
+                3
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                4,
+                2
+            ]
+        ],
+        "full_name_dictionary": {
+            "Brisbane Broncos": [
+                "unknown",
+                2
+            ],
+            "Wendell Sailor": [
+                "male",
+                2
+            ],
+            "Heal": [
+                "unknown",
+                2
+            ],
+            "Stephen Tingay": [
+                "male",
+                2
+            ],
+            "Carlton United": [
+                "male",
+                3
+            ],
+            "Olympic": [
+                "unknown",
+                2
+            ],
+            "Drumm": [
+                "unknown",
+                2
+            ],
+            "Karen Rolton": [
+                "female",
+                1
+            ],
+            "Lisa Keightley": [
+                "female",
+                1
+            ],
+            "Steve Waugh": [
+                "male",
+                1
+            ],
+            "Melbourne Storm": [
+                "unknown",
+                5
+            ],
+            "Adecco": [
+                "unknown",
+                1
+            ],
+            "Rogers": [
+                "unknown",
+                1
+            ],
+            "Darren Bewick": [
+                "male",
+                1
+            ],
+            "Board": [
+                "unknown",
+                1
+            ],
+            "Frank Costa": [
+                "male",
+                1
+            ],
+            "Luke Egan": [
+                "male",
+                1
+            ],
+            "Sunny Garcia": [
+                "male",
+                1
+            ],
+            "Joel Parkinson": [
+                "male",
+                1
+            ]
+        },
+        "id": 151,
+        "title": "PRESS DIGEST - Australian Sports News - Dec 20.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 690,
+        "segments": 3,
+        "male_person": 9,
+        "female_person": 2,
+        "most_mentioned_male": [
+            "Carlton United"
+        ],
+        "most_mentioned_female": [
+            "Karen Rolton",
+            "Lisa Keightley"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                3,
+                0
+            ],
+            [
+                5,
+                2
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "John Howard": [
+                "male",
+                8
+            ],
+            "Peter Reith": [
+                "male",
+                2
+            ],
+            "John Moore.Moore": [
+                "male",
+                3
+            ],
+            "Amanda Vanstone": [
+                "female",
+                1
+            ],
+            "Jocelyn Newman": [
+                "female",
+                1
+            ],
+            "Strait Islander": [
+                "unknown",
+                1
+            ],
+            "John Herron": [
+                "male",
+                3
+            ],
+            "Philip Ruddock.Howard": [
+                "male",
+                1
+            ],
+            "Tony Abbott": [
+                "male",
+                1
+            ]
+        },
+        "id": 152,
+        "title": "Three Australia ministers quit, PM shuffles govt.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 141,
+        "segments": 3,
+        "male_person": 6,
+        "female_person": 2,
+        "most_mentioned_male": [
+            "John Howard"
+        ],
+        "most_mentioned_female": [
+            "Amanda Vanstone",
+            "Jocelyn Newman"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                11,
+                0
+            ],
+            [
+                14,
+                0
+            ],
+            [
+                21,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "John Howard": [
+                "male",
+                11
+            ],
+            "Peter Reith": [
+                "male",
+                14
+            ],
+            "Maritime Union": [
+                "unknown",
+                1
+            ],
+            "Workplace Relations": [
+                "unknown",
+                1
+            ],
+            "recently.Howard": [
+                "unknown",
+                0
+            ],
+            "Gerard Henderson": [
+                "male",
+                1
+            ],
+            "John Moore": [
+                "male",
+                2
+            ]
+        },
+        "id": 153,
+        "title": "NEWSMAKER-Tough labour minister to head Australian defence.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 518,
+        "segments": 3,
+        "male_person": 4,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Peter Reith"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                4,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Simon Hannes": [
+                "male",
+                5
+            ],
+            "David Knott": [
+                "male",
+                1
+            ],
+            "Mark Booth": [
+                "male",
+                1
+            ],
+            "Dutch Telecoms": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 154,
+        "title": "Australia to retry biggest insider trading case.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 276,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Simon Hannes"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                7
+            ],
+            [
+                0,
+                9
+            ],
+            [
+                0,
+                9
+            ]
+        ],
+        "full_name_dictionary": {
+            "Cathy Freeman": [
+                "female",
+                9
+            ],
+            "Somehow Freeman": [
+                "unknown",
+                9
+            ],
+            "Jamaica": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 155,
+        "title": "YEAR-Athletics-Pressure finally lifted from Freeman's shoulders.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 484,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 1,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Cathy Freeman"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Statistics": [
+                "unknown",
+                0
+            ]
+        },
+        "id": 156,
+        "title": "Dispute days lost in Australia down 6 pct in Sept.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 114,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                10,
+                0
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Philip Ruddock": [
+                "male",
+                5
+            ]
+        },
+        "id": 157,
+        "title": "Australia lacks proof boy abused at asylum centre.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 336,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Philip Ruddock"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Philip Ruddock": [
+                "male",
+                4
+            ],
+            "July1": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 158,
+        "title": "No missing boatpeople on seized vessels - Australia.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 299,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Philip Ruddock"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                8,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Paul Reiffel": [
+                "male",
+                4
+            ],
+            "Allan Connolly": [
+                "male",
+                1
+            ],
+            "Alan Connolly": [
+                "male",
+                1
+            ],
+            "Tasmania": [
+                "unknown",
+                3
+            ],
+            "Greg Blewett": [
+                "male",
+                1
+            ],
+            "Brett Swain": [
+                "male",
+                1
+            ],
+            "Western Australia": [
+                "unknown",
+                4
+            ]
+        },
+        "id": 159,
+        "title": "Cricket-Reiffel sets Victorian bowling record.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 323,
+        "segments": 3,
+        "male_person": 5,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Paul Reiffel"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                5,
+                1
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Matthew Elliott": [
+                "male",
+                3
+            ],
+            "Matthew Mott": [
+                "male",
+                2
+            ],
+            "David Saker": [
+                "male",
+                1
+            ],
+            "Jason Arnberger": [
+                "male",
+                1
+            ],
+            "Michael Di": [
+                "male",
+                1
+            ],
+            "Victoria": [
+                "female",
+                2
+            ],
+            "Perth": [
+                "unknown",
+                1
+            ],
+            "Brendon Julian": [
+                "male",
+                1
+            ],
+            "Tom Moody": [
+                "male",
+                1
+            ],
+            "Western Australia189": [
+                "unknown",
+                2
+            ],
+            "Marcus North": [
+                "male",
+                1
+            ],
+            "Shane Lee": [
+                "male",
+                1
+            ],
+            "Don Nash": [
+                "male",
+                1
+            ],
+            "Stuart Law": [
+                "male",
+                1
+            ],
+            "Andrew": [
+                "male",
+                1
+            ],
+            "Brett Swain": [
+                "male",
+                2
+            ],
+            "Darren Lehmann": [
+                "male",
+                1
+            ],
+            "Adam Dale": [
+                "male",
+                1
+            ]
+        },
+        "id": 160,
+        "title": "Cricket-Australian interstate scores.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 138,
+        "segments": 3,
+        "male_person": 15,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Matthew Elliott"
+        ],
+        "most_mentioned_female": [
+            "Victoria"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                2
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Lara": [
+                "female",
+                2
+            ],
+            "St John": [
+                "unknown",
+                2
+            ],
+            "Kingston": [
+                "unknown",
+                2
+            ]
+        },
+        "id": 161,
+        "title": "Cricket-Brian Lara's test centuries.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 119,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 1,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Lara"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Tom Moody": [
+                "male",
+                3
+            ],
+            "Worcestershire": [
+                "unknown",
+                1
+            ],
+            "Wales": [
+                "unknown",
+                2
+            ],
+            "Lehmann": [
+                "unknown",
+                2
+            ],
+            "Victoria": [
+                "female",
+                1
+            ]
+        },
+        "id": 162,
+        "title": "Cricket-Veteran Moody grabs 5-26.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 279,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Tom Moody"
+        ],
+        "most_mentioned_female": [
+            "Victoria"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                3,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Jason Coorey": [
+                "male",
+                2
+            ],
+            "March": [
+                "male",
+                1
+            ],
+            "Taurima": [
+                "unknown",
+                4
+            ]
+        },
+        "id": 163,
+        "title": "Athletics-Long jumper Taurima injured in car crash.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 136,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Jason Coorey"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                0,
+                3
+            ]
+        ],
+        "full_name_dictionary": {
+            "Cargill Inc": [
+                "unknown",
+                2
+            ],
+            "Lush": [
+                "unknown",
+                1
+            ],
+            "Australian Bureau": [
+                "unknown",
+                1
+            ],
+            "Resource Economics": [
+                "unknown",
+                1
+            ],
+            "Recent": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 164,
+        "title": "Australia Grain-World giants to rush barley trade.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 560,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                17,
+                0
+            ],
+            [
+                10,
+                0
+            ],
+            [
+                9,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "John Howard": [
+                "male",
+                11
+            ],
+            "Bob Hawke": [
+                "male",
+                1
+            ],
+            "Labor Government": [
+                "unknown",
+                11
+            ],
+            "Gary Punch": [
+                "male",
+                1
+            ],
+            "Kingsford Smith": [
+                "unknown",
+                4
+            ],
+            "Badgerys Creek": [
+                "unknown",
+                3
+            ],
+            "John Anderson": [
+                "male",
+                7
+            ],
+            "Cabinet": [
+                "unknown",
+                3
+            ],
+            "Bankstown": [
+                "unknown",
+                6
+            ],
+            "Quite": [
+                "unknown",
+                1
+            ],
+            "Nevertheless Howard": [
+                "unknown",
+                10
+            ],
+            "Howard Government": [
+                "male",
+                15
+            ],
+            "Martin Ferguson": [
+                "male",
+                1
+            ],
+            "Political Editor": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 165,
+        "title": "OPINION-Russell Barton's Canberra Close-Up Column.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 837,
+        "segments": 3,
+        "male_person": 6,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Howard Government"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Michael Di Venuto": [
+                "male",
+                2
+            ],
+            "Jimmy Maher": [
+                "male",
+                2
+            ],
+            "Martin Love": [
+                "male",
+                2
+            ]
+        },
+        "id": 166,
+        "title": "Cricket-Di Venuto leads Tasmania fightback against Victoria.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 168,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Michael Di Venuto",
+            "Jimmy Maher",
+            "Martin Love"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Byron Bay": [
+                "male",
+                1
+            ],
+            "Australia": [
+                "unknown",
+                4
+            ],
+            "Antarctica": [
+                "unknown",
+                1
+            ],
+            "Peter Weston": [
+                "male",
+                6
+            ],
+            "Reuters.Weston": [
+                "unknown",
+                0
+            ]
+        },
+        "id": 167,
+        "title": "Australian botanists find \"living fossil\" tree.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 408,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Peter Weston"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Australian Broadcasting Corp": [
+                "unknown",
+                1
+            ],
+            "George Speight": [
+                "male",
+                2
+            ],
+            "Fiji": [
+                "unknown",
+                2
+            ],
+            "Mahendra Chaudhry": [
+                "male",
+                1
+            ],
+            "Tarakinikini": [
+                "unknown",
+                4
+            ]
+        },
+        "id": 168,
+        "title": "Public face of Fiji military during coup joins UN.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 200,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "George Speight"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                7,
+                0
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Australian Davis": [
+                "unknown",
+                3
+            ],
+            "John Newcombe": [
+                "male",
+                9
+            ],
+            "Javier Duarte": [
+                "male",
+                3
+            ],
+            "Tony Roche": [
+                "male",
+                1
+            ],
+            "John Fitzgerald": [
+                "male",
+                2
+            ],
+            "Masur": [
+                "unknown",
+                1
+            ],
+            "Lleyton Hewitt": [
+                "unknown",
+                2
+            ],
+            "Juan Carlos Ferrero": [
+                "male",
+                2
+            ],
+            "Herald Sun": [
+                "male",
+                1
+            ]
+        },
+        "id": 169,
+        "title": "Tennis-Newcombe tells fans to be nice to Spanish.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 352,
+        "segments": 3,
+        "male_person": 6,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "John Newcombe"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Ashmore Islands": [
+                "unknown",
+                2
+            ],
+            "Tropical Cyclone Sam": [
+                "unknown",
+                3
+            ],
+            "Philip Ruddock": [
+                "male",
+                5
+            ],
+            "Sky Television": [
+                "female",
+                1
+            ],
+            "Bob Brown": [
+                "male",
+                2
+            ],
+            "Customs": [
+                "unknown",
+                1
+            ],
+            "Coast Watch": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 170,
+        "title": "UPDATE 1-Australia says 163 refugees likely died in cyclone.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 510,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Philip Ruddock"
+        ],
+        "most_mentioned_female": [
+            "Sky Television"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                7,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                9,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Soccer Australia": [
+                "unknown",
+                2
+            ],
+            "Basil Scarsella": [
+                "male",
+                6
+            ],
+            "Charlie Dempsey": [
+                "male",
+                6
+            ],
+            "Vanuatu": [
+                "unknown",
+                2
+            ],
+            "Johnny Tinsley Lulu": [
+                "male",
+                1
+            ],
+            "Roebeck": [
+                "unknown",
+                1
+            ],
+            "Adrian Wickham": [
+                "male",
+                1
+            ]
+        },
+        "id": 171,
+        "title": "Soccer-Scarsella wins vote to become Oceania president.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 292,
+        "segments": 3,
+        "male_person": 4,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Basil Scarsella",
+            "Charlie Dempsey"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Foxtel": [
+                "unknown",
+                2
+            ],
+            "Rupert": [
+                "male",
+                1
+            ],
+            "Kerry Packer": [
+                "female",
+                1
+            ],
+            "David Moffett": [
+                "male",
+                1
+            ],
+            "Optus": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 172,
+        "title": "Rugby league-NRL wins $400million TV deal.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 140,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Rupert",
+            "David Moffett"
+        ],
+        "most_mentioned_female": [
+            "Kerry Packer"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Ashmore Islands": [
+                "unknown",
+                2
+            ],
+            "Tropical Cyclone Sam": [
+                "unknown",
+                3
+            ],
+            "Philip Ruddock": [
+                "male",
+                5
+            ],
+            "Sky Television.Ruddock": [
+                "female",
+                1
+            ],
+            "Bob Brown": [
+                "male",
+                2
+            ],
+            "Australia": [
+                "unknown",
+                8
+            ],
+            "Customs": [
+                "unknown",
+                1
+            ],
+            "Coast Watch": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 173,
+        "title": "Australia says 163 refugees likely drowned in cyclone.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 486,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Philip Ruddock"
+        ],
+        "most_mentioned_female": [
+            "Sky Television.Ruddock"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Michael Knight": [
+                "male",
+                5
+            ],
+            "Juan Antonio Samaranch": [
+                "male",
+                2
+            ]
+        },
+        "id": 174,
+        "title": "Olympics-Knight hands back $30 million to taxpayers.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 194,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Michael Knight"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Pasminco Ltd": [
+                "unknown",
+                6
+            ],
+            "Cockle Creek": [
+                "unknown",
+                1
+            ],
+            "Hill Peko Ltdand": [
+                "unknown",
+                1
+            ],
+            "Rio Tinto": [
+                "female",
+                1
+            ],
+            "Budel": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 175,
+        "title": "Pasminco class action ruling due Friday.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 235,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 1,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Rio Tinto"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Richards": [
+                "unknown",
+                3
+            ]
+        },
+        "id": 176,
+        "title": "Australia scientists breeding beardless wheat.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 294,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                6,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Phil Thompson": [
+                "male",
+                5
+            ],
+            "Abernethy": [
+                "unknown",
+                3
+            ],
+            "Glyn Charles": [
+                "female",
+                1
+            ],
+            "Rear Admiral Chris Oxenbould": [
+                "unknown",
+                1
+            ],
+            "Glenn Bourke": [
+                "male",
+                1
+            ],
+            "Vendee Globe": [
+                "unknown",
+                1
+            ],
+            "Australian": [
+                "unknown",
+                2
+            ],
+            "Tony Bullimore": [
+                "male",
+                1
+            ],
+            "Frenchwoman Isabelle Autissier": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 177,
+        "title": "Sailing-Race director steps down after coroner's report.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 551,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Phil Thompson"
+        ],
+        "most_mentioned_female": [
+            "Glyn Charles"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                6,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Soccer Australia": [
+                "unknown",
+                6
+            ],
+            "Leeds Unitedfor": [
+                "unknown",
+                8
+            ],
+            "Melbourne": [
+                "unknown",
+                1
+            ],
+            "Tony Labbozzetta": [
+                "male",
+                4
+            ],
+            "Harry Kewell": [
+                "male",
+                3
+            ],
+            "Mark": [
+                "male",
+                1
+            ],
+            "Viduka": [
+                "unknown",
+                5
+            ],
+            "Raul Blanco": [
+                "male",
+                2
+            ],
+            "Blanco.Labbozzetta": [
+                "unknown",
+                0
+            ],
+            "Frank Farina": [
+                "male",
+                1
+            ],
+            "David": [
+                "male",
+                1
+            ]
+        },
+        "id": 178,
+        "title": "Soccer-Australia consider Leeds United and Celtic games.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 312,
+        "segments": 3,
+        "male_person": 6,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Tony Labbozzetta"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Transport": [
+                "unknown",
+                1
+            ],
+            "John Anderson": [
+                "male",
+                5
+            ],
+            "rejected.Anderson": [
+                "unknown",
+                0
+            ],
+            "Alstom SA": [
+                "unknown",
+                1
+            ],
+            "Melbourne": [
+                "unknown",
+                2
+            ]
+        },
+        "id": 179,
+        "title": "UPDATE 1-Australia to sell airport, rejects speedrail.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 411,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "John Anderson"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {},
+        "id": 180,
+        "title": "Australia raw sugar tipped to break 6m tonne mark.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 309,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "full_name_dictionary": {
+            "Aon Risk ServicesAustralia": [
+                "unknown",
+                5
+            ],
+            "Cayman Islands": [
+                "unknown",
+                1
+            ],
+            "Tony Cope": [
+                "male",
+                1
+            ],
+            "Gloria Peterson": [
+                "female",
+                1
+            ],
+            "Singapore": [
+                "unknown",
+                3
+            ]
+        },
+        "id": 181,
+        "title": "Aon Australian arm makes grab for captives.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 519,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Tony Cope"
+        ],
+        "most_mentioned_female": [
+            "Gloria Peterson"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {},
+        "id": 182,
+        "title": "Australia's Costello sees jobless trending lower.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 109,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                3,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                10,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Steve Waugh": [
+                "male",
+                4
+            ],
+            "Ashes": [
+                "unknown",
+                2
+            ],
+            "Nasser Hussain": [
+                "male",
+                1
+            ],
+            "William Hill": [
+                "male",
+                1
+            ],
+            "Ashley Giles": [
+                "female",
+                1
+            ],
+            "Graham Thorpe": [
+                "male",
+                1
+            ],
+            "Michael Atherton": [
+                "male",
+                2
+            ],
+            "Glenn McGrath": [
+                "male",
+                1
+            ]
+        },
+        "id": 183,
+        "title": "Cricket-Waugh says England will be 'tough to beat'.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 287,
+        "segments": 3,
+        "male_person": 6,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Steve Waugh"
+        ],
+        "most_mentioned_female": [
+            "Ashley Giles"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Zinc": [
+                "unknown",
+                1
+            ],
+            "Pasminco Ltd": [
+                "unknown",
+                4
+            ],
+            "Coleman": [
+                "male",
+                2
+            ]
+        },
+        "id": 184,
+        "title": "Pasminco wins class action costs vs lawyers.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 106,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Coleman"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                11,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Soccer Australia": [
+                "unknown",
+                4
+            ],
+            "Raul Blanco": [
+                "male",
+                6
+            ],
+            "Harry Kewell": [
+                "male",
+                1
+            ],
+            "Paul Okon": [
+                "male",
+                1
+            ],
+            "Zelic": [
+                "unknown",
+                1
+            ],
+            "Leeds United": [
+                "unknown",
+                2
+            ],
+            "Mark Viduka": [
+                "male",
+                1
+            ],
+            "Group": [
+                "unknown",
+                1
+            ],
+            "Basil Scarsellasaid.Blanco": [
+                "male",
+                1
+            ]
+        },
+        "id": 185,
+        "title": "Soccer-Australia sacks Olympic coach Blanco.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 360,
+        "segments": 3,
+        "male_person": 5,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Raul Blanco"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                3,
+                1
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "JohnAbernethy": [
+                "unknown",
+                1
+            ],
+            "Glyn Charles": [
+                "female",
+                4
+            ],
+            "Phillip Skeggs": [
+                "male",
+                1
+            ],
+            "John Dean": [
+                "male",
+                1
+            ],
+            "James Lawler": [
+                "male",
+                1
+            ],
+            "Michael Bannister": [
+                "male",
+                1
+            ]
+        },
+        "id": 186,
+        "title": "Sailing-Club, weather officials criticised over deadly race.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 523,
+        "segments": 3,
+        "male_person": 4,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Phillip Skeggs",
+            "John Dean",
+            "James Lawler",
+            "Michael Bannister"
+        ],
+        "most_mentioned_female": [
+            "Glyn Charles"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Macquarie Equities": [
+                "unknown",
+                1
+            ],
+            "Mick Coombes.Coombes": [
+                "male",
+                1
+            ],
+            "Fed Governor AlanGreenspan": [
+                "unknown",
+                1
+            ],
+            "St George": [
+                "unknown",
+                1
+            ],
+            "Morgan Stanley Capital International": [
+                "male",
+                1
+            ],
+            "Telstra": [
+                "unknown",
+                2
+            ],
+            "News": [
+                "unknown",
+                1
+            ],
+            "Coles Myer": [
+                "unknown",
+                2
+            ],
+            "Woolworths": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 187,
+        "title": "Australian stocks end flat, eying White House race.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 377,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Mick Coombes.Coombes",
+            "Morgan Stanley Capital International"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "John Anderson": [
+                "male",
+                2
+            ],
+            "Leighton HoldingsLtd": [
+                "male",
+                1
+            ],
+            "Alstom SA": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 188,
+        "title": "Australia to sell airport, rejects fast rail study.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 123,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "John Anderson"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                10,
+                0
+            ],
+            [
+                15,
+                0
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Brian Lara": [
+                "male",
+                13
+            ],
+            "Ridley Jacobs": [
+                "male",
+                1
+            ],
+            "Richie Richardson": [
+                "male",
+                1
+            ],
+            "Ronald Rogers": [
+                "male",
+                2
+            ],
+            "Damien Martyn": [
+                "male",
+                2
+            ],
+            "Australia A": [
+                "unknown",
+                9
+            ],
+            "Jack Fingleton": [
+                "male",
+                1
+            ],
+            "Donald Bradman": [
+                "male",
+                1
+            ],
+            "Andy Bichel": [
+                "male",
+                1
+            ]
+        },
+        "id": 189,
+        "title": "UPDATE 1-Cricket-Lara hits 231 against Australia A.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 438,
+        "segments": 3,
+        "male_person": 8,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Brian Lara"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Brian Lara": [
+                "male",
+                8
+            ],
+            "Ridley Jacobs": [
+                "male",
+                1
+            ],
+            "Laraand Richie Richardson": [
+                "unknown",
+                1
+            ],
+            "Australia A": [
+                "unknown",
+                6
+            ],
+            "Jack Fingleton": [
+                "male",
+                1
+            ],
+            "Donald Bradman": [
+                "male",
+                1
+            ],
+            "Andy Bichel": [
+                "male",
+                2
+            ],
+            "David Hookes": [
+                "male",
+                1
+            ],
+            "Tony Greig": [
+                "male",
+                1
+            ]
+        },
+        "id": 190,
+        "title": "Cricket-Lara hits 231 against Australia A.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 360,
+        "segments": 3,
+        "male_person": 7,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Brian Lara"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                9,
+                0
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "David Gurry": [
+                "male",
+                3
+            ],
+            "John Bunting": [
+                "male",
+                2
+            ],
+            "Mark Haydon": [
+                "male",
+                2
+            ],
+            "Robert Wagner": [
+                "male",
+                2
+            ],
+            "James Vlassakis": [
+                "male",
+                2
+            ],
+            "Ivan Milatwas": [
+                "male",
+                1
+            ]
+        },
+        "id": 191,
+        "title": "Australia's \"bank vault\" serial murder case opens.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 368,
+        "segments": 3,
+        "male_person": 6,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "David Gurry"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "BA": [
+                "unknown",
+                5
+            ],
+            "Times": [
+                "unknown",
+                3
+            ],
+            "Geoff Dixon": [
+                "male",
+                2
+            ],
+            "Richard Branson": [
+                "male",
+                1
+            ]
+        },
+        "id": 192,
+        "title": "Qantas says BA is happy with 25 pct stake.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 332,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Geoff Dixon"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "John Howard": [
+                "male",
+                5
+            ]
+        },
+        "id": 193,
+        "title": "Australia's Howard says economy has slowed a bit.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 269,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "John Howard"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                15,
+                0
+            ],
+            [
+                10,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Brett Lee": [
+                "male",
+                1
+            ],
+            "Trefor James": [
+                "male",
+                1
+            ],
+            "Brian Lara": [
+                "male",
+                2
+            ],
+            "Ridley Jacobs": [
+                "male",
+                1
+            ],
+            "Shane Warne": [
+                "male",
+                5
+            ],
+            "St Kilda": [
+                "unknown",
+                1
+            ],
+            "Jason Bakker": [
+                "male",
+                2
+            ],
+            "Christmas": [
+                "unknown",
+                1
+            ],
+            "Tom Moody": [
+                "male",
+                2
+            ],
+            "Ricky Ponting": [
+                "male",
+                1
+            ],
+            "Michael Di": [
+                "male",
+                1
+            ],
+            "David Fitzgerald": [
+                "male",
+                1
+            ],
+            "Darren Lehmann": [
+                "male",
+                1
+            ],
+            "Western Australia258-7": [
+                "unknown",
+                2
+            ],
+            "Greg Blewett": [
+                "male",
+                1
+            ],
+            "Peter Lonard": [
+                "male",
+                3
+            ],
+            "Gow": [
+                "unknown",
+                1
+            ],
+            "Nick O'Hern": [
+                "male",
+                1
+            ],
+            "Shane Tait": [
+                "male",
+                2
+            ],
+            "Inge": [
+                "female",
+                1
+            ],
+            "Bruijn": [
+                "unknown",
+                2
+            ],
+            "Pieter": [
+                "male",
+                1
+            ],
+            "Hoogenband": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 194,
+        "title": "Weekend highlights of Australian sport.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 647,
+        "segments": 3,
+        "male_person": 16,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Shane Warne"
+        ],
+        "most_mentioned_female": [
+            "Inge"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                5,
+                4
+            ]
+        ],
+        "full_name_dictionary": {
+            "Inge": [
+                "female",
+                1
+            ],
+            "Bruijn": [
+                "unknown",
+                5
+            ],
+            "Pieter": [
+                "male",
+                1
+            ],
+            "Hoogenband": [
+                "unknown",
+                4
+            ],
+            "Van": [
+                "male",
+                2
+            ]
+        },
+        "id": 195,
+        "title": "Swimming-Dutch Masters back inSydney Olympic pool.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 550,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Van"
+        ],
+        "most_mentioned_female": [
+            "Inge"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Customs": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 196,
+        "title": "Australia makes record seizure of ecstasy.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 163,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                4,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "John Winter": [
+                "male",
+                3
+            ],
+            "Phil Koperberg": [
+                "male",
+                1
+            ],
+            "Black Christmas": [
+                "unknown",
+                1
+            ],
+            "Hill Top": [
+                "unknown",
+                1
+            ],
+            "Wales Premier Bob Carr": [
+                "unknown",
+                2
+            ],
+            "Cross Street": [
+                "unknown",
+                1
+            ],
+            "Ash": [
+                "unknown",
+                1
+            ]
+        },
+        "id": 197,
+        "title": "New Year brings more fire fears aroundSydney.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 546,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "John Winter"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Ash": [
+                "unknown",
+                1
+            ],
+            "Blue Mountains": [
+                "unknown",
+                1
+            ],
+            "Black": [
+                "unknown",
+                2
+            ],
+            "March": [
+                "male",
+                1
+            ],
+            "Christmas": [
+                "unknown",
+                1
+            ],
+            "John": [
+                "male",
+                1
+            ],
+            "Peter": [
+                "male",
+                1
+            ]
+        },
+        "id": 198,
+        "title": "Australia an ancient land scarred by fire.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 386,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "March",
+            "John",
+            "Peter"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                9,
+                7
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                0,
+                5
+            ]
+        ],
+        "full_name_dictionary": {
+            "Peter": [
+                "male",
+                3
+            ],
+            "John": [
+                "male",
+                3
+            ],
+            "Jill Mengersen": [
+                "female",
+                12
+            ],
+            "Christmas Dayhave": [
+                "unknown",
+                3
+            ],
+            "Tara": [
+                "female",
+                1
+            ]
+        },
+        "id": 199,
+        "title": "Isolated outback cattlemen battle massive bushfire.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 631,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 2,
+        "most_mentioned_male": [
+            "Peter",
+            "John"
+        ],
+        "most_mentioned_female": [
+            "Jill Mengersen"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                4
+            ]
+        ],
+        "full_name_dictionary": {
+            "Christmas": [
+                "unknown",
+                2
+            ],
+            "Wildlife Service": [
+                "unknown",
+                2
+            ],
+            "Jenny Stokes": [
+                "female",
+                2
+            ]
+        },
+        "id": 200,
+        "title": "Wildlife groups fear few survivors inSydney fires.",
+        "author": "",
+        "country": "Australia",
+        "year": 2000,
+        "category": "Political/ General",
+        "text": "",
+        "word_count": 602,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 1,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Jenny Stokes"
+        ]
     }
 ]

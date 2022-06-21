@@ -20,7 +20,7 @@ class EnhancedJSONEncoder(json.JSONEncoder):
             return super().default(o)
 
 
-df = pd.read_excel(r"data\Training.xlsx", header=0)
+df = pd.read_excel(r"data\First 200 Articles Reranked with Agnes.xlsx", header=0)
 article_list = list()
 expect_result = dict()
 for i in range(0, len(df.index)):
@@ -35,13 +35,16 @@ for i in range(0, len(df.index)):
     article.text = serie["Content "]
     article_list.append(article)
 
-    female_score = np.mean([serie["Female Central (out of 5) - ZY"], serie["Female Central (out of 5) - Rafael"]])
-    male_score = np.mean([serie["Male Central (out of 5) - ZY"], serie["Male Central (out of 5) - Rafael"]])
+    # female_score = np.mean([serie["Female Central (out of 5) - ZY"], serie["Female Central (out of 5) - Rafael"]])
+    # male_score = np.mean([serie["Male Central (out of 5) - ZY"], serie["Male Central (out of 5) - Rafael"]])
+    female_score = serie["Average of Female"]
+    male_score = serie["Average of Male"]
     print(female_score, " ", male_score)
     expect_result[str(serie["#"])] = list([female_score, male_score])
 
 for a in article_list:
     analyzer.analyze(a)
+    print(a.id)
     # clean up
     a.text = ""
     a.text_tagged = list()

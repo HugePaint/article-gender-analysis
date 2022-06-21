@@ -57,7 +57,7 @@ for e in expect_results.values():
 X = np.array(feature_list)
 y = np.array(expect_results_with_flipped_data)
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.3, random_state=0
+    X, y, test_size=0.1, random_state=0
 )
 
 # Decision Tree Regression with AdaBoost
