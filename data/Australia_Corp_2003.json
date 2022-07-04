@@ -1,0 +1,4711 @@
+[
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Thomson Financial": [
+                "unknown",
+                3
+            ],
+            "Macquarie Bank": [
+                "unknown",
+                2
+            ],
+            "Australia": [
+                "unknown",
+                1
+            ],
+            "Michael Smith": [
+                "male",
+                1
+            ],
+            "Walter Watson": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031231dzcv000c8",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 212,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Michael Smith",
+            "Walter Watson"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Loy Yang": [
+                "male",
+                2
+            ]
+        },
+        "id": "article-LBA0000020031231dzcv0008i",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 110,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Loy Yang"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Gympie Gold Ltd": [
+                "unknown",
+                9
+            ],
+            "Hodgson": [
+                "unknown",
+                1
+            ],
+            "Christmas": [
+                "unknown",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031230dzcu000e2",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 302,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Moody": [
+                "unknown",
+                4
+            ],
+            "Steven Hess": [
+                "male",
+                4
+            ],
+            "Hess": [
+                "male",
+                0
+            ],
+            "Global Credit Research": [
+                "unknown",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031229dzct004ej",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 418,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Steven Hess"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                8,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Christmas": [
+                "unknown",
+                9
+            ],
+            "Harvey Norman": [
+                "male",
+                8
+            ],
+            "Moore": [
+                "unknown",
+                1
+            ],
+            "John Skippen": [
+                "male",
+                2
+            ],
+            "Executive Chairman": [
+                "unknown",
+                2
+            ],
+            "Gerry Harvey": [
+                "male",
+                5
+            ],
+            "Air": [
+                "unknown",
+                1
+            ],
+            "Coles Myer Ltd": [
+                "unknown",
+                7
+            ],
+            "Myer Grace": [
+                "unknown",
+                1
+            ],
+            "Luxury": [
+                "unknown",
+                1
+            ],
+            "Discount": [
+                "unknown",
+                1
+            ],
+            "Woolworths Ltd": [
+                "unknown",
+                6
+            ],
+            "Woolworths Chief Executive Roger Corbett": [
+                "unknown",
+                6
+            ],
+            "David Jones": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031229dzct001mf",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 468,
+        "segments": 3,
+        "male_person": 4,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Harvey Norman"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Australia": [
+                "unknown",
+                2
+            ],
+            "Coles Myer Ltd": [
+                "unknown",
+                8
+            ],
+            "Myer Grace": [
+                "unknown",
+                1
+            ],
+            "Luxury": [
+                "unknown",
+                1
+            ],
+            "Christmas": [
+                "unknown",
+                8
+            ],
+            "Moore": [
+                "unknown",
+                1
+            ],
+            "Discount": [
+                "unknown",
+                1
+            ],
+            "Woolworths Ltd": [
+                "unknown",
+                6
+            ],
+            "Woolworths Chief Executive Roger Corbett": [
+                "unknown",
+                5
+            ],
+            "Harvey Norman Holdings Ltd": [
+                "male",
+                5
+            ],
+            "Air": [
+                "unknown",
+                1
+            ],
+            "John Skippen": [
+                "male",
+                1
+            ],
+            "Harvey Norman Finance Director": [
+                "male",
+                3
+            ],
+            "Shares": [
+                "unknown",
+                1
+            ],
+            "David Jones": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031229dzct000xd",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 465,
+        "segments": 3,
+        "male_person": 4,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Harvey Norman Holdings Ltd"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Gympie Gold Ltd": [
+                "unknown",
+                2
+            ],
+            "Management": [
+                "unknown",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031228dzcs00bhy",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 175,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {},
+        "id": "article-LBA0000020031224dzco000mu",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 77,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Nextgen": [
+                "unknown",
+                4
+            ],
+            "Young": [
+                "female",
+                1
+            ],
+            "Leighton": [
+                "male",
+                3
+            ]
+        },
+        "id": "article-LBA0000020031224dzco0000h",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 123,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Leighton"
+        ],
+        "most_mentioned_female": [
+            "Young"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Orica Ltd": [
+                "unknown",
+                2
+            ],
+            "David Jones Ltd": [
+                "male",
+                2
+            ],
+            "Patrick Corporation": [
+                "male",
+                3
+            ]
+        },
+        "id": "article-LBA0000020031223dzcn004hs",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 106,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Patrick Corporation"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Mayne Group Ltd": [
+                "unknown",
+                5
+            ],
+            "Director Stuart": [
+                "unknown",
+                1
+            ],
+            "James": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031223dzcn002bl",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 180,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "James"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                7,
+                1
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Henderson": [
+                "male",
+                1
+            ],
+            "August": [
+                "male",
+                2
+            ],
+            "July": [
+                "unknown",
+                2
+            ],
+            "Paul": [
+                "male",
+                2
+            ],
+            "April": [
+                "female",
+                1
+            ],
+            "Ian Burgess": [
+                "male",
+                1
+            ],
+            "Feb": [
+                "unknown",
+                2
+            ],
+            "Sept": [
+                "unknown",
+                3
+            ],
+            "Andrew Mohl": [
+                "male",
+                1
+            ],
+            "Nov": [
+                "unknown",
+                2
+            ],
+            "Dec": [
+                "unknown",
+                6
+            ],
+            "Market": [
+                "unknown",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031223dzcn0020a",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 624,
+        "segments": 3,
+        "male_person": 5,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "August",
+            "Paul"
+        ],
+        "most_mentioned_female": [
+            "April"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                5
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "full_name_dictionary": {
+            "Adelaide Brighton Ltd": [
+                "female",
+                10
+            ],
+            "Boral": [
+                "unknown",
+                11
+            ],
+            "Matthew McNee": [
+                "male",
+                1
+            ],
+            "Graeme Samuel": [
+                "male",
+                1
+            ],
+            "Kylie Fitzgerald": [
+                "female",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031223dzcn0008f",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 470,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 2,
+        "most_mentioned_male": [
+            "Matthew McNee",
+            "Graeme Samuel"
+        ],
+        "most_mentioned_female": [
+            "Adelaide Brighton Ltd"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                3
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                0,
+                3
+            ]
+        ],
+        "full_name_dictionary": {
+            "Adelaide Brighton Ltd": [
+                "female",
+                9
+            ],
+            "Boral Ltd": [
+                "unknown",
+                2
+            ]
+        },
+        "id": "article-LBA0000020031222dzcm004bm",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 187,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 1,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Adelaide Brighton Ltd"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Abacus Property": [
+                "unknown",
+                1
+            ],
+            "Ronin Property Group Stapled": [
+                "unknown",
+                4
+            ],
+            "Orica Ltd": [
+                "unknown",
+                2
+            ],
+            "David Jones Ltd": [
+                "male",
+                2
+            ],
+            "Patrick Corporation": [
+                "male",
+                3
+            ]
+        },
+        "id": "article-LBA0000020031222dzcm003hl",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 159,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Patrick Corporation"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                4,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Chairman": [
+                "unknown",
+                1
+            ],
+            "John Morschel": [
+                "male",
+                2
+            ],
+            "Leighton": [
+                "male",
+                4
+            ],
+            "Rinker Group Ltd": [
+                "unknown",
+                2
+            ]
+        },
+        "id": "article-LBA0000020031221dzcl00dfe",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 96,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Leighton"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Novus Petroleum Ltd": [
+                "unknown",
+                1
+            ],
+            "Medco Energi": [
+                "unknown",
+                2
+            ],
+            "Victoria Tait": [
+                "female",
+                1
+            ],
+            "Walter Watson": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031221dzcl00cys",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 86,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Walter Watson"
+        ],
+        "most_mentioned_female": [
+            "Victoria Tait"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Abacus Property": [
+                "unknown",
+                1
+            ],
+            "Ronin Property Group Stapled": [
+                "unknown",
+                4
+            ],
+            "Orica Ltd": [
+                "unknown",
+                2
+            ],
+            "David Jones Ltd": [
+                "male",
+                2
+            ],
+            "Patrick Corporation": [
+                "male",
+                3
+            ]
+        },
+        "id": "article-LBA0000020031221dzcl00b6t",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 159,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Patrick Corporation"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Australia Post": [
+                "unknown",
+                4
+            ],
+            "Star Track Express": [
+                "unknown",
+                8
+            ],
+            "Qantas Chief Financial": [
+                "unknown",
+                8
+            ],
+            "Peter Gregg": [
+                "male",
+                4
+            ],
+            "Deutsche": [
+                "unknown",
+                2
+            ],
+            "Shawn Burns": [
+                "male",
+                2
+            ],
+            "Peter Harbison": [
+                "male",
+                2
+            ],
+            "Current Star Track": [
+                "unknown",
+                8
+            ],
+            "Derek Lightfoot": [
+                "male",
+                1
+            ],
+            "Greg Poche": [
+                "male",
+                1
+            ],
+            "Patrick Corp Ltd": [
+                "male",
+                3
+            ]
+        },
+        "id": "article-LBA0000020031219dzcj00169",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 545,
+        "segments": 3,
+        "male_person": 6,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Peter Gregg"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Peter Gregg": [
+                "male",
+                4
+            ],
+            "Thatwas Qantas": [
+                "unknown",
+                5
+            ],
+            "Richard": [
+                "male",
+                1
+            ],
+            "Roughly": [
+                "unknown",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031219dzcj00112",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 392,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Peter Gregg"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Peter Gregg": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031219dzcj000sk",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 127,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Peter Gregg"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Australia Post": [
+                "unknown",
+                4
+            ],
+            "Star Track Express": [
+                "unknown",
+                7
+            ],
+            "Greg Poche": [
+                "male",
+                3
+            ],
+            "Geoff Dixon": [
+                "male",
+                1
+            ],
+            "Patrick Corp": [
+                "male",
+                1
+            ],
+            "Virgin Blue": [
+                "unknown",
+                1
+            ],
+            "Current Star Track": [
+                "unknown",
+                5
+            ],
+            "Derek Lightfoot": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031219dzcj000pv",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 337,
+        "segments": 3,
+        "male_person": 4,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Greg Poche"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Abacus Property": [
+                "unknown",
+                1
+            ],
+            "Ronin Property Group Stapled": [
+                "unknown",
+                4
+            ],
+            "Orica Ltd": [
+                "unknown",
+                2
+            ],
+            "David Jones Ltd": [
+                "male",
+                2
+            ],
+            "Patrick Corporation": [
+                "male",
+                3
+            ]
+        },
+        "id": "article-LBA0000020031219dzcj0003f",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 159,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Patrick Corporation"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Moody": [
+                "unknown",
+                5
+            ],
+            "Airtrain CitylinkLimited": [
+                "unknown",
+                5
+            ],
+            "Brisbane Airport": [
+                "unknown",
+                3
+            ],
+            "Sydney Brian Cahill Managing Director Corporate Finance": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031219dzcj00039",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 175,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Sydney Brian Cahill Managing Director Corporate Finance"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Tab": [
+                "male",
+                6
+            ]
+        },
+        "id": "article-LBA0000020031219dzcj0000m",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 114,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Tab"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                3,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Tab Ltd": [
+                "male",
+                9
+            ]
+        },
+        "id": "article-LBA0000020031218dzci004td",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 119,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Tab Ltd"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "George Bank Ltd": [
+                "male",
+                3
+            ],
+            "Shares": [
+                "unknown",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031218dzci004so",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 95,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "George Bank Ltd"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Australia Post": [
+                "unknown",
+                6
+            ],
+            "Star Track Express": [
+                "unknown",
+                8
+            ],
+            "Greg Poche": [
+                "male",
+                3
+            ],
+            "Geoff Dixon": [
+                "male",
+                1
+            ],
+            "Patrick Corp": [
+                "male",
+                1
+            ],
+            "Virgin Blue": [
+                "unknown",
+                1
+            ],
+            "Current Star Track": [
+                "unknown",
+                6
+            ],
+            "Derek Lightfoot": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031218dzci004nb",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 364,
+        "segments": 3,
+        "male_person": 4,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Greg Poche"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Post": [
+                "unknown",
+                1
+            ],
+            "Star Track Express": [
+                "unknown",
+                2
+            ],
+            "Greg Poche": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031218dzci004kn",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 100,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Greg Poche"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {},
+        "id": "article-LBA0000020031218dzci00442",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 156,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Optus Ltd": [
+                "unknown",
+                6
+            ],
+            "Sky Television": [
+                "female",
+                1
+            ],
+            "Dulles": [
+                "unknown",
+                1
+            ],
+            "Arianespace": [
+                "unknown",
+                1
+            ],
+            "Singtel": [
+                "unknown",
+                1
+            ],
+            "Hardy": [
+                "male",
+                2
+            ]
+        },
+        "id": "article-LBA0000020031218dzci0010n",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 322,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Hardy"
+        ],
+        "most_mentioned_female": [
+            "Sky Television"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Qantas": [
+                "unknown",
+                3
+            ]
+        },
+        "id": "article-LBA0000020031218dzci0010l",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 128,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Andrew Waddington": [
+                "male",
+                2
+            ]
+        },
+        "id": "article-LBA0000020031218dzci000mc",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 477,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Andrew Waddington"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Optus Ltd": [
+                "unknown",
+                4
+            ],
+            "Sky TV NZ": [
+                "female",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031217dzch0040q",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 117,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 1,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Sky TV NZ"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {},
+        "id": "article-LBA0000020031217dzch003y0",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 270,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {},
+        "id": "article-LBA0000020031217dzch003v5",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 121,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {},
+        "id": "article-LBA0000020031217dzch0033v",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 156,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Wilson HTM": [
+                "male",
+                1
+            ],
+            "Brett LeMesurier": [
+                "male",
+                2
+            ],
+            "Michael Smith": [
+                "male",
+                1
+            ],
+            "Richard Pullin": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031217dzch001b9",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 409,
+        "segments": 3,
+        "male_person": 4,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Brett LeMesurier"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Michael Smith": [
+                "male",
+                1
+            ],
+            "Richard Pullin": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031217dzch0019i",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 133,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Michael Smith",
+            "Richard Pullin"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Fox Managing Director Brett Matich": [
+                "unknown",
+                7
+            ],
+            "Hartleys Ltd": [
+                "unknown",
+                3
+            ]
+        },
+        "id": "article-LBA0000020031217dzch0018k",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 265,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Tab Ltd": [
+                "male",
+                6
+            ],
+            "Tabcorp": [
+                "unknown",
+                4
+            ],
+            "Michael Smith": [
+                "male",
+                1
+            ],
+            "Richard Pullin": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031217dzch0015z",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 158,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Tab Ltd"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Deloitte Corporate Finance": [
+                "unknown",
+                1
+            ],
+            "Thatcher": [
+                "unknown",
+                2
+            ],
+            "Pacific Brands": [
+                "unknown",
+                2
+            ],
+            "Sarah O'Hare": [
+                "female",
+                1
+            ],
+            "Rupert Murdoch": [
+                "male",
+                1
+            ],
+            "Catalyst": [
+                "unknown",
+                2
+            ],
+            "Freight": [
+                "unknown",
+                1
+            ],
+            "Star Track Express": [
+                "unknown",
+                1
+            ],
+            "Greg Poche": [
+                "male",
+                1
+            ],
+            "Cashcard": [
+                "unknown",
+                1
+            ],
+            "Castle Harlan Australian Mezzanine Partners": [
+                "unknown",
+                1
+            ],
+            "Bradken": [
+                "unknown",
+                1
+            ],
+            "Riviera": [
+                "unknown",
+                1
+            ],
+            "John Sevior": [
+                "male",
+                1
+            ],
+            "Perpetual": [
+                "unknown",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031217dzch0014z",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 457,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Rupert Murdoch",
+            "Greg Poche",
+            "John Sevior"
+        ],
+        "most_mentioned_female": [
+            "Sarah O'Hare"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Loewensohn": [
+                "unknown",
+                2
+            ],
+            "Trevor": [
+                "male",
+                1
+            ],
+            "David Schlessinger": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031217dzch000rw",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 140,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Trevor",
+            "David Schlessinger"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Lion Nathan Ltd": [
+                "male",
+                2
+            ],
+            "Gordon Cairns": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031217dzch000bn",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 102,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Lion Nathan Ltd"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Austal": [
+                "unknown",
+                4
+            ]
+        },
+        "id": "article-LBA0000020031217dzch000bl",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 87,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Richard Branson": [
+                "male",
+                1
+            ],
+            "Virgin Blue": [
+                "unknown",
+                4
+            ]
+        },
+        "id": "article-LBA0000020031217dzch0008y",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 87,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Richard Branson"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Woodside Petroleum": [
+                "unknown",
+                9
+            ],
+            "Agip Mauritania": [
+                "unknown",
+                4
+            ],
+            "Royal Dutch/Shell": [
+                "male",
+                1
+            ],
+            "Roc Oil Co Ltd": [
+                "unknown",
+                5
+            ],
+            "Hardman": [
+                "unknown",
+                3
+            ],
+            "Fusion Oil": [
+                "unknown",
+                4
+            ],
+            "Gas Plc": [
+                "unknown",
+                1
+            ],
+            "Fusion Mauritania": [
+                "unknown",
+                6
+            ],
+            "Area A": [
+                "unknown",
+                12
+            ],
+            "Area B. Fusion": [
+                "unknown",
+                9
+            ],
+            "Sterling Energy": [
+                "male",
+                1
+            ],
+            "Ian Jackson": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031217dzch0005l",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 372,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Royal Dutch/Shell",
+            "Sterling Energy",
+            "Ian Jackson"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Statistics": [
+                "unknown",
+                0
+            ],
+            "Sales": [
+                "unknown",
+                0
+            ]
+        },
+        "id": "article-LBA0000020031217dzch0002y",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 90,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                4,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Philip Lowe": [
+                "male",
+                4
+            ],
+            "John Laker": [
+                "male",
+                1
+            ],
+            "System Stability": [
+                "unknown",
+                2
+            ],
+            "Tony Richards": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031217dzch0000k",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 148,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Philip Lowe"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {},
+        "id": "article-LBA0000020031216dzcg004sw",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 146,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Suncorp": [
+                "unknown",
+                7
+            ],
+            "Insurance Australia Group": [
+                "unknown",
+                6
+            ],
+            "Melbourne": [
+                "unknown",
+                3
+            ],
+            "Promina": [
+                "unknown",
+                2
+            ]
+        },
+        "id": "article-LBA0000020031216dzcg004pj",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 348,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Suncorp": [
+                "unknown",
+                5
+            ]
+        },
+        "id": "article-LBA0000020031216dzcg004hx",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 100,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {},
+        "id": "article-LBA0000020031216dzcg003yd",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 165,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Standard": [
+                "unknown",
+                1
+            ],
+            "Poor": [
+                "unknown",
+                1
+            ],
+            "Debt Affected SYDNEY": [
+                "unknown",
+                1
+            ],
+            "Moody": [
+                "unknown",
+                6
+            ],
+            "Brighton Limited": [
+                "unknown",
+                1
+            ],
+            "Boral Limited": [
+                "unknown",
+                10
+            ],
+            "Sydney David Howell": [
+                "male",
+                2
+            ]
+        },
+        "id": "article-LBA0000020031216dzcg001rc",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 336,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Sydney David Howell"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                5
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "full_name_dictionary": {
+            "Adelaide Brighton": [
+                "female",
+                7
+            ],
+            "Boral Ltd": [
+                "unknown",
+                17
+            ],
+            "George Raftopulos": [
+                "male",
+                2
+            ],
+            "Constellation": [
+                "unknown",
+                2
+            ],
+            "Cement Australia": [
+                "unknown",
+                3
+            ],
+            "Rinker Ltd": [
+                "unknown",
+                3
+            ],
+            "Hanson Plc": [
+                "unknown",
+                2
+            ],
+            "Pearse": [
+                "unknown",
+                1
+            ],
+            "Standard": [
+                "unknown",
+                1
+            ],
+            "Poor": [
+                "unknown",
+                1
+            ],
+            "Misha Collins": [
+                "male",
+                2
+            ]
+        },
+        "id": "article-LBA0000020031216dzcg0001g",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 709,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "George Raftopulos",
+            "Misha Collins"
+        ],
+        "most_mentioned_female": [
+            "Adelaide Brighton"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Boral Ltd": [
+                "unknown",
+                7
+            ],
+            "Pearse": [
+                "unknown",
+                2
+            ]
+        },
+        "id": "article-LBA0000020031216dzcg00019",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 174,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Promina": [
+                "unknown",
+                7
+            ],
+            "Melbourne": [
+                "unknown",
+                2
+            ],
+            "Rival Insurance Australia Group": [
+                "unknown",
+                4
+            ]
+        },
+        "id": "article-LBA0000020031216dzcg0000b",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 352,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Boral Ltd": [
+                "unknown",
+                4
+            ],
+            "Adelaide Brighton Ltd": [
+                "female",
+                4
+            ]
+        },
+        "id": "article-LBA0000020031215dzcf004h8",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 128,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 1,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Adelaide Brighton Ltd"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Promina": [
+                "unknown",
+                4
+            ]
+        },
+        "id": "article-LBA0000020031215dzcf004el",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 150,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "John Fairfax Holdings Ltd": [
+                "male",
+                6
+            ],
+            "Herald": [
+                "male",
+                1
+            ],
+            "Fred Hilmer": [
+                "male",
+                1
+            ],
+            "Fairfax New Zealand": [
+                "unknown",
+                5
+            ]
+        },
+        "id": "article-LBA0000020031215dzcf0046x",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 266,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "John Fairfax Holdings Ltd"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "John Fairfax Holdings Ltd": [
+                "male",
+                4
+            ],
+            "Herald": [
+                "male",
+                1
+            ],
+            "Fairfax New Zealand": [
+                "unknown",
+                3
+            ]
+        },
+        "id": "article-LBA0000020031215dzcf0040p",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 127,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "John Fairfax Holdings Ltd"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {},
+        "id": "article-LBA0000020031215dzcf003jw",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 175,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "STEEP UK": [
+                "unknown",
+                5
+            ],
+            "Pearl": [
+                "female",
+                2
+            ],
+            "Henderson": [
+                "male",
+                1
+            ],
+            "London Life": [
+                "andy",
+                3
+            ]
+        },
+        "id": "article-LBA0000020031215dzcf001i8",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 630,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 1,
+        "most_mentioned_male": [
+            "Henderson"
+        ],
+        "most_mentioned_female": [
+            "Pearl"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Andrew Mohl": [
+                "male",
+                1
+            ],
+            "Michael Smith": [
+                "male",
+                1
+            ],
+            "William Willitts": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031215dzcf001dk",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 353,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Andrew Mohl",
+            "Michael Smith",
+            "William Willitts"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Michael Smith": [
+                "male",
+                1
+            ],
+            "Richard Pullin": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031215dzcf001c1",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 164,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Michael Smith",
+            "Richard Pullin"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Austereo": [
+                "unknown",
+                4
+            ]
+        },
+        "id": "article-LBA0000020031215dzcf0019o",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 176,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Macquarie BankLtd": [
+                "unknown",
+                9
+            ],
+            "Exelon Corp": [
+                "unknown",
+                6
+            ],
+            "Exelon Thermal": [
+                "unknown",
+                5
+            ],
+            "Macquarie Chief Financial": [
+                "unknown",
+                8
+            ],
+            "Ward": [
+                "male",
+                1
+            ],
+            "Itaims": [
+                "unknown",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031215dzcf000hv",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 333,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Ward"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Frost": [
+                "unknown",
+                1
+            ],
+            "Western Australia": [
+                "unknown",
+                6
+            ],
+            "Domestic": [
+                "unknown",
+                1
+            ],
+            "Canola Association": [
+                "unknown",
+                2
+            ],
+            "Harvest Area": [
+                "unknown",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031215dzcf0008d",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 453,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Westpac Banking Corp": [
+                "unknown",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031215dzcf0000g",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 89,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "John Dalhsen": [
+                "male",
+                1
+            ],
+            "March2006": [
+                "unknown",
+                1
+            ],
+            "Away": [
+                "unknown",
+                2
+            ],
+            "Neil Balnaves": [
+                "male",
+                1
+            ],
+            "Shares": [
+                "unknown",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031214dzce00bq9",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 306,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "John Dalhsen",
+            "Neil Balnaves"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Macquarie Bank Ltd": [
+                "unknown",
+                3
+            ],
+            "Exelon Corp": [
+                "unknown",
+                4
+            ],
+            "Exelon Thermal": [
+                "unknown",
+                3
+            ]
+        },
+        "id": "article-LBA0000020031214dzce00bnk",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 87,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Seven Network Ltd": [
+                "unknown",
+                3
+            ]
+        },
+        "id": "article-LBA0000020031214dzce00bi5",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 86,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {},
+        "id": "article-LBA0000020031214dzce009ne",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 175,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                1
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Foxtel": [
+                "unknown",
+                9
+            ],
+            "Rupert Murdoch": [
+                "male",
+                1
+            ],
+            "Kerry Packer": [
+                "female",
+                1
+            ],
+            "Kim Williams": [
+                "female",
+                1
+            ],
+            "News Corp": [
+                "unknown",
+                4
+            ]
+        },
+        "id": "article-LBA0000020031212dzcc001ij",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 283,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 2,
+        "most_mentioned_male": [
+            "Rupert Murdoch"
+        ],
+        "most_mentioned_female": [
+            "Kerry Packer",
+            "Kim Williams"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Eurofima": [
+                "unknown",
+                2
+            ]
+        },
+        "id": "article-LBA0000020031212dzcc000p2",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 91,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {},
+        "id": "article-LBA0000020031212dzcc000o5",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 159,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {},
+        "id": "article-LBA0000020031212dzcc000n3",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 175,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Gradav Ltd": [
+                "unknown",
+                3
+            ],
+            "Delhi Petroleum": [
+                "unknown",
+                3
+            ],
+            "Graeme Foley": [
+                "male",
+                2
+            ],
+            "David Libling": [
+                "male",
+                1
+            ],
+            "County NatWest": [
+                "unknown",
+                1
+            ],
+            "Deutsche Bank": [
+                "unknown",
+                2
+            ],
+            "Alan Bond": [
+                "male",
+                1
+            ],
+            "Esso Australia": [
+                "unknown",
+                4
+            ],
+            "Wandoo": [
+                "unknown",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031212dzcc000jo",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 373,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Graeme Foley"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Gradav Ltd": [
+                "unknown",
+                3
+            ],
+            "Delhi Petroleum": [
+                "unknown",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031212dzcc000b7",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 128,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Tab Ltd": [
+                "male",
+                3
+            ],
+            "System": [
+                "unknown",
+                1
+            ],
+            "Shares": [
+                "unknown",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031212dzcc00070",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 153,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Tab Ltd"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Rob Franklin": [
+                "male",
+                1
+            ],
+            "Power Marketing": [
+                "unknown",
+                1
+            ],
+            "Exxon Mobil": [
+                "unknown",
+                1
+            ],
+            "Alumina Ltd": [
+                "unknown",
+                2
+            ],
+            "Oil Search Managing Director": [
+                "unknown",
+                4
+            ],
+            "Peter Botten": [
+                "male",
+                1
+            ],
+            "Cooper": [
+                "male",
+                1
+            ],
+            "Nippon Oil Corp": [
+                "unknown",
+                4
+            ]
+        },
+        "id": "article-LBA0000020031211dzcb004kg",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 383,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Rob Franklin",
+            "Peter Botten",
+            "Cooper"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {},
+        "id": "article-LBA0000020031211dzcb004kb",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 63,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Papua New Guinea": [
+                "unknown",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031211dzcb004e0",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 95,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Duke Energy Corp": [
+                "male",
+                7
+            ],
+            "Origin Energy": [
+                "unknown",
+                1
+            ],
+            "Envestra Ltd": [
+                "unknown",
+                1
+            ],
+            "Outside Australia": [
+                "unknown",
+                6
+            ],
+            "Cheung Kong Infrastructure Holdings": [
+                "unknown",
+                1
+            ],
+            "Tokyo Gas": [
+                "unknown",
+                1
+            ],
+            "Eastern Gas Pipeline": [
+                "unknown",
+                2
+            ]
+        },
+        "id": "article-LBA0000020031211dzcb004d9",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 428,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Duke Energy Corp"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Sam": [
+                "male",
+                1
+            ],
+            "Patrick Corporation": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031211dzcb003rg",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 123,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Sam",
+            "Patrick Corporation"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "full_name_dictionary": {
+            "Epic Energy": [
+                "unknown",
+                7
+            ],
+            "El Paso Corp": [
+                "female",
+                1
+            ],
+            "Dominion ResourcesInc": [
+                "unknown",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031211dzcb001ca",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 223,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 1,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "El Paso Corp"
+        ]
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                2,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Westpac Banking Corp": [
+                "unknown",
+                10
+            ],
+            "David Morgan": [
+                "male",
+                5
+            ],
+            "Australia": [
+                "unknown",
+                5
+            ],
+            "Andrew Mohl": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031211dzcb0018z",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 493,
+        "segments": 3,
+        "male_person": 2,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "David Morgan"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Iluka": [
+                "unknown",
+                3
+            ],
+            "Renison GoldfieldsConsolidated": [
+                "unknown",
+                1
+            ],
+            "Posco": [
+                "unknown",
+                1
+            ],
+            "Mitsui Iron": [
+                "unknown",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031211dzcb000um",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 229,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Details": [
+                "unknown",
+                1
+            ],
+            "Margin Ratings": [
+                "unknown",
+                1
+            ],
+            "Stone": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031211dzcb000mp",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 148,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Stone"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Westpac Banking Corp": [
+                "unknown",
+                2
+            ],
+            "David Morgan": [
+                "male",
+                2
+            ]
+        },
+        "id": "article-LBA0000020031211dzcb000ml",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 119,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "David Morgan"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Westpac Banking Corp": [
+                "unknown",
+                2
+            ],
+            "Deutsche Bank": [
+                "unknown",
+                1
+            ],
+            "Citigroup": [
+                "unknown",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031211dzcb0007k",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 114,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Insurance Australia Group": [
+                "unknown",
+                2
+            ],
+            "Michael Hawker": [
+                "male",
+                2
+            ]
+        },
+        "id": "article-LBA0000020031210dzca004c4",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 306,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Michael Hawker"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Insurance Australia Group": [
+                "unknown",
+                2
+            ]
+        },
+        "id": "article-LBA0000020031210dzca004bq",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 127,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Patrick Corporation": [
+                "male",
+                1
+            ]
+        },
+        "id": "article-LBA0000020031210dzca003px",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 131,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Patrick Corporation"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Barry Jones": [
+                "male",
+                2
+            ],
+            "Australia": [
+                "unknown",
+                3
+            ]
+        },
+        "id": "article-LBA0000020031210dzca001ef",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 251,
+        "segments": 3,
+        "male_person": 1,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Barry Jones"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                4,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                12,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Lane Cove Tunnel Finance Pty Ltd": [
+                "male",
+                7
+            ],
+            "Aaa": [
+                "unknown",
+                3
+            ],
+            "Baa3": [
+                "unknown",
+                2
+            ],
+            "Australia Ltd": [
+                "unknown",
+                1
+            ],
+            "Sydney Brian Cahill Managing Director Corporate Finance Moody": [
+                "male",
+                11
+            ],
+            "Sydney David Howell": [
+                "male",
+                4
+            ]
+        },
+        "id": "article-LBA0000020031210dzca000xu",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 470,
+        "segments": 3,
+        "male_person": 3,
+        "female_person": 0,
+        "most_mentioned_male": [
+            "Sydney Brian Cahill Managing Director Corporate Finance Moody"
+        ],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Miner Rio Tinto": [
+                "unknown",
+                4
+            ],
+            "Robe": [
+                "unknown",
+                3
+            ],
+            "Mitsui Iron Ore Development": [
+                "unknown",
+                3
+            ],
+            "Nippon Steel Australia": [
+                "unknown",
+                2
+            ]
+        },
+        "id": "article-LBA0000020031210dzca000xs",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 171,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {},
+        "id": "article-LBA0000020031210dzca000xk",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 149,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 0,
+        "most_mentioned_male": [],
+        "most_mentioned_female": []
+    },
+    {
+        "text_tagged": [],
+        "segmented_gender_word_count": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "full_name_dictionary": {
+            "Allied Managing": [
+                "unknown",
+                2
+            ],
+            "Goldberg": [
+                "unknown",
+                3
+            ],
+            "Coal": [
+                "unknown",
+                4
+            ],
+            "Global": [
+                "unknown",
+                1
+            ],
+            "Rio Tinto": [
+                "female",
+                2
+            ]
+        },
+        "id": "article-LBA0000020031210dzca000el",
+        "title": null,
+        "author": "",
+        "country": "",
+        "year": "2003",
+        "category": "",
+        "text": "",
+        "word_count": 244,
+        "segments": 3,
+        "male_person": 0,
+        "female_person": 1,
+        "most_mentioned_male": [],
+        "most_mentioned_female": [
+            "Rio Tinto"
+        ]
+    }
+]
