@@ -20,27 +20,29 @@ class EnhancedJSONEncoder(json.JSONEncoder):
             return super().default(o)
 
 
-df = pd.read_excel(r"data\First 200 Articles Reranked with Agnes.xlsx", header=0)
+df = pd.read_excel(r"data\Randomized Articles Graded.xlsx", header=0)
 article_list = list()
 expect_result = dict()
 for i in range(0, len(df.index)):
 # for i in range(0, 3):
     serie = df.loc[i]
     article = analyzer.Article(list(), list(), dict())
-    article.id = serie["#"]
+    # article.id = serie["#"]
+    article.id = i
     article.country = serie["Country"]
-    article.year = serie["Year"]
-    article.category = serie["News Category"]
-    article.title = serie["Title"]
-    article.text = serie["Content "]
+    article.year = serie["year"]
+    # article.category = serie["News Category"]
+    # article.title = serie["Title"]
+    article.text = serie["Content"]
     article_list.append(article)
 
     # female_score = np.mean([serie["Female Central (out of 5) - ZY"], serie["Female Central (out of 5) - Rafael"]])
     # male_score = np.mean([serie["Male Central (out of 5) - ZY"], serie["Male Central (out of 5) - Rafael"]])
-    female_score = serie["Average of Female"]
-    male_score = serie["Average of Male"]
+    female_score = serie["Final Female "]
+    male_score = serie["Final Male"]
     print(female_score, " ", male_score)
-    expect_result[str(serie["#"])] = list([female_score, male_score])
+    # expect_result[str(serie["#"])] = list([female_score, male_score])
+    expect_result[i] = list([female_score, male_score])
 
 for a in article_list:
     analyzer.analyze(a)

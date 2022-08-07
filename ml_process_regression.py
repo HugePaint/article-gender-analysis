@@ -57,7 +57,7 @@ for e in expect_results.values():
 X = np.array(feature_list)
 y = np.array(expect_results_with_flipped_data)
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.1, random_state=0
+    X, y, test_size=0.4, random_state=0
 )
 
 # Decision Tree Regression with AdaBoost
@@ -66,7 +66,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 regr_1 = DecisionTreeRegressor(max_depth=6)
 
 regr_2 = AdaBoostRegressor(
-    DecisionTreeRegressor(max_depth=6), n_estimators=300, random_state=None
+    DecisionTreeRegressor(max_depth=6), n_estimators=500, random_state=None
 )
 
 regr_1.fit(X_train, y_train)
