@@ -1,8 +1,0 @@
-This doc covers how the tagging_demo.py extracts name from given articles, identifies the gender of each name, and counts how many male/female words is in the article.
-
-The name analysis script works with NLTK's Categorizing and Tagging Words function(https://www.nltk.org/book/ch05.html), Named Entity recognition (https://www.nltk.org/book/ch07.html), and the gender-guesser by lead-ratings (https://github.com/lead-ratings/gender-guesser).
-
-Each article is defined as an Article 
-
-1. read_articles_from_gui()
-This function will prompt a gui window asking user to select one or multiple files, and create Article class
