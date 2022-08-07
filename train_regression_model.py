@@ -75,8 +75,8 @@ regr_2.fit(X_train, y_train)
 y_1 = regr_1.predict(X_test)
 y_2 = regr_2.predict(X_test)
 
-print(r2_score(y_test, y_1))
-print(r2_score(y_test, y_2))
+# print(r2_score(y_test, y_1))
+print("AdaBoostRegressor Score:" + str(r2_score(y_test, y_2)))
 
 
 colors = sns.color_palette("colorblind")
