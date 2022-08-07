@@ -56,9 +56,9 @@ json_articles = json.dumps(article_list, indent = 4, cls=EnhancedJSONEncoder)
 json_expect_results = json.dumps(expect_result, indent = 4, cls=EnhancedJSONEncoder)
   
 # Writing to sample.json
-with open("article_list.json", "w") as outfile:
+with open("training_article_list.json", "w") as outfile:
     outfile.write(json_articles)
-with open("expect_results.json", "w") as outfile:
+with open("training_results.json", "w") as outfile:
     outfile.write(json_expect_results)
 
 

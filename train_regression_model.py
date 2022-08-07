@@ -14,8 +14,8 @@ from sklearn.metrics import r2_score
 # additional feature: word count, highest fequency of a full name
 # TODO: try regression 
 
-article_list = json.load(open('article_list.json',))
-expect_results = json.load(open('expect_results.json',))
+article_list = json.load(open('training_article_list.json',))
+expect_results = json.load(open('training_expect_results.json',))
 
 feature_list = list()
 # get feature from extracted list
@@ -85,5 +85,5 @@ colors = sns.color_palette("colorblind")
 # Ref: https://scikit-learn.org/stable/model_persistence.html
 
 from joblib import dump, load
-dump(regr_1, 'DecisionTreeRegressor.joblib') 
+# dump(regr_1, 'DecisionTreeRegressor.joblib') 
 dump(regr_2, 'AdaBoostRegressor.joblib') 

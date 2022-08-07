@@ -27,7 +27,7 @@ class EnhancedJSONEncoder(json.JSONEncoder):
 
 root = tk.Tk()
 root.withdraw()
-folder_selected = filedialog.askdirectory()
+folder_selected = filedialog.askdirectory(title='Select folder that contains mhtml files')
 
 file_path_list = list()
 for root, dirs, files in os.walk(folder_selected):

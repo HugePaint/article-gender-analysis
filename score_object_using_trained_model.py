@@ -8,7 +8,7 @@ from tkinter import filedialog
 
 root = tk.Tk()
 root.withdraw()
-folder_selected = filedialog.askdirectory()
+folder_selected = filedialog.askdirectory(title='Select folder that contains json file (article list)')
 
 from joblib import dump, load
 loaded_model = load('AdaBoostRegressor.joblib')
