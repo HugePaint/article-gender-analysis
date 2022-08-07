@@ -1,6 +1,6 @@
 from turtle import heading
 from bs4 import BeautifulSoup
-import tagging_demo as analyzer
+import tagging_core as analyzer
 import prettyprinter as pp
 import quopri
 import re

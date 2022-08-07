@@ -1,6 +1,6 @@
 import statistics
 import pandas as pd
-import tagging_demo as analyzer
+import tagging_core as analyzer
 import json
 import dataclasses
 import numpy as np
