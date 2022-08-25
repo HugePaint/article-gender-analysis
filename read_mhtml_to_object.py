@@ -44,6 +44,11 @@ for file_path in file_path_list:
         continue
 
     with open(file_path, 'r') as fp:
+        pattern1 = r'([A-Za-z]*)_'
+        pattern2 = r'_([A-Za-z]*)_'
+        country = re.search(pattern1, os.path.basename(json_out_path)).group(1)
+        category = re.search(pattern2, os.path.basename(json_out_path)).group(1)
+
         new_soup = BeautifulSoup(quopri.decodestring(fp.read()), 'lxml')
         article_nodes = new_soup.find_all("div", class_="article", id=re.compile(r'article-[.]*'))
 
@@ -54,8 +59,8 @@ for file_path in file_path_list:
             article_object = analyzer.Article(list(), list(), dict())
             article_object.id = a['id']
 
-            heading_str = a.find("b", string="HD").parent.next_sibling.string
-            article_object.title = heading_str
+            heading_str = a.find("b", string="HD").parent.next_sibling.find("span").next.string
+            article_object.title = re.sub(str(r"\n"), str(""), heading_str)
 
             word_count_str = a.find("b", string="WC").parent.next_sibling.string
             article_object.word_count = [int(s) for s in word_count_str.split() if s.isdigit()][0]
@@ -78,6 +83,9 @@ for file_path in file_path_list:
                 print(article_object.id + ": No TD section")
             
             article_object.text = article_object.text.replace('\n', '')
+
+            article_object.country = country
+            article_object.category = category
 
             article_list.append(article_object)
 

@@ -304,10 +304,6 @@ def analyze(article):
     tag_article(article)
     split_and_count(article, article.segments)
 
-    # clean up
-    # article.text = ""
-    # article.text_tagged = list()
-
 if __name__ == '__main__':
     parsed_article_list = read_articles_from_gui()
     for article in parsed_article_list:
@@ -320,8 +316,8 @@ if __name__ == '__main__':
             print("%20s: %20s" % (name, count))
 
         # clean up
-        article.text = ""
-        article.text_tagged = list()
+        # article.text = ""
+        # article.text_tagged = list()
 
         print(article)
 
