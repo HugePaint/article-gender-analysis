@@ -98,8 +98,8 @@ for file_path in file_path_list:
             analyzer.analyze(a)
             print("Analyzing " + a.id + " (" + str(count) + "/" + str(len(article_nodes)) + ")")
             # clean up
-            a.text = ""
-            a.text_tagged = list()
+            # a.text = ""
+            # a.text_tagged = list()
 
         # Serializing json 
         json_articles = json.dumps(article_list, indent = 4, cls=EnhancedJSONEncoder)

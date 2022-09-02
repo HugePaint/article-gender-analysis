@@ -51,13 +51,13 @@ for file_path in file_path_list:
 
         female_score = loaded_model.predict(np.array(female_features).reshape(1, -1))
         male_score = loaded_model.predict(np.array(male_features).reshape(1, -1))
-        result = [a["id"], float(female_score[0]), float(male_score[0])]
+        result = [a["id"], a["year"], a["country"], a["category"], a["title"], a["text"], a["word_count"], float(female_score[0]), float(male_score[0])]
         result_list.append(result)
 
     # Save results to csv
     with open(csv_out_path, 'w') as csvfile:
         writer = csv.writer(csvfile)
-        result_header = ['id', 'female_score', 'male_score']
+        result_header = ['id', 'year', 'country', 'category', 'title', 'text', 'word_count', 'female_score', 'male_score']
         writer.writerow(result_header)
         writer.writerows(result_list)
         print("Saved:  " + csv_out_path)

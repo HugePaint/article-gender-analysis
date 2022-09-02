@@ -317,7 +317,7 @@ if __name__ == '__main__':
 
         # clean up
         # article.text = ""
-        # article.text_tagged = list()
+        article.text_tagged = list()
 
         print(article)
 
