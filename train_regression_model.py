@@ -57,7 +57,7 @@ for e in expect_results.values():
 X = np.array(feature_list)
 y = np.array(expect_results_with_flipped_data)
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.4, random_state=0
+    X, y, test_size=0.25, random_state=0
 )
 
 # Decision Tree Regression with AdaBoost
@@ -66,7 +66,8 @@ X_train, X_test, y_train, y_test = train_test_split(
 regr_1 = DecisionTreeRegressor(max_depth=6)
 
 regr_2 = AdaBoostRegressor(
-    DecisionTreeRegressor(max_depth=6), n_estimators=500, random_state=None
+    DecisionTreeRegressor(max_depth=3, min_samples_split=20, min_samples_leaf=5), 
+    n_estimators=50, random_state=None, learning_rate=0.8
 )
 
 regr_1.fit(X_train, y_train)
@@ -86,4 +87,5 @@ colors = sns.color_palette("colorblind")
 
 from joblib import dump, load
 # dump(regr_1, 'DecisionTreeRegressor.joblib') 
-dump(regr_2, 'AdaBoostRegressor.joblib') 
+dump(regr_2, 'AdaBoostRegressor.joblib')
+dump(regr_2, f'AdaBoostRegressor_{str(r2_score(y_test, y_2))}.joblib')
