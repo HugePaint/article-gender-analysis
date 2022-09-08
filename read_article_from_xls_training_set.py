@@ -20,7 +20,7 @@ class EnhancedJSONEncoder(json.JSONEncoder):
             return super().default(o)
 
 
-df = pd.read_excel(r"data\Randomized Articles Graded.xlsx", header=0)
+df = pd.read_excel(r"data\score corrected.xlsx", header=0)
 article_list = list()
 expect_result = dict()
 for i in range(0, len(df.index)):
@@ -28,25 +28,29 @@ for i in range(0, len(df.index)):
     serie = df.loc[i]
     article = analyzer.Article(list(), list(), dict())
     # article.id = serie["#"]
-    article.id = i
+    # article.id = i
+    article.id = serie["sample_article"]
     article.country = serie["Country"]
     article.year = serie["year"]
-    # article.category = serie["News Category"]
+    article.category = serie["New Type"]
     # article.title = serie["Title"]
     article.text = serie["Content"]
     article_list.append(article)
 
     # female_score = np.mean([serie["Female Central (out of 5) - ZY"], serie["Female Central (out of 5) - Rafael"]])
     # male_score = np.mean([serie["Male Central (out of 5) - ZY"], serie["Male Central (out of 5) - Rafael"]])
-    female_score = serie["Final Female "]
-    male_score = serie["Final Male"]
+    female_score = serie["female_score"]
+    male_score = serie["Male_score"]
     print(female_score, " ", male_score)
     # expect_result[str(serie["#"])] = list([female_score, male_score])
     expect_result[i] = list([female_score, male_score])
 
+index = 0
+total = len(article_list)
 for a in article_list:
+    index += 1
     analyzer.analyze(a)
-    print(a.id)
+    print(f'({index}/{total}) - ID: {a.id}')
     # clean up
     a.text = ""
     a.text_tagged = list()

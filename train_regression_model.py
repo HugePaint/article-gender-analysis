@@ -15,7 +15,7 @@ from sklearn.metrics import r2_score
 # TODO: try regression 
 
 article_list = json.load(open('training_article_list.json',))
-expect_results = json.load(open('training_expect_results.json',))
+expect_results = json.load(open('training_results.json',))
 
 feature_list = list()
 # get feature from extracted list
